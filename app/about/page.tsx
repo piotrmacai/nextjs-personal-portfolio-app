@@ -73,27 +73,25 @@ export default function OMnie() {
           style={{ fontSize: `${0.875 * textSize}rem` }}
         >
           <p>
-            Jestem Piotr Machowski, pasjonatem pełnego stosu technologii, specjalistą od sztucznej inteligencji i projektantem z Polski.
-            Specjalizuję się w tworzeniu innowacyjnych rozwiązań internetowych i AI, które łączą najnowocześniejszą technologię z wyjątkowymi doświadczeniami użytkowników.
-            Dzięki kilkuletniemu doświadczeniu pomogłem klientom przekształcić ich cyfrowe wizje w skalowalne, inteligentne aplikacje.
+            Jestem full-stack developerem, specjalistą od sztucznej inteligencji i projektantem z Polski. Tworzę nowoczesne rozwiązania webowe i AI, które łączą zaawansowaną technologię z dopracowanym doświadczeniem użytkownika.  </p>
+          <p>
+          Od kilku lat pomagam klientom przekształcać ich pomysły w skalowalne, inteligentne aplikacje – zarówno pod względem technologicznym, jak i estetycznym.
           </p>
           <p>
-            Moja przygoda rozpoczęła się od studiów inżynierii lądowej na Politechnice Świętokrzyskiej w Kielcach (2012-2016),
-            ale odkryłem swoją prawdziwą pasję w rozwoju stron internetowych i sztucznej inteligencji.
-            Poprzez ciągłe uczenie się i praktyczne projekty rozwinąłem umiejętności obejmujące cały stos technologiczny - od projektowania interfejsu użytkownika po systemy backendowe i integrację AI.
+          Regularnie dzielę się wiedzą na temat sztucznej inteligencji i automatyzacji na platformie <strong>X (Twitter)</strong>, w moim newsletterze oraz innych mediach społecznościowych. Pokazuję praktyczne zastosowania AI w biznesie i automatyzuję codzienną pracę – od złożonych procesów po małe usprawnienia, które robią wielką różnicę.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-12 mt-12">
               <h1
                 className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
               >
-                Nad czym pracuję
+                Moje Osobiste Projekty
               </h1>
               <div className="grid gap-10">
                 <div className="flex flex-col gap-2">
                   <h2 className="text-2xl font-semibold text-white/80">Ainsider.co</h2>
                   <p className="text-white/50 text-sm">
-                    Studio tworzące chatboty, agentów AI i rozwiązania automatyzacyjne dla firm.
+                    Studio tworzące agentów AI i customowe automatyzacje dla firm i osób indywidualnych.
                     Dedykowane narzędzia AI i niestandardowe implementacje oprogramowania.
                   </p>
                   <Link
@@ -118,7 +116,20 @@ export default function OMnie() {
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h2 className="text-2xl font-semibold text-white/80">Wgląd w AI na X</h2>
+                  <h2 className="text-2xl font-semibold text-white/80">Mój Github</h2>
+                  <p className="text-white/50 text-sm">
+                    Github z Agentami AI, automatyzacjami i aplikacjami web.
+                  </p>
+                  <Link
+                    href="https://github.com/piotrmacai"
+                    target="_blank"
+                    className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
+                  >
+                    Odwiedź Github <ArrowUpRight size={16} />
+                  </Link>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <h2 className="text-2xl font-semibold text-white/80">X/Twitter z AI</h2>
                   <p className="text-white/50 text-sm">
                     Dzielę się nowinkami ze świata AI, studiami przypadków, eksperymentami z agentami i automatyzacją.
                   </p>
@@ -134,7 +145,7 @@ export default function OMnie() {
                   <h2 className="text-2xl font-semibold text-white/80">Newsletter AI</h2>
                   <p className="text-white/50 text-sm">
                     Newsletter AI z nowinkami, studiami przypadków, eksperymentami z agentami i automatyzacją.
-                    Wysyłany co dwa tygodnie. Za darmo. Bez spamu. <a href="https://ainsider.beehiiv.com" target="_blank" className="text-white/60 hover:text-white/90">Zapisz się</a>
+                    Wysyłany rydzień. Za darmo. Bez spamu. <a href="https://ainsider.beehiiv.com" target="_blank" className="text-white/60 hover:text-white/90">Zapisz się</a>
                   </p>
                   <Link
                     href="https://ainsider.beehiiv.com"
@@ -145,7 +156,7 @@ export default function OMnie() {
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h2 className="text-2xl font-semibold text-white/80">Sztuka AI i Eksperymenty Wizualne</h2>
+                  <h2 className="text-2xl font-semibold text-white/80">AI Art i Eksperymenty Wizualne</h2>
                   <p className="text-white/50 text-sm">
                     Tworzę obrazy i filmy przy użyciu Midjourney, GPT, Recraft i innych generatorów — eksplorując estetyczne granice kreatywności AI.
                   </p>
@@ -169,9 +180,9 @@ export default function OMnie() {
             </div>
           </div>
           <h2
-            className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-6`}
+            className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-12`}
           >
-            Doświadczenie Techniczne
+            Skille Techniczne
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
@@ -214,7 +225,8 @@ export default function OMnie() {
               </ul>
             </div>
           </div>
-          <h2
+          
+          {/* <h2
             className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-6`}
           >
             Znaczące Projekty
@@ -248,7 +260,7 @@ export default function OMnie() {
               </p>
               <Link href="https://github.com/piotrmacai" className="text-white/70 hover:underline text-sm">github.com/piotrmacai</Link>
             </div>
-          </div>
+          </div> */}
           <div className="h-px bg-white/10 w-full mt-6" />
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="flex flex-wrap gap-4">

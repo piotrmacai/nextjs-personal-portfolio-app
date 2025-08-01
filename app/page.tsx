@@ -87,13 +87,13 @@ export default function Home() {
             <div className="space-y-6">
               <div className="h-px bg-white/10 w-full" />
               <p>
-Macailabs to kreatywne studio, w którym marketing, design i social media splatają się w jedną, spójną całość. Projektujemy nie tylko estetyczne wizualizacje, lecz przede wszystkim rozwiązania, które budują zaangażowanie i realnie wpływają na wyniki biznesowe.
+              W Macailabs Studio łączę marketing, design i social media w spójną całość. Tworzę nie tylko estetyczne wizualizacje, ale przede wszystkim rozwiązania, które budują zaangażowanie i realnie wpływają na wyniki biznesowe.
 </p>
 <p>
-Nasz proces łączy kreatywną intuicję z zaawansowanymi narzędziami – współpracujemy z własnymi agentami AI, by przyspieszać iteracje, testować pomysły i dostarczać kampanie oraz aplikacje dopasowane do rzeczywistych potrzeb odbiorców. Od pierwszej koncepcji, przez strategię marki, po codzienne zarządzanie kanałami społecznościowymi – prowadzimy Cię przez cały cykl cyfrowego rozwoju.
+Mój proces łączy kreatywną intuicję z zaawansowanymi narzędziami – współpracuję z własnymi agentami AI, by przyspieszać iteracje, testować pomysły i dostarczać kampanie oraz aplikacje dopasowane do rzeczywistych potrzeb odbiorców.
 </p>
 <p>
-Chcesz, by Twój brand zapadł w pamięć i generował przychód? Porozmawiajmy i stwórzmy coś, co naprawdę wyróżni Cię w tłumie.
+Porozmawiajmy i stwórzmy coś, co naprawdę wyróżni Cię w tłumie.
 </p>
      
               {/* <div className="h-px bg-white/10 w-full" /> */}

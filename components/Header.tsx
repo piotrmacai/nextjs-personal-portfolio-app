@@ -38,7 +38,7 @@ export default function Header() {
         { href: "/growth", label: "Marketing" }
        ]
     },
-    { href: "/about", label: "O Nas" },
+    { href: "/about", label: "O mnie" },
     { href: "/contact", label: "Kontakt" }
   ]
 
