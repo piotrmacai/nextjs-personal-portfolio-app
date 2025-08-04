@@ -13,7 +13,7 @@ export default function Contact() {
   const [textSize] = useState(0.8)
 
   return (
-    <div className="w-full max-w-3xl mx-auto">
+    <div className="w-full max-w-4xl mx-auto">
       <div className="flex flex-col gap-8">
         <h1
           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
@@ -53,6 +53,15 @@ export default function Contact() {
                 <MapPin size={18} className="text-white/60" />
                 <span>Poland</span>
               </div>
+            </div>
+
+            <div className="flex flex-wrap gap-4">
+            <Link
+              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
+              className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
+            >
+              Wycena projektu
+            </Link>
             </div>
 
             <div className="flex flex-wrap gap-4">
@@ -105,71 +114,27 @@ export default function Contact() {
           </div>
 
           <div>
-          <Link
-              href="https://ainsider.notion.site/1c6b65ddefcf80929c16ee419edbeb99?pvs=105" target="_blank" rel="noopener noreferrer"
+                 {/* Contact Form */}
+          <div className="space-y-4">
+          
+          <iframe src="https://ainsider.notion.site/ebd/1bcb65ddefcf805d9f28f545e3680986" width="100%" height="600" allowFullScreen className="border border-white/20 rounded-xl"/>
+          
+        </div>
+          {/* <Link
+              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
             >
               Wycena projektu
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="https://calendar.notion.so/meet/piotrmacai/rv484loq" target="_blank" rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
             >
              Konsultacja
-            </Link>
-
-            {/* <Link href="https://ainsider.co" target="_blank" rel="noopener noreferrer">
-              <Button className="w-1/2 mt-4 bg-white/10 hover:bg-white/20 text-white border border-white/20">
-                Project Form
-              </Button>
-            </Link>
-            <Link href="https://notion.so" target="_blank" rel="noopener noreferrer">
-              <Button className="w-1/2 mt-4 bg-white/10 hover:bg-white/20 text-white border border-white/20">
-                Book Consultation
-              </Button>
             </Link> */}
+
+           
           </div>
-
-          {/* Contact Form */}
-          {/* <div className="space-y-4">
-            <div className="space-y-2">
-              <label htmlFor="name" className="text-sm text-white/60">
-                Name
-              </label>
-              <Input
-                id="name"
-                placeholder="Your name"
-                className="bg-white/5 border-white/10 focus:border-white/30 text-white"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="email" className="text-sm text-white/60">
-                Email
-              </label>
-              <Input
-                id="email"
-                type="email"
-                placeholder="Your email"
-                className="bg-white/5 border-white/10 focus:border-white/30 text-white"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="message" className="text-sm text-white/60">
-                Message
-              </label>
-              <Textarea
-                id="message"
-                placeholder="Your message"
-                className="bg-white/5 border-white/10 focus:border-white/30 text-white min-h-[150px]"
-              />
-            </div>
-
-            <Button className="w-full mt-4 bg-white/10 hover:bg-white/20 text-white border border-white/20">
-              Send Message
-            </Button>
-          </div> */}
         </div>
       </div>
     </div>

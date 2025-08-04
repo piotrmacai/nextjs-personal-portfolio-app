@@ -7,7 +7,7 @@ import Botpress from "@/components/Botpress"
 
 export const metadata = {
   title: "Fullstack Creative Studio",
-  description: "Full Stack Design & Development Studio run by @PiotrMacai & set of specialized AI Agents",
+  description: "Full Stack Design & Development Studio /by @PiotrMacai",
   keywords: "AI Creative Studio, AI Video Studio, AI Video Agency, AI Creative Agency, Full Stack Design, Full Stack Development, AI Design, AI Development, Web Design, Web Development, PiotrMacai",
   author: "@PiotrMacai",
   robots: "index, follow",
