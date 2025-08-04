@@ -3,7 +3,7 @@ import { ppEditorialNewUltralightItalic, inter } from "./fonts"
 import type React from "react"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import Botpress from "@/components/Botpress"
+import Voiceflow from "@/components/Voiceflow"
 
 export const metadata = {
   title: "Fullstack Creative Studio",
@@ -34,7 +34,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-grow flex items-center justify-center p-4 md:p-8">{children}</main>
         <Footer />
-        <Botpress />
+        <Voiceflow />
       </body>
     </html>
   )
