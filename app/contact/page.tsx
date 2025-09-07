@@ -2,15 +2,54 @@
 
 import { useState } from "react"
 import { ppEditorialNewUltralightItalic, inter } from "../fonts"
-import { Youtube, Instagram, Twitter, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { Youtube, Instagram, Twitter, Linkedin, Mail, MapPin, Phone, Smartphone, Code, Globe, Zap, Database, Cpu } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
+const serviceCards = [
+  {
+    icon: <Smartphone className="w-5 h-5" />,
+    title: "Design & UI/UX",
+    description: "Consistent look and intuitive navigation on every device",
+  },
+  {
+    icon: <Code className="w-5 h-5" />,
+    title: "Web Development",
+    description: "Custom websites and apps tailored to your needs",
+  },
+  {
+    icon: <Globe className="w-5 h-5" />,
+    title: "CMS Systems",
+    description: "Easy content management with WordPress, Sanity, or other platforms",
+  },
+  {
+    icon: <Zap className="w-5 h-5" />,
+    title: "SEO & Optimization",
+    description: "Optimization for top rankings and lightning-fast loading",
+  },
+  {
+    icon: <Database className="w-5 h-5" />,
+    title: "Integrations & API",
+    description: "Connect with external services and automate processes",
+  },
+  {
+    icon: <Cpu className="w-5 h-5" />,
+    title: "AI Solutions",
+    description: "Personalized content, chatbots, and AI-powered support",
+  }
+]
+
+const techStack = {
+  frontend: ["JavaScript", "TypeScript", "Next.js", "React", "Tailwind CSS", "Framer Motion", "Three.js", "CSS Frameworks", "No/Low-code tools"],
+  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API","CMS Platforms"]
+}
+
 export default function Contact() {
   const [headerSize] = useState(1.2)
   const [textSize] = useState(0.8)
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   return (
     <div className="w-full max-w-4xl mx-auto mt-12 md:mt-8">
@@ -19,7 +58,7 @@ export default function Contact() {
           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
           style={{ fontSize: `${4 * headerSize}rem` }}
         >
-          Kontakt
+          Contact
         </h1>
 
         <div className="h-px bg-white/10 w-full" />
@@ -31,7 +70,7 @@ export default function Contact() {
             style={{ fontSize: `${0.875 * textSize}rem` }}
           >
             <p>
-            Z chęcią porozmawiam o nowych projektach, kreatywnych pomysłach lub możliwościach współpracy przy realizacji Twojej wizji.
+            I am happy to discuss new projects, creative ideas, or collaboration opportunities to bring your vision to life.
             </p>
 
             <div className="space-y-4 mt-4">
@@ -60,7 +99,7 @@ export default function Contact() {
               href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
             >
-              Wycena projektu
+              Project Estimate
             </Link>
             </div>
 

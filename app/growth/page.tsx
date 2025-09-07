@@ -12,55 +12,55 @@ import MotionOrbit from "@/components/Motion"
 const marketingServices = [
   {
     icon: <Megaphone className="w-5 h-5" />,
-    title: "Kampanie Marki",
-    description: "Kompletne kampanie, które wzmacniają Twój przekaz na każdym punkcie styku",
+    title: "Brand Campaigns",
+    description: "Comprehensive campaigns that amplify your message at every touchpoint",
     color: "from-cyan-500/20 to-blue-800/10",
-    examples: ["Premiery produktów", "Akcje budowania świadomości", "Kampanie sezonowe"]
+    examples: ["Product launches", "Awareness building actions", "Seasonal campaigns"]
   },
   {
     icon: <Users className="w-5 h-5" />,
-    title: "Zarządzanie Społecznością",
-    description: "Pielęgnuj lojalne społeczności, które 24/7 rekomendują Twoją markę",
+    title: "Community Management",
+    description: "Nurture loyal communities that recommend your brand 24/7",
     color: "from-emerald-500/20 to-teal-800/10",
-    examples: ["Social listening", "Skrypty angażowania", "Kuracja UGC"]
+    examples: ["Social listening", "Engagement scripts", "UGC curation"]
   },
   {
     icon: <TrendingUp className="w-5 h-5" />,
-    title: "Płatne Media",
-    description: "Strategie oparte na danych, które maksymalizują ROAS na każdej platformie",
+    title: "Paid Media",
+    description: "Data-driven strategies that maximize ROAS on every platform",
     color: "from-amber-500/20 to-orange-800/10",
-    examples: ["Reklamy Meta & TikTok", "Google Performance Max", "Whitelisting influencerów"]
+    examples: ["Meta & TikTok Ads", "Google Performance Max", "Influencer whitelisting"]
   },
   {
     icon: <MessageCircle className="w-5 h-5" />,
-    title: "Strategia Treści",
-    description: "Kalendarze treści, które zatrzymują scroll oparte na psychologii platform",
+    title: "Content Strategy",
+    description: "Content calendars that stop the scroll based on platform psychology",
     color: "from-purple-500/20 to-violet-800/10",
-    examples: ["Reels & Shorts", "Opowieści karuzelowe", "Meme marketing"]
+    examples: ["Reels & Shorts", "Carousel stories", "Meme marketing"]
   },
   {
     icon: <Target className="w-5 h-5" />,
-    title: "Partnerstwa Influencerów",
-    description: "Autentyczne współprace, które przekształcają twórców w silniki sprzedaży",
+    title: "Influencer Partnerships",
+    description: "Authentic collaborations that turn creators into sales engines",
     color: "from-rose-500/20 to-pink-800/10",
-    examples: ["Tiers nano do macro", "Kody wydajnościowe", "Lejki afiliacyjne"]
+    examples: ["Nano to macro tiers", "Performance codes", "Affiliate funnels"]
   },
   {
     icon: <Lightbulb className="w-5 h-5" />,
     title: "Growth Hacking",
-    description: "Szybkie eksperymenty, które odblokowują skalowalne kanały pozyskiwania",
+    description: "Rapid experiments that unlock scalable acquisition channels",
     color: "from-indigo-500/20 to-purple-800/10",
-    examples: ["Pętle wiralowe", "Mechaniki airdrop", "Gamifikacja listy oczekujących"]
+    examples: ["Viral loops", "Airdrop mechanics", "Waiting list gamification"]
   }
 ]
 
 const tools = [
-  { name: "Meta Business Suite", category: "Reklamy & Insights" },
-  { name: "TikTok Ads Manager", category: "Płatne Social" },
-  { name: "Hootsuite", category: "Planowanie" },
-  { name: "Sprout Social", category: "Analityka" },
-  { name: "Flick", category: "Badanie Hashtagów" },
-  { name: "Canva Pro", category: "Tworzenie Treści" },
+  { name: "Meta Business Suite", category: "Ads & Insights" },
+  { name: "TikTok Ads Manager", category: "Paid Social" },
+  { name: "Hootsuite", category: "Scheduling" },
+  { name: "Sprout Social", category: "Analytics" },
+  { name: "Flick", category: "Hashtag Research" },
+  { name: "Canva Pro", category: "Content Creation" },
   { name: "Brandwatch", category: "Listening" }
 ]
 
@@ -80,7 +80,7 @@ export default function MarketingServices() {
                     transition={{ duration: 0.5 }}
                     className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
                     >
-                    Historie Social-First <br />Które Sprzedają
+                    Social-First Stories <br />That Sell
                     </motion.h1>
                 </div>
 
@@ -95,8 +95,8 @@ export default function MarketingServices() {
                     className="text-center max-w-2xl mx-auto"
                 >
                    <p className={`${inter.className} text-lg text-white/70 max-w-2xl`}>
-                Przekształcam feedy w lejki dzięki kreatywności zatrzymującej scroll i targetowaniu opartemu na danych.
-                Każdy post, story i kampania jest zaprojektowany, by wywołać konwersacje, budować społeczności i napędzać przychód.
+                I transform feeds into funnels with scroll-stopping creativity and data-driven targeting.
+                Every post, story, and campaign is designed to spark conversations, build communities, and drive revenue.
               </p>
                 </motion.div>
                 </div>
@@ -158,7 +158,7 @@ export default function MarketingServices() {
                 Growth Stack
               </h2>
               <p className={`${inter.className} text-white/60 mb-8`}>
-                Technologia i taktyki, które wykorzystuję do hakowania uwagi i skalowania społeczności:
+                The technology and tactics I use to hack attention and scale communities:
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -173,34 +173,34 @@ export default function MarketingServices() {
             
             <div className="md:w-1/2">
               <div className="p-8 rounded-2xl bg-gradient-to-br border border-white/10 backdrop-blur-sm h-full">
-                <h3 className="text-xl font-medium text-white/90 mb-4">Framework Wzrostu</h3>
+                <h3 className="text-xl font-medium text-white/90 mb-4">Growth Framework</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">1</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Inteligencja Audiencji</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Dogłębna analityka & mapowanie psychograficzne</p>
+                      <h4 className="font-medium text-white/80">Audience Intelligence</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>In-depth analytics & psychographic mapping</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">2</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Inżynieria Haka</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>3-sekundowe testy kreatywnego zatrzymania scrolla</p>
+                      <h4 className="font-medium text-white/80">Hook Engineering</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>3-second tests for creative scroll-stopping</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">3</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Iteracja & Skalowanie</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Optymalizacja w czasie rzeczywistym & realokacja budżetu</p>
+                      <h4 className="font-medium text-white/80">Iteration & Scaling</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Real-time optimization & budget reallocation</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">4</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Pętle Retencji</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Zautomatyzowane sekwencje nurture & korzyści lojalnościowe</p>
+                      <h4 className="font-medium text-white/80">Retention Loops</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Automated nurture sequences & loyalty perks</p>
                     </div>
                   </li>
                 </ul>
@@ -220,16 +220,16 @@ export default function MarketingServices() {
         >
           <div className="text-center">
             <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-4`}>
-              Gotowy, by uczynić swoją markę nie ignorable?
+              Ready to make your brand unignorable?
             </h2>
             <p className={`${inter.className} text-white/60 max-w-2xl mx-auto mb-8`}>
-              Zbudujmy kampanie oparte na danych, które przekształcą przypadkowych scrollujących w superfani, a superfani w klientów.
+              Let's build data-driven campaigns that turn casual scrollers into superfans, and superfans into customers.
             </p>
             <Link
               href="/contact"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white hover:from-cyan-600 hover:to-blue-600 transition-colors font-medium"
             >
-              Umów Rozmowę Strategiczną
+              Schedule a Strategy Call
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

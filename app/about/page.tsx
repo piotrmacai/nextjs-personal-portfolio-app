@@ -16,7 +16,7 @@ export default function OMnie() {
           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
           style={{ fontSize: `${4 * headerSize}rem` }}
         >
-          O Mnie
+          About Me
         </h1>
         <div className="h-px bg-white/10 w-full" />
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
@@ -73,106 +73,111 @@ export default function OMnie() {
           style={{ fontSize: `${0.875 * textSize}rem` }}
         >
           <p>
-            Jestem full-stack developerem, specjalistą od sztucznej inteligencji i projektantem z Polski. Tworzę nowoczesne rozwiązania webowe i AI, które łączą zaawansowaną technologię z dopracowanym doświadczeniem użytkownika.  </p>
-          <p>
-          Od kilku lat pomagam klientom przekształcać ich pomysły w skalowalne, inteligentne aplikacje – zarówno pod względem technologicznym, jak i estetycznym.
+            I'm Piotr Machowski, a Fullstack Developer and Digital Creator specializing in AI-driven experiences, 
+            immersive interfaces, and motion design. My work sits at the intersection of technology and aesthetics, 
+            where clean code meets compelling visuals.
           </p>
           <p>
-          Regularnie dzielę się wiedzą na temat sztucznej inteligencji i automatyzacji na platformie <strong>X (Twitter)</strong>, w moim newsletterze oraz innych mediach społecznościowych. Pokazuję praktyczne zastosowania AI w biznesie i automatyzuję codzienną pracę – od złożonych procesów po małe usprawnienia, które robią wielką różnicę.
+            My journey in web development began with a fascination for how design and technology intersect. I hold a
+            Master's degree in Computer Science with a specialization in User Experience Design, which has given me a
+            solid foundation in both the technical and creative aspects of web development.
+          </p>
+          <p>
+            Regularly, I share my knowledge about artificial intelligence and automation on the platform <strong>X (Twitter)</strong>, in my newsletter, and other social media. I showcase practical applications of AI in business and automate daily tasks - from complex processes to small improvements that make a big difference.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex flex-col gap-12 mt-12">
               <h1
                 className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
               >
-                Moje Osobiste Projekty
+                My Personal Projects
               </h1>
               <div className="grid gap-10">
                 <div className="flex flex-col gap-2">
                   <h2 className="text-2xl font-semibold text-white/80">Ainsider.co</h2>
                   <p className="text-white/50 text-sm">
-                    Studio tworzące agentów AI i customowe automatyzacje dla firm i osób indywidualnych.
-                    Dedykowane narzędzia AI i niestandardowe implementacje oprogramowania.
+                    A studio creating AI agents and custom automations for businesses and individuals.
+                    Dedicated AI tools and custom software implementations.
                   </p>
                   <Link
                     href="https://ainsider.co"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Odwiedź ainsider.co <ArrowUpRight size={16} />
+                    Visit ainsider.co <ArrowUpRight size={16} />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
                   <h2 className="text-2xl font-semibold text-white/80">Ainsider.tools</h2>
                   <p className="text-white/50 text-sm">
-                    Katalog narzędzi AI, modeli językowych, agentów i wtyczek z analizami i przykładami zastosowań.
+                    A catalog of AI tools, language models, agents, and plugins with analyses and usage examples.
                   </p>
                   <Link
                     href="https://ainsider.tools"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Odwiedź ainsider.tools <ArrowUpRight size={16} />
+                    Visit ainsider.tools <ArrowUpRight size={16} />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h2 className="text-2xl font-semibold text-white/80">Mój Github</h2>
+                  <h2 className="text-2xl font-semibold text-white/80">My Github</h2>
                   <p className="text-white/50 text-sm">
-                    Github z Agentami AI, automatyzacjami i aplikacjami web.
+                    Github with AI Agents, automations, and web applications.
                   </p>
                   <Link
                     href="https://github.com/piotrmacai"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Odwiedź Github <ArrowUpRight size={16} />
+                    Visit Github <ArrowUpRight size={16} />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h2 className="text-2xl font-semibold text-white/80">X/Twitter z AI</h2>
+                  <h2 className="text-2xl font-semibold text-white/80">X/Twitter with AI</h2>
                   <p className="text-white/50 text-sm">
-                    Dzielę się nowinkami ze świata AI, studiami przypadków, eksperymentami z agentami i automatyzacją.
+                    I share news from the AI world, case studies, experiments with agents, and automation.
                   </p>
                   <Link
                     href="https://x.com/piotrmacai"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Obserwuj @piotrmacai <ArrowUpRight size={16} />
+                    Follow @piotrmacai <ArrowUpRight size={16} />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h2 className="text-2xl font-semibold text-white/80">Newsletter AI</h2>
+                  <h2 className="text-2xl font-semibold text-white/80">AI Newsletter</h2>
                   <p className="text-white/50 text-sm">
-                    Newsletter AI z nowinkami, studiami przypadków, eksperymentami z agentami i automatyzacją.
-                    Wysyłany rydzień. Za darmo. Bez spamu. <a href="https://ainsider.beehiiv.com" target="_blank" className="text-white/60 hover:text-white/90">Zapisz się</a>
+                    AI newsletter with news, case studies, experiments with agents, and automation.
+                    Sent every two weeks. For free. No spam. <a href="https://ainsider.beehiiv.com" target="_blank" className="text-white/60 hover:text-white/90">Subscribe</a>
                   </p>
                   <Link
                     href="https://ainsider.beehiiv.com"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Zapisz się do newslettera <ArrowUpRight size={16} />
+                    Subscribe to the newsletter <ArrowUpRight size={16} />
                   </Link>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h2 className="text-2xl font-semibold text-white/80">AI Art i Eksperymenty Wizualne</h2>
+                  <h2 className="text-2xl font-semibold text-white/80">AI Art and Visual Experiments</h2>
                   <p className="text-white/50 text-sm">
-                    Tworzę obrazy i filmy przy użyciu Midjourney, GPT, Recraft i innych generatorów — eksplorując estetyczne granice kreatywności AI.
+                    I create images and videos using Midjourney, GPT, Recraft, and other generators — exploring the aesthetic boundaries of AI creativity.
                   </p>
                   <Link
                     href="https://www.instagram.com/piotr.macai"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Obserwuj na Instagramie <ArrowUpRight size={16} />
+                    Follow on Instagram <ArrowUpRight size={16} />
                   </Link>
                   <Link
                     href="https://www.artstation.com/piotrmacai"
                     target="_blank"
                     className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                   >
-                    Obserwuj na Artstation <ArrowUpRight size={16} />
+                    Follow on Artstation <ArrowUpRight size={16} />
                   </Link>
                 </div>
               </div>
@@ -182,46 +187,46 @@ export default function OMnie() {
           <h2
             className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-12`}
           >
-            Skille Techniczne
+            Technical Skills
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-xl font-medium text-white/70">Projektowanie i UX</h3>
+              <h3 className="text-xl font-medium text-white/70">Design and UX</h3>
               <ul className="list-disc pl-5 space-y-1 mt-2">
-                <li>Prototypowanie w Figmie i systemy projektowe</li>
+                <li>Prototyping in Figma and design systems</li>
                 <li>Adobe Creative Suite (Photoshop, Illustrator)</li>
-                <li>3D z Three.js, animacje z GSAP/Framer</li>
-                <li>Metodologie badań i testów użytkowników</li>
+                <li>3D with Three.js, animations with GSAP/Framer</li>
+                <li>Research and user testing methodologies</li>
               </ul>
               <p className="mt-2">
-                Zapoznaj się z moimi pracami projektowymi na <Link href="https://behance.net/macaistudio" className="text-white/70 hover:underline">Behance</Link>
+                Check out my design work on <Link href="https://behance.net/macaistudio" className="text-white/70 hover:underline">Behance</Link>
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-medium text-white/70">Rozwój Frontendu</h3>
+              <h3 className="text-xl font-medium text-white/70">Frontend Development</h3>
               <ul className="list-disc pl-5 space-y-1 mt-2">
-                <li>React.js, Next.js, Vue.js z TypeScript</li>
-                <li>Nowoczesny CSS (Tailwind, SASS) i frameworki UI</li>
-                <li>Narzędzia budowania: Vite, Webpack, npm/yarn/pnpm</li>
-                <li>Techniki optymalizacji wydajności</li>
+                <li>React.js, Next.js, Vue.js with TypeScript</li>
+                <li>Modern CSS (Tailwind, SASS) and UI frameworks</li>
+                <li>Build tools: Vite, Webpack, npm/yarn/pnpm</li>
+                <li>Performance optimization techniques</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-medium text-white/70">AI/ML i Automatyzacja</h3>
+              <h3 className="text-xl font-medium text-white/70">AI/ML and Automation</h3>
               <ul className="list-disc pl-5 space-y-1 mt-2">
-                <li>Modele językowe i inżynieria promptów</li>
-                <li>Agenci AI (Langchain, Flowise, Botpress)</li>
-                <li>Automatyzacja przepływów pracy (n8n, Make.com, Zapier)</li>
-                <li>Rozwój wspomagany AI (Cursor AI, Replit AI)</li>
+                <li>Language models and prompt engineering</li>
+                <li>AI Agents (Langchain, Flowise, Botpress)</li>
+                <li>Workflow automation (n8n, Make.com, Zapier)</li>
+                <li>AI-assisted development (Cursor AI, Replit AI)</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-medium text-white/70">Backend i DevOps</h3>
+              <h3 className="text-xl font-medium text-white/70">Backend and DevOps</h3>
               <ul className="list-disc pl-5 space-y-1 mt-2">
-                <li>Node.js, Express, API REST/GraphQL</li>
-                <li>Systemy baz danych PostgreSQL, MongoDB</li>
-                <li>Przepływy pracy z Git, GitHub, Docker</li>
-                <li>SEO i Analiza (Google Analytics, Search Console)</li>
+                <li>Node.js, Express, REST/GraphQL APIs</li>
+                <li>Database systems PostgreSQL, MongoDB</li>
+                <li>Workflow with Git, GitHub, Docker</li>
+                <li>SEO and Analytics (Google Analytics, Search Console)</li>
               </ul>
             </div>
           </div>
@@ -229,34 +234,34 @@ export default function OMnie() {
           {/* <h2
             className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-6`}
           >
-            Znaczące Projekty
+            Significant Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-white/70 font-medium">Portfolio zasilane AI</h3>
+              <h3 className="text-white/70 font-medium">AI-Powered Portfolio</h3>
               <p className="text-white/60 text-sm mt-1">
-                Moje osobiste portfolio prezentujące treści generowane przez AI zarządzane przez Sanity CMS
+                My personal portfolio showcasing AI-generated content managed by Sanity CMS
               </p>
               <Link href="https://piotrmacai.com" className="text-white/70 hover:underline text-sm">piotrmacai.com</Link>
             </div>
             <div>
-              <h3 className="text-white/70 font-medium">Platforma AI Studio</h3>
+              <h3 className="text-white/70 font-medium">AI Studio Platform</h3>
               <p className="text-white/60 text-sm mt-1">
-                Ainsider.co łączy niestandardowe agenty AI z pięknymi interfejsami
+                Ainsider.co combines custom AI agents with beautiful interfaces
               </p>
               <Link href="https://ainsider.co" className="text-white/70 hover:underline text-sm">ainsider.co</Link>
             </div>
             <div>
-              <h3 className="text-white/70 font-medium">Agenci AI</h3>
+              <h3 className="text-white/70 font-medium">AI Agents</h3>
               <p className="text-white/60 text-sm mt-1">
-                Niestandardowe rozwiązania automatyzacji przepływów pracy
+                Custom solutions for workflow automation
               </p>
-              <Link href="https://piotrmacai.com/ai-agents" className="text-white/70 hover:underline text-sm">Zobacz Agentów AI</Link>
+              <Link href="https://piotrmacai.com/ai-agents" className="text-white/70 hover:underline text-sm">See AI Agents</Link>
             </div>
             <div>
               <h3 className="text-white/70 font-medium">GitHub</h3>
               <p className="text-white/60 text-sm mt-1">
-                Projekty open-source i przykłady kodu
+                Open-source projects and code samples
               </p>
               <Link href="https://github.com/piotrmacai" className="text-white/70 hover:underline text-sm">github.com/piotrmacai</Link>
             </div>
@@ -305,7 +310,7 @@ export default function OMnie() {
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
             >
-              Współpracuj ze mną
+              Collaborate with Me
             </Link>
           </div>
         </div>
@@ -455,127 +460,6 @@ export default function OMnie() {
 //               </Link>
 //             </div>
 //           </div>
-
-//           <div className="h-px bg-white/10 w-full mt-6" />
-
-//           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-//             <div className="flex flex-wrap gap-4">
-//               <Link
-//                 href="https://twitter.com/piotrmacai"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-white/90 transition-colors"
-//               >
-//                 <Twitter size={20} />
-//                 <span className="sr-only">Twitter</span>
-//               </Link>
-//               <Link
-//                 href="https://github.com/piotrmacai"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-white/90 transition-colors"
-//               >
-//                 <span className="font-bold text-lg">Git</span>
-//                 <span className="sr-only">GitHub</span>
-//               </Link>
-//               <Link
-//                 href="https://linkedin.com/in/piotrmacai"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-white/90 transition-colors"
-//               >
-//                 <Linkedin size={20} />
-//                 <span className="sr-only">LinkedIn</span>
-//               </Link>
-//               <Link
-//                 href="https://behance.net/macaistudio"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-white/90 transition-colors"
-//               >
-//                 <span className="font-bold text-lg">Be</span>
-//                 <span className="sr-only">Behance</span>
-//               </Link>
-//             </div>
-
-//             <Link
-//               href="/contact"
-//               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
-//             >
-//               Collaborate with Me
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-
-
-// "use client"
-
-// import { useState } from "react"
-// import { ppEditorialNewUltralightItalic, inter } from "../fonts"
-// import Link from "next/link"
-// import { Youtube, Instagram, Twitter, Linkedin } from "lucide-react"
-
-// export default function About() {
-//   const [headerSize] = useState(1.2)
-//   const [textSize] = useState(0.8)
-
-//   return (
-//     <div className="w-full max-w-3xl mx-auto">
-//       <div className="flex flex-col gap-8">
-//         <h1
-//           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
-//           style={{ fontSize: `${4 * headerSize}rem` }}
-//         >
-//           About Me
-//         </h1>
-
-//         <div className="h-px bg-white/10 w-full" />
-
-//         <div
-//           className={`${inter.className} flex flex-col gap-8 text-white/50 text-sm font-light`}
-//           style={{ fontSize: `${0.875 * textSize}rem` }}
-//         >
-//           <p>
-//             I'm Piotr Macai, a passionate Web Developer and Designer with over 8 years of experience creating digital
-//             experiences that combine functionality with aesthetic appeal. Based in Warsaw, Poland, I've worked with
-//             clients across Europe and North America to bring their digital visions to life.
-//           </p>
-
-//           <p>
-//             My journey in web development began with a fascination for how design and technology intersect. I hold a
-//             Master's degree in Computer Science with a specialization in User Experience Design, which has given me a
-//             solid foundation in both the technical and creative aspects of web development.
-//           </p>
-
-//           <h2
-//             className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-6`}
-//           >
-//             My Approach
-//           </h2>
-
-//           <p>
-//             I believe that great digital products are born at the intersection of technology, design, and human
-//             psychology. My work process involves deep collaboration with clients, thorough research, and iterative
-//             design and development to ensure the final product not only looks beautiful but also delivers results.
-//           </p>
-
-//           <h2
-//             className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-6`}
-//           >
-//             Technical Skills
-//           </h2>
-
-//           <ul className="list-disc pl-5 space-y-2">
-//             <li>Frontend: React, Next.js, TypeScript, Tailwind CSS</li>
-//             <li>Design: Figma, Adobe Creative Suite</li>
-//             <li>3D & Motion: Three.js, GSAP, Framer Motion</li>
-//             <li>Backend: Node.js, Express, MongoDB, PostgreSQL</li>
-//           </ul>
 
 //           <div className="h-px bg-white/10 w-full mt-6" />
 

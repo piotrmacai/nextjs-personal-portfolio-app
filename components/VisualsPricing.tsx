@@ -1,56 +1,56 @@
-// app/components/VisualsPricing.tsx – wersja polska
+// app/components/VisualsPricing.tsx – English version
 
 import Link from "next/link";
 
 const visualsData = [
   {
-    title: "Branding & Treści Social Media",
+    title: "Branding & Social Media Content",
     options: [
-      { label: "Logo & Identyfikacja Marki", price: "899 zł" },
-      { label: "Pakiet Social Media", price: "699 zł" }, 
+      { label: "Logo & Brand Identity", price: "899 PLN" },
+      { label: "Social Media Package", price: "699 PLN" }, 
     ],
     features: [
-      "Indywidualny projekt logo i palety kolorów",
-      "Typografia i visual",
-      "Wizytówki i awatary w social media",
-      "Statyczne szablony dla Instagram, LinkedIn, Facebook",
-      "Stories, posty, wyróżnienia, banery",
-      "Edytowalne szablony w Canva lub Figma",
-      "Treści zgodne z głosem Twojej marki",
-      "3 rundy poprawek w cenie",
+      "Custom logo and color palette design",
+      "Typography and visual style",
+      "Business cards and social media avatars",
+      "Static templates for Instagram, LinkedIn, Facebook",
+      "Stories, posts, highlights, banners",
+      "Editable templates in Canva or Figma",
+      "Content aligned with your brand voice",
+      "3 rounds of revisions included",
     ],
   },
   {
-    title: "Motion & Produkcja Wideo",
+    title: "Motion & Video Production",
     options: [
-      { label: "Film Reklamowy / Edukacyjny", price: "od 899 zł" },
-      { label: "Reklamy Wideo Social Media", price: "od 229 zł" },
+      { label: "Commercial / Educational Video", price: "from 899 PLN" },
+      { label: "Social Media Video Ads", price: "from 229 PLN" },
     ],
     features: [
-      "Projekty motion i video",
-      "Krótkie wideo pionowe dla Reels, TikTok, YouTube Shorts",
-      "Wideo 16:9 dla stron i prezentacji",
-      "Scenariusze i storyboard",
-      "Lektor i dźwięk (opcjonalnie)",
-      "Animacja zdjęć",
-      "Rozwój koncepcji",
+      "Motion and video projects",
+      "Short vertical videos for Reels, TikTok, YouTube Shorts",
+      "16:9 videos for websites and presentations",
+      "Scripts and storyboards",
+      "Voiceover and sound (optional)",
+      "Photo animation",
+      "Concept development",
     ],
   },
   {
-    title: "Projekty UI/UX",
+    title: "UI/UX Projects",
     options: [
-      { label: "Projekt Landing Page", price: "899 zł" },
-      { label: "Pełny UI Kit / Aplikacja Webowa", price: "2 299 zł" },
+      { label: "Landing Page Design", price: "899 PLN" },
+      { label: "Full UI Kit / Web App", price: "2,299 PLN" },
     ],
     features: [
-      "System projektowy w Figma",
-      "Scieżki użytkownika i wireframes",
-      "Układy responsywne na wszystkie urządzenia",
-      "Projekt skalowalny, oparty na komponentach",
-      "Estetyka czysta, nowoczesna i minimalistyczna",
-      "Przekazanie projektu z plikami gotowymi dla dewelopera",
-      "Optymalizacja UX oparta o cele",
-      "Spójność UI i standardy dostępności",
+      "Design system in Figma",
+      "User flows and wireframes",
+      "Responsive layouts for all devices",
+      "Scalable, component-based design",
+      "Clean, modern, minimalist aesthetics",
+      "Handover with developer-ready files",
+      "UX optimization based on goals",
+      "UI consistency and accessibility standards",
     ],
   },
 ];
@@ -59,9 +59,9 @@ export default function VisualsPricing() {
   return (
     <section className="px-4 py-20 max-w-7xl mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-semibold text-white mb-4">Cennik Wizualizacji & Designu</h2>
+        <h2 className="text-4xl font-semibold text-white mb-4">Visual & Design Pricing</h2>
         <p className="text-gray-300 max-w-xl mx-auto">
-          Usługi designu o wysokim impakcie, które wzmacniają Twoją markę, treści i doświadczenie cyfrowe.
+          High-impact design services that strengthen your brand, content, and digital experience.
         </p>
       </div>
 
@@ -80,7 +80,7 @@ export default function VisualsPricing() {
                   </li>
                 ))}
               </ul>
-              <h4 className="font-semibold text-white mb-2 mt-4">Kluczowe funkcje</h4>
+              <h4 className="font-semibold text-white mb-2 mt-4">Key features</h4>
               <ul className="text-sm text-gray-300 space-y-1 list-disc list-inside">
                 {item.features.map((feature, i) => (
                   <li key={i}>{feature}</li>
@@ -92,7 +92,7 @@ export default function VisualsPricing() {
                 href="/contact"
                 className="inline-block text-center w-full bg-white text-black py-2 px-4 rounded-xl font-medium hover:bg-gray-200 transition"
               >
-                Wycena
+                Get a Quote
               </Link>
             </div>
           </div>

@@ -11,60 +11,60 @@ import AgentsPricing from "@/components/AgentsPricing"
 const aiServices = [
   {
     icon: <BrainCircuit className="w-5 h-5" />,
-    title: "Dedykowani Agenci AI",
-    description: "Inteligentni asystenci dopasowani do Twoich procesów i logiki biznesowej",
+    title: "Dedicated AI Agents",
+    description: "Intelligent assistants tailored to your processes and business logic",
     color: "from-purple-500/20 to-indigo-800/10",
-    features: ["Oparte na LLM", "Możliwości multi-modalne", "Integracje z API"]
+    features: ["LLM-based", "Multi-modal capabilities", "API integrations"]
   },
   {
     icon: <Bot className="w-5 h-5" />,
-    title: "Rozwiązania Chatbotowe",
-    description: "Konwersacyjna AI poprawiająca obsługę klienta i doświadczenia użytkownika",
+    title: "Chatbot Solutions",
+    description: "Conversational AI enhancing customer service and user experience",
     color: "from-blue-500/20 to-cyan-800/10",
-    features: ["Przetwarzanie języka naturalnego", "Świadomość kontekstu", "Wielokanałowe wdrożenie"]
+    features: ["Natural language processing", "Context awareness", "Omni-channel deployment"]
   },
   {
     icon: <Zap className="w-5 h-5" />,
-    title: "Automatyzacja Procesów",
-    description: "Automatyzacja zasilana AI, oszczędzająca czas i zmniejszająca błędy",
+    title: "Process Automation",
+    description: "AI-powered automation saving time and reducing errors",
     color: "from-emerald-500/20 to-teal-800/10",
-    features: ["n8n/Make.com", "Integracja z Zapier", "Własne skrypty"]
+    features: ["n8n/Make.com", "Zapier integration", "Custom scripts"]
   },
   {
     icon: <Cpu className="w-5 h-5" />,
-    title: "Rozwój wspierany przez AI",
-    description: "Zwiększanie wydajności zespołu dzięki narzędziom do kodowania AI",
+    title: "AI-Powered Development",
+    description: "Boosting team productivity with AI coding tools",
     color: "from-amber-500/20 to-orange-800/10",
     features: ["Cursor AI", "Replit AI", "GitHub Copilot"]
   },
   {
     icon: <Network className="w-5 h-5" />,
-    title: "Audyty i Strategie",
-    description: "Kompleksowe audyty i strategie wdrożenia AI dla indywidualnych potrzeb oraz wymagań",
+    title: "Audits and Strategies",
+    description: "Comprehensive audits and AI implementation strategies tailored to individual needs and requirements",
     color: "from-pink-500/20 to-rose-800/10",
     features: ["Langchain", "Flowise", "Botpress"]
   },
   {
     icon: <Sparkles className="w-5 h-5" />,
-    title: "Generowanie Treści AI",
-    description: "Automatyczne tworzenie treści o jakości zbliżonej do ludzkiej",
+    title: "AI Content Generation",
+    description: "Automated content creation with human-like quality",
     color: "from-violet-500/20 to-fuchsia-800/10",
-    features: ["Integracja z GPT-4", "Ton marki", "Optymalizacja pod SEO"]
+    features: ["GPT-4 integration", "Brand tone", "SEO optimization"]
   }
 ]
 
 const frameworks = [
-  { name: "GPT z API", category: "LLM" },
+  { name: "GPT API", category: "LLM" },
   { name: "Anthropic Claude", category: "LLM" },
   { name: "Mistral", category: "LLM" },
-  { name: "MCP", category: "Orkiestracja" },
-  { name: "Voiceflow", category: "Agenty AI" },
-  { name: "LlamaIndex", category: "Dane" },
-  { name: "Langchain", category: "Orkiestracja" },
-  { name: "Flowise", category: "Agenty AI" },
-  { name: "Botpress", category: "Agenty AI" },
-  { name: "n8n", category: "Automatyzacja" },
-  { name: "Make", category: "Automatyzacja" },
+  { name: "MCP", category: "Orchestration" },
+  { name: "Voiceflow", category: "AI Agents" },
+  { name: "LlamaIndex", category: "Data" },
+  { name: "Langchain", category: "Orchestration" },
+  { name: "Flowise", category: "AI Agents" },
+  { name: "Botpress", category: "AI Agents" },
+  { name: "n8n", category: "Automation" },
+  { name: "Make", category: "Automation" },
   { name: "Huggingface", category: "LLM" }
 ]
 
@@ -82,7 +82,7 @@ export default function AIServices() {
               transition={{ duration: 0.5 }}
               className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
             >
-              Inteligentna Automatyzacja <br /> z Agentami AI
+              Intelligent Automation <br /> with AI Agents
             </motion.h1>
           </div>
           <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12" />
@@ -96,13 +96,13 @@ export default function AIServices() {
               className="text-center max-w-2xl mx-auto"
             >
               <p className={`${inter.className} text-lg text-white/70 max-w-2xl`}>
-                Projektuję i wdrażam zaawansowane agenty AI oraz systemy automatyzacji, które transformują procesy biznesowe. Od chatbotów po złożone wieloagentowe przepływy pracy – łączę potencjał sztucznej inteligencji z praktycznym zastosowaniem.
+                I design and implement advanced AI agents and automation systems that transform business processes. From chatbots to complex multi-agent workflows – I combine the potential of artificial intelligence with practical application.
               </p>
             </motion.div>
           </div>
         </div>
 
-        {/* Grid usług AI */}
+        {/* Grid of AI services */}
         <motion.section 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -140,7 +140,7 @@ export default function AIServices() {
           </div>
         </motion.section>
 
-        {/* Przykłady zastosowań */}
+        {/* Use case examples */}
         <motion.section 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -148,7 +148,7 @@ export default function AIServices() {
           className="mt-20"
         >
           <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-8`}>
-            Moje Zasoby i Aplikacje AI
+            My AI Resources and Applications
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="group relative rounded-2xl overflow-hidden border border-white/10 min-h-64">
@@ -159,8 +159,8 @@ export default function AIServices() {
                   <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center mb-4">
                     <Zap className="w-5 h-5 text-white/80" />
                   </div>
-                  <h3 className="text-2xl font-medium text-white/90 mb-2">Katalog Agentów i Narzędzi AI</h3>
-                  <p className={`${inter.className} text-white/60 mb-6`}>Kompleksowa biblioteka agentów, modeli i narzędzi AI z ponad 500 wysokiej jakości zasobów.</p>
+                  <h3 className="text-2xl font-medium text-white/90 mb-2">Catalog of AI Agents and Tools</h3>
+                  <p className={`${inter.className} text-white/60 mb-6`}>A comprehensive library of agents, models, and AI tools with over 500 high-quality resources.</p>
                 </div>
                 <Link 
                   href="https://ainsider.tools"
@@ -168,7 +168,7 @@ export default function AIServices() {
                   rel="noopener noreferrer" 
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white group-hover:underline"
                 >
-                  <span>Wykonaj</span>
+                  <span>Explore</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
@@ -183,7 +183,7 @@ export default function AIServices() {
                     <Zap className="w-5 h-5 text-white/80" />
                   </div>
                   <h3 className="text-2xl font-medium text-white/90 mb-2">Ainsider.co</h3>
-                  <p className={`${inter.className} text-white/60 mb-6`}>Rozwiązania cyfrowe oparte na AI dla biznesu. Zbudujmy razem Twoje własne.</p>
+                  <p className={`${inter.className} text-white/60 mb-6`}>Digital solutions powered by AI for business. Let's build your own together.</p>
                 </div>
                 <Link 
                   href="https://github.com/piotrmacai"
@@ -205,8 +205,8 @@ export default function AIServices() {
                   <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center mb-4">
                     <Bot className="w-5 h-5 text-white/80" />
                   </div>
-                  <h3 className="text-2xl font-medium text-white/90 mb-2">Bezpłatne szablony Agentów AI</h3>
-                  <p className={`${inter.className} text-white/60 mb-6`}>Odkryj kolekcję innowacyjnych aplikacji i agentów AI zaprojektowanych, by usprawniać różne procesy i zwiększać produktywność.</p>
+                  <h3 className="text-2xl font-medium text-white/90 mb-2">Free AI Agent Templates</h3>
+                  <p className={`${inter.className} text-white/60 mb-6`}>Discover a collection of innovative AI applications and agents designed to streamline various processes and boost productivity.</p>
                 </div>
                 <Link 
                   href="https://github.com/piotrmacai"
@@ -214,7 +214,7 @@ export default function AIServices() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white group-hover:underline"
                 >
-                  <span>Wykonaj</span>
+                  <span>Explore</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
@@ -224,7 +224,7 @@ export default function AIServices() {
 
         <Agents/>
 
-        {/* Stos technologiczny */}
+        {/* Tech stack */}
         <motion.section 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -234,10 +234,10 @@ export default function AIServices() {
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
               <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-6`}>
-                Stack Technologiczny
+                Tech Stack
               </h2>
               <p className={`${inter.className} text-white/60 mb-8`}>
-                Pracuję z wiodącymi frameworkami i platformami AI, by dostarczać niezawodne rozwiązania:
+                I work with leading AI frameworks and platforms to deliver reliable solutions:
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {frameworks.map((framework, index) => (
@@ -250,34 +250,34 @@ export default function AIServices() {
             </div>
             <div className="md:w-1/2">
               <div className="p-8 rounded-2xl bg-gradient-to-r from-transparent via-white/10 to-transparent border border-white/10 backdrop-blur-sm h-full">
-                <h3 className="text-xl font-medium text-white/90 mb-4">Proces Wdrożenia</h3>
+                <h3 className="text-xl font-medium text-white/90 mb-4">Implementation Process</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">1</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Analiza wymagań</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Zrozumienie Twoich procesów i punktów bólu</p>
+                      <h4 className="font-medium text-white/80">Requirements Analysis</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Understanding your processes and pain points</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">2</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Projektowanie agenta</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Architektura optymalnego rozwiązania AI</p>
+                      <h4 className="font-medium text-white/80">Agent Design</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Architecture of the optimal AI solution</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">3</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Rozwój</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Tworzenie i trenowanie agentów AI</p>
+                      <h4 className="font-medium text-white/80">Development</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Creating and training AI agents</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">4</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Integracja</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Łączenie z istniejącymi systemami</p>
+                      <h4 className="font-medium text-white/80">Integration</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Connecting with existing systems</p>
                     </div>
                   </li>
                 </ul>
@@ -288,7 +288,7 @@ export default function AIServices() {
 
         <AgentsPricing/>
 
-        {/* Sekcja CTA */}
+        {/* CTA Section */}
         <motion.section 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -297,16 +297,16 @@ export default function AIServices() {
         >
           <div className="text-center">
             <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-4`}>
-              Gotowy na automatyzację z AI?
+              Ready for AI-powered automation?
             </h2>
             <p className={`${inter.className} text-white/60 max-w-2xl mx-auto mb-8`}>
-              Porozmawiajmy, jak agenty AI mogą przekształcić Twoje operacje biznesowe i interakcje z klientami.
+              Let's talk about how AI agents can transform your business operations and customer interactions.
             </p>
             <Link
               href="/contact"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:from-purple-600 hover:to-blue-600 transition-colors font-medium"
             >
-              Umów się na konsultację AI
+              Schedule your AI consultation
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

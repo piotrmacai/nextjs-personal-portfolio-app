@@ -1,4 +1,4 @@
-// web/page.tsx – wersja polska
+// web/page.tsx
 "use client"
 
 import { useState } from "react"
@@ -14,38 +14,38 @@ const serviceCards = [
   {
     icon: <Smartphone className="w-5 h-5" />,
     title: "Design & UI/UX",
-    description: "Spójny wygląd i intuicyjna nawigacja na każdym urządzeniu",
+    description: "Consistent look and intuitive navigation on every device",
   },
   {
     icon: <Code className="w-5 h-5" />,
     title: "Web Development",
-    description: "Niestandardowe strony i aplikacje dopasowane do Twoich potrzeb",
+    description: "Custom websites and apps tailored to your needs",
   },
   {
     icon: <Globe className="w-5 h-5" />,
-    title: "Systemy CMS",
-    description: "Łatwe zarządzanie treścią dzięki WordPress, Sanity czy innym platformom",
+    title: "CMS Systems",
+    description: "Easy content management with WordPress, Sanity, or other platforms",
   },
   {
     icon: <Zap className="w-5 h-5" />,
-    title: "SEO & Optymalizacja",
-    description: "Optymalizacja pod kątem topowych pozycji i błyskawiczne ładowanie strony",
+    title: "SEO & Optimization",
+    description: "Optimization for top rankings and lightning-fast loading",
   },
   {
     icon: <Database className="w-5 h-5" />,
-    title: "Integracje & API",
-    description: "Połączenie z zewnętrznymi usługami i automatyzacja procesów",
+    title: "Integrations & API",
+    description: "Connect with external services and automate processes",
   },
   {
     icon: <Cpu className="w-5 h-5" />,
-    title: "Rozwiązania AI",
-    description: "Spersonalizowane treści, chatboty i wsparcie oparte na sztucznej inteligencji",
+    title: "AI Solutions",
+    description: "Personalized content, chatbots, and AI-powered support",
   }
 ]
 
 const techStack = {
-  frontend: ["JavaScript", "TypeScript", "Next.js", "React", "Tailwind CSS", "Framer Motion", "Three.js", "Frameworki CSS", "Narzędzia no-low code"],
-  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API","Platformy CMS"]
+  frontend: ["JavaScript", "TypeScript", "Next.js", "React", "Tailwind CSS", "Framer Motion", "Three.js", "CSS Frameworks", "No/Low-code tools"],
+  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API","CMS Platforms"]
 }
 
 export default function Web() {
@@ -76,7 +76,7 @@ export default function Web() {
               className="text-center max-w-2xl mx-auto"
             >
               <p>
-                Tworzę nowoczesne, wysokowydajne witryny, które przyciągają i konwertują. Od WordPress po Next.js i headless CMS – dostarczam dopasowane do Ciebie rozwiązania, które podnoszą wartość marki i realnie przekładają się na wyniki.
+                I create modern, high-performance websites that attract and convert. From WordPress to Next.js and headless CMS – I deliver solutions tailored to you that elevate your brand and drive real results.
               </p>
             </motion.div>
           </div>
@@ -121,16 +121,16 @@ export default function Web() {
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
               <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-6`}>
-                Stack Technologiczny
+                Technology Stack
               </h2>
               <p className={`${inter.className} text-white/60 mb-8`}>
-                Nowoczesne narzędzia i frameworki, z którymi pracuję, aby dostarczać wysokiej jakości produkty cyfrowe.
+                Modern tools and frameworks I use to deliver high-quality digital products.
               </p>
               <Link 
                 href="/contact" 
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
               >
-                <span>Omów swoje potrzeby techniczne</span>
+                <span>Discuss your technical needs</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -174,16 +174,16 @@ export default function Web() {
         >
           <div className="text-center">
             <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-4`}>
-              Gotowy, by podnieść swój poziom online?
+              Ready to level up your online presence?
             </h2>
             <p className={`${inter.className} text-white/60 max-w-2xl mx-auto mb-8`}>
-              Porozmawiajmy, jak możemy stworzyć rozwiązanie web, które realnie wesprze Twój biznes.
+              Let's talk about how we can create a web solution that truly supports your business.
             </p>
             <Link
               href="/contact"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
             >
-              Rozpocznij Projekt
+              Start Your Project
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

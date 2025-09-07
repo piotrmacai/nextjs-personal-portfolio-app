@@ -12,56 +12,56 @@ import MotionOrbit from "@/components/Motion"
 const designServices = [
   {
     icon: <Palette className="w-5 h-5" />,
-    title: "Identyfikacja Wizualna",
-    description: "Spójne systemy identyfikacji komunikujące istotę Twojej marki",
+    title: "Visual Identity",
+    description: "Consistent identity systems that communicate your brand essence",
     color: "from-rose-500/20 to-pink-800/10",
-    examples: ["Logotypy", "Palety kolorów", "Systemy typograficzne"]
+    examples: ["Logotypes", "Color palettes", "Typography systems"]
   },
   {
     icon: <Palette className="w-5 h-5" />,
     title: "UX/UI Design",
-    description: "Spójne systemy identyfikacji komunikujące istotę Twojej marki",
+    description: "User-centered interfaces that are beautiful and intuitive",
     color: "from-rose-500/20 to-pink-800/10",
-    examples: ["Logotypy", "Palety kolorów", "Systemy typograficzne"]
+    examples: ["Wireframes", "Prototypes", "Design systems"]
   },
   {
     icon: <Film className="w-5 h-5" />,
     title: "Motion Design",
-    description: "Kinetyczne animacje ożywiające Twoją markę",
+    description: "Kinetic animations that bring your brand to life",
     color: "from-blue-500/20 to-indigo-800/10",
-    examples: ["Animacje UI", "Prezentacje produktów", "Filmy edukacyjne"]
+    examples: ["UI animations", "Product presentations", "Educational videos"]
   },
   {
     icon: <Camera className="w-5 h-5" />,
-    title: "Produkcja Wideo",
-    description: "Od koncepcji po ostateczny montaż - kompletne rozwiązania wideo",
+    title: "Video Production",
+    description: "From concept to final edit – complete video solutions",
     color: "from-amber-500/20 to-orange-800/10",
-    examples: ["Reklamy", "Wywiady", "Relacje wydarzeniowe"]
+    examples: ["Commercials", "Interviews", "Event coverage"]
   },
   {
     icon: <Monitor className="w-5 h-5" />,
-    title: "Design Cyfrowy",
-    description: "Interfejsy perfekcyjne w każdym pikselu, które zachwycają i konwertują",
+    title: "Digital Design",
+    description: "Pixel-perfect interfaces that delight and convert",
     color: "from-purple-500/20 to-violet-800/10",
-    examples: ["Projektowanie stron", "Aplikacje mobilne", "Panele dashboardów"]
+    examples: ["Website design", "Mobile apps", "Dashboard panels"]
   },
   {
     icon: <PenTool className="w-5 h-5" />,
-    title: "Projektowanie Graficzne",
-    description: "Materiały drukowane i cyfrowe o wyrazistym przekazie wizualnym",
+    title: "Graphic Design",
+    description: "Print and digital materials with a strong visual message",
     color: "from-emerald-500/20 to-teal-800/10",
-    examples: ["Broszury", "Social media", "Prezentacje"]
+    examples: ["Brochures", "Social media", "Presentations"]
   }
 ]
 
 const tools = [
   { name: "Figma", category: "UI/UX" },
   { name: "Adobe Suite", category: "Design" },
-  { name: "DaVinci Resolve", category: "Wideo" },
-  { name: "Capcut Pro", category: "Wideo" },
+  { name: "DaVinci Resolve", category: "Video" },
+  { name: "Capcut Pro", category: "Video" },
   { name: "After Effects", category: "Motion" },
   { name: "Spline", category: "3D" },
-  { name: "Midjourney", category: "Wizualizacje" }
+  { name: "Midjourney", category: "Visualization" }
 ]
 
 export default function DesignServices() {
@@ -81,7 +81,7 @@ export default function DesignServices() {
                     className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
                     // style={{ fontSize: `${4.5 * headerSize}rem` }}
                     >
-                    Wizualne Narracje <br />Które Zachwycają
+                    Visual Narratives <br />That Captivate
                     </motion.h1>
                 </div>
 
@@ -97,9 +97,9 @@ export default function DesignServices() {
                     className="text-center max-w-2xl mx-auto"
                 >
                    <p className={`${inter.className} text-lg text-white/70 max-w-2xl`}>
-                Tworzę przekonujące doświadczenia wizualne poprzez design, motion i wideo.
-                Każdy projekt łączy wyczucie estetyki ze strategicznym myśleniem, aby stworzyć
-                dzieła, które rezonują z odbiorcami i osiągają cele biznesowe.
+                I create compelling visual experiences through design, motion, and video.
+                Every project combines aesthetic sensibility with strategic thinking to craft
+                works that resonate with audiences and achieve business goals.
               </p>
                 </motion.div>
                 </div>
@@ -158,10 +158,10 @@ export default function DesignServices() {
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
               <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-6`}>
-                Zestaw Design
+                Design Toolkit
               </h2>
               <p className={`${inter.className} text-white/60 mb-8`}>
-                Profesjonalne narzędzia, które wykorzystuję do ożywiania wizji kreatywnych:
+                Professional tools I use to bring creative visions to life:
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -176,34 +176,34 @@ export default function DesignServices() {
             
             <div className="md:w-1/2">
               <div className="p-8 rounded-2xl bg-gradient-to-br border border-white/10 backdrop-blur-sm h-full">
-                <h3 className="text-xl font-medium text-white/90 mb-4">Proces Kreatywny</h3>
+                <h3 className="text-xl font-medium text-white/90 mb-4">Creative Process</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">1</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Odkrywanie</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Zrozumienie Twojej marki i celów</p>
+                      <h4 className="font-medium text-white/80">Discovery</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Understanding your brand and goals</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">2</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Rozwój Koncepcji</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Tworzenie moodboardów i style frame'ów</p>
+                      <h4 className="font-medium text-white/80">Concept Development</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Creating moodboards and style frames</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">3</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Realizacja Design</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Produkcja wizualiów wysokiej jakości</p>
+                      <h4 className="font-medium text-white/80">Design Execution</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Producing high-quality visuals</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-white/70 text-sm mt-0.5">4</div>
                     <div>
-                      <h4 className="font-medium text-white/80">Dostawa & Iteracja</h4>
-                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Udoskonalanie na podstawie feedbacku</p>
+                      <h4 className="font-medium text-white/80">Delivery & Iteration</h4>
+                      <p className={`${inter.className} text-white/60 text-sm mt-1`}>Refining based on feedback</p>
                     </div>
                   </li>
                 </ul>
@@ -223,16 +223,16 @@ export default function DesignServices() {
         >
           <div className="text-center">
             <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-4`}>
-              Gotowy, by podnieść swoją identyfikację wizualną?
+              Ready to elevate your visual identity?
             </h2>
             <p className={`${inter.className} text-white/60 max-w-2xl mx-auto mb-8`}>
-              Porozmawiajmy, jak możemy wspólnie stworzyć design, który opowie Twoją unikalną historię i zachwyci odbiorców.
+              Let's talk about how we can create a design that tells your unique story and delights your audience.
             </p>
             <Link
               href="/contact"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white hover:from-pink-600 hover:to-rose-600 transition-colors font-medium"
             >
-              Rozpocznij Projekt
+              Start Your Project
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

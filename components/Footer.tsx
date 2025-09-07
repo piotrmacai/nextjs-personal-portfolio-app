@@ -9,7 +9,7 @@ export default function Footer() {
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
             >
-              Porozmawiajmy
+              Let's talk
             </Link>
             
             <div className="flex flex-row space-x-4 justify-center mt-6">
@@ -64,7 +64,7 @@ export default function Footer() {
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
             >
-              Kontakt
+              Contact
             </Link>
         </div>
     </footer>

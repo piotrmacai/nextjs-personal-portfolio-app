@@ -87,13 +87,13 @@ export default function Home() {
             <div className="space-y-6">
               <div className="h-px bg-white/10 w-full" />
               <p>
-              W Macailabs Studio łączę marketing, design i social media w spójną całość. Tworzę nie tylko estetyczne wizualizacje, ale przede wszystkim rozwiązania, które budują zaangażowanie i realnie wpływają na wyniki biznesowe.
+              At Macailabs Studio, I blend marketing, design, and social media into a cohesive whole. I create not just beautiful visuals, but solutions that build engagement and truly impact business results.
 </p>
 <p>
-Mój proces łączy kreatywną intuicję z zaawansowanymi narzędziami – współpracuję z własnymi agentami AI, by przyspieszać iteracje, testować pomysły i dostarczać kampanie oraz aplikacje dopasowane do rzeczywistych potrzeb odbiorców.
+My process combines creative intuition with advanced tools—I collaborate with my own AI agents to accelerate iterations, test ideas, and deliver campaigns and applications tailored to real audience needs.
 </p>
 <p>
-Porozmawiajmy i stwórzmy coś, co naprawdę wyróżni Cię w tłumie.
+Let's talk and create something that truly makes you stand out from the crowd.
 </p>
      
               {/* <div className="h-px bg-white/10 w-full" /> */}

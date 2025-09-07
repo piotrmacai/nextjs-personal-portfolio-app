@@ -30,7 +30,7 @@ export default function Header() {
     { href: "/portfolio", label: "Portfolio" },
     {
       href: "/",
-      label: "Usługi",
+      label: "Services",
       submenu: [
         { href: "/ai", label: "AI Solutions" },
         { href: "/web", label: "Web Development" },
@@ -38,8 +38,8 @@ export default function Header() {
         { href: "/growth", label: "Marketing" }
        ]
     },
-    { href: "/about", label: "O mnie" },
-    { href: "/contact", label: "Kontakt" }
+    { href: "/about", label: "About Me" },
+    { href: "/contact", label: "Contact" }
   ]
 
   return (
