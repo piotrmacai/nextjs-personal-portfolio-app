@@ -86,6 +86,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai apps", "agents"],
     externalUrl: "https://ai.studio/apps/drive/1OptMLu_Y9w_xcKe0wFMm-ATZXVZRtqeR",
   },
+  
   {
     id: 1.2,
     title: "Generative AI App - PromptGod v1",
@@ -155,6 +156,16 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://www.skinprojectclinic.pl/",
+  },
+   {
+    id: 2,
+    title: "AI Langind Page Builder",
+      type: "image",
+    aspectRatio: "16:9",
+    imageUrl: "/images/AiWebsiteBuilder.jpg",
+    description:     "Landing Page builder powered by Google Gemini AI",
+    tags: ["ai", "agents"],
+     externalUrl: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
   },
   {
     id: 6,
