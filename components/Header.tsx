@@ -35,7 +35,8 @@ export default function Header() {
         { href: "/ai", label: "AI Solutions" },
         { href: "/web", label: "Web Development" },
         { href: "/visuals", label: "Design & UX/UI" },
-        { href: "/growth", label: "Marketing" }
+        { href: "/growth", label: "Marketing" },
+        { href: "/socialmedia", label: "Social Media" }
        ]
     },
     { href: "/about", label: "About Me" },
