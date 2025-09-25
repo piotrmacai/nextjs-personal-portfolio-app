@@ -25,7 +25,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "AI Agents Directory",
     description: "AI Directory with embeded AI Recommendation Agent",
     type: "image",
-    imageUrl: "/images/ainsidertools.png",
+    imageUrl: "/images/tools.png",
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://ainsider.tools",
@@ -42,6 +42,17 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://ainsider.co",
+  },
+    {
+    id: 16,
+    title: "Visuals Showcase",
+    description: "A dynamic ad video showcasing our latest services campaign.",
+    type: "video",
+    videoType: "vimeo",
+    videoId: "1085351448", //https://vimeo.com/1085351448
+    aspectRatio: "16:9",
+    tags: ["design"],
+    externalUrl: "https://vimeo.com/1085351448",
   },
   {
     id: 1.1,
@@ -229,9 +240,22 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://www.skinprojectclinic.pl/",
   },
+    {
+    id: 15,
+    title: "Services Campaign",
+    description: "A dynamic ad video showcasing our latest services campaign.",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1085350527", //https://vimeo.com/1085350527
+    aspectRatio: "16:9",
+    tags: ["design"],
+    externalUrl: "https://ainsider.co",
+  },
    {
     id: 2,
-    title: "AI Langind Page Builder",
+    title: "AI Landing Page Builder",
       type: "image",
     aspectRatio: "16:9",
     imageUrl: "/images/AiWebsiteBuilder.png",
@@ -318,6 +342,17 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://pgr-elektroteam.pl/",
   },
+    {
+    id: 17,
+    title: "AI Agents Showcase",
+    description: "A Video ad showcase with Ainsider AI Agents Services.",
+    type: "video",
+    videoType: "vimeo",
+    videoId: "1085351950", //https://vimeo.com/1085351950?share=copy#t=0
+    aspectRatio: "16:9",
+    tags: ["design"],
+    externalUrl: "https://github.com/piotrmacai/",
+  },
    {
     id: 14,
     title: "Lanellya.de",
@@ -331,30 +366,6 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"], 
     externalUrl: "https://lanellya.de",
   },
-  {
-    id: 15,
-    title: "Services Campaign",
-    description: "A dynamic ad video showcasing our latest services campaign.",
-    type: "video",
-    videoType: "vimeo",
-     // YouTube ID
-    // videoId: "VilbxnCTwbI",
-    videoId: "1085350527", //https://vimeo.com/1085350527
-    aspectRatio: "16:9",
-    tags: ["design"],
-    externalUrl: "https://ainsider.co",
-  },
-  {
-    id: 16,
-    title: "Visuals Showcase",
-    description: "A dynamic ad video showcasing our latest services campaign.",
-    type: "video",
-    videoType: "vimeo",
-    videoId: "1085351448", //https://vimeo.com/1085351448
-    aspectRatio: "16:9",
-    tags: ["design"],
-    externalUrl: "https://vimeo.com/1085351448",
-  },
   // {
   //   id: 6,
   //   title: "Short Design Ad",
@@ -365,17 +376,6 @@ const portfolioItems: PortfolioItem[] = [
   //   tags: ["marketing"],
   //   externalUrl: "https://ainsider.co",
   // },
-  {
-    id: 17,
-    title: "AI Agents Showcase",
-    description: "A Video ad showcase with Ainsider AI Agents Services.",
-    type: "video",
-    videoType: "vimeo",
-    videoId: "1085351950", //https://vimeo.com/1085351950?share=copy#t=0
-    aspectRatio: "16:9",
-    tags: ["design"],
-    externalUrl: "https://github.com/piotrmacai/",
-  },
   // {
   //   id: 3,
   //   title: "Animated Short",
