@@ -30,7 +30,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://ainsider.tools",
   },
-  {
+   {
     id: 1,
     title: "Ainsider AI Website",
     description: "A dynamic ad video showcasing our latest services campaign.",
@@ -42,16 +42,6 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://ainsider.co",
-  },
-        {
-    id: 3.5,
-    title: "AI Interior Designer",
-    description: "Ai-powered App to create interior designs with drawings canvas and upload products feature",
-    type: "image",
-    imageUrl: "/images/AiRoomDesigner.png",
-    aspectRatio: "16:9",
-    tags: ["ai apps", "agents"],
-    externalUrl: "https://ai.studio/apps/drive/1uKtZrmz-GqMDbVsnurr35N-Oq_FvdEqi",
   },
   {
     id: 1.1,
@@ -66,6 +56,79 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://rekrutspark.com",
   },
+   {
+    id: 6,
+    title: "After-rave.eu",
+    description: "Multilingual Ecommerce with Supplements created at Shopify",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1082919322", //https://vimeo.com/1082919322
+    aspectRatio: "16:9",
+    tags: ["web"], 
+    externalUrl: "https://after-rave.eu",
+  },
+   {
+    id: 1,
+    title: "Oskmachowski.pl",
+    description: "Ultra-fast Business & well SEO-optimized Website with built-in AI Assistant",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1121933690", //https://vimeo.com/1121933690
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://oskmachowski.pl",
+  },
+  //   {
+  //   id: 1,
+  //   title: "AI Business Dashboard",
+  //   description: "AI-powered Dashboard created in React.js with Google Gemini AI",
+  //   type: "video",
+  //   videoType: "vimeo",
+  //   videoId: "1121925708", 
+  //   aspectRatio: "16:9",
+  //   tags: ["web"],
+  //   externalUrl: "https://ai.studio/apps/drive/1hEwI6x-HwZK2Jq_dOHqda2ciOhr7f3Xt",
+  // },
+       {
+    id: 2,
+    title: "AI powered Business Dashboard",
+    description: "Created in React.js with Google Gemini AI",
+    type: "image",
+    imageUrl: "/images/AiLocalSeo.png",
+    aspectRatio: "16:9",
+    tags: ["ai apps", "agents"],
+    externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
+  },
+   {
+    id: 9,
+    title: "SlovlyStudio.com",
+    description: "Ecommerce with Home made fashion created at Shopify",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1088472830", //https://vimeo.com/1088472830
+    aspectRatio: "16:9",
+    tags: ["web"], 
+    externalUrl: "https://slovlystudio.com",
+  },
+    {
+    id: 1,
+    title: "Landing Page for Business CRM",
+    description: "Ultra fast landing page created in React.js",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1121924337", //https://vimeo.com/1121924337
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
+  },
      {
     id: 2,
     title: "AI powered Business Dashboard",
@@ -76,30 +139,39 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai apps", "agents"],
     externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
   },
- {
-    id: 3.5,
-    title: "AI Photoshop",
-    description: "Ai-powered App to edit images with text prompts and drawing canvsas",
-    type: "image",
-    imageUrl: "/images/AiPhotoshop.png",
-    aspectRatio: "16:9",
-    tags: ["ai apps", "agents"],
-    externalUrl: "https://ai.studio/apps/drive/1OptMLu_Y9w_xcKe0wFMm-ATZXVZRtqeR",
-  },
-  
-  {
-    id: 1.2,
-    title: "Generative AI App - PromptGod v1",
-    description: "This awesome app can create text prompts based on your image, allow to customize them easily and generate from it unique image or graphics.",
-    type: "video",
-    videoType: "vimeo",
-     // YouTube ID
-    // videoId: "VilbxnCTwbI",
-    videoId: "1093987447", //https://vimeo.com/1093987447
-    aspectRatio: "16:9",
-    tags: ["ai", "web"],
-    externalUrl: "https://github.com/piotrmacai/geminiai-promptgod-appv1",
-  },
+//  {
+//     id: 3.5,
+//     title: "AI Photoshop",
+//     description: "Ai-powered App to edit images with text prompts and drawing canvsas",
+//     type: "image",
+//     imageUrl: "/images/AiPhotoshop.png",
+//     aspectRatio: "16:9",
+//     tags: ["ai apps", "agents"],
+//     externalUrl: "https://ai.studio/apps/drive/1OptMLu_Y9w_xcKe0wFMm-ATZXVZRtqeR",
+//   },
+  //       {
+  //   id: 3.5,
+  //   title: "AI Interior Designer",
+  //   description: "Ai-powered App to create interior designs with drawings canvas and upload products feature",
+  //   type: "image",
+  //   imageUrl: "/images/AiRoomDesigner.png",
+  //   aspectRatio: "16:9",
+  //   tags: ["ai apps", "agents"],
+  //   externalUrl: "https://ai.studio/apps/drive/1uKtZrmz-GqMDbVsnurr35N-Oq_FvdEqi",
+  // },
+  // {
+  //   id: 1.2,
+  //   title: "Generative AI App - PromptGod v1",
+  //   description: "This awesome app can create text prompts based on your image, allow to customize them easily and generate from it unique image or graphics.",
+  //   type: "video",
+  //   videoType: "vimeo",
+  //    // YouTube ID
+  //   // videoId: "VilbxnCTwbI",
+  //   videoId: "1093987447", //https://vimeo.com/1093987447
+  //   aspectRatio: "16:9",
+  //   tags: ["ai", "web"],
+  //   externalUrl: "https://github.com/piotrmacai/geminiai-promptgod-appv1",
+  // },
   {
     id: 2,
     title: "Projects Showcase",
@@ -214,19 +286,6 @@ const portfolioItems: PortfolioItem[] = [
   //   externalUrl: "https://ainsider.co",
   // },
   {
-    id: 9,
-    title: "SlovlyStudio.com",
-    description: "Ecommerce with Home made fashion created at Shopify",
-    type: "video",
-    videoType: "vimeo",
-     // YouTube ID
-    // videoId: "VilbxnCTwbI",
-    videoId: "1088472830", //https://vimeo.com/1088472830
-    aspectRatio: "16:9",
-    tags: ["web"], 
-    externalUrl: "https://slovlystudio.com",
-  },
-  {
     id: 10,
     title: "Business Website with Catalog",
     description: "For Car Mechanic",
@@ -258,17 +317,6 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://pgr-elektroteam.pl/",
-  },
-  {
-    id: 13,
-    title: "Projects Showcase",
-    description: "A short look into our company projects showcase.",
-    type: "video",
-    videoType: "vimeo",
-    aspectRatio: "16:9",
-    videoId: "1085350766", 
-    tags: ["web", "design"],
-    externalUrl: "https://www.behance.net/macaistudio",
   },
    {
     id: 14,
