@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import { ppEditorialNewUltralightItalic, inter } from "../fonts"
 import { Youtube, Instagram, Twitter, Linkedin, Film, Github } from "lucide-react"
@@ -14,6 +14,7 @@ interface PortfolioItem {
   videoType?: 'mp4' | 'youtube' | 'vimeo'
   videoId?: string
   imageUrl?: string
+  imageCoverUrl?: string
   aspectRatio?: '1:1' | '16:9' | '4:3' | '21:9'
   tags: string[]
   externalUrl?: string 
@@ -28,7 +29,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/tools.png",
     aspectRatio: "16:9",
     tags: ["web"],
-    externalUrl: "https://ainsider.tools",
+    externalUrl: "https://ainsider.store",
   },
    {
     id: 1,
@@ -40,6 +41,7 @@ const portfolioItems: PortfolioItem[] = [
     // videoId: "VilbxnCTwbI",
     videoId: "1085338341", //https://vimeo.com/1085338341
     aspectRatio: "16:9",
+    imageCoverUrl: "/images/tools.png",
     tags: ["web"],
     externalUrl: "https://ainsider.co",
   },
@@ -53,6 +55,17 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["design"],
     externalUrl: "https://vimeo.com/1085351448",
+  },
+    {
+    id: 2.1,
+    title: "Agents and Automations Templates",
+    description: "Ready to use powerful set of automation templates.",
+    type: "video",
+    videoType: "vimeo",
+    videoId: "1109736494",
+    aspectRatio: "16:9",
+    tags: ["ai"],
+    externalUrl: "https://ainsider.store",
   },
   {
     id: 1.1,
@@ -111,7 +124,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/AiLocalSeo.png",
     aspectRatio: "16:9",
-    tags: ["ai apps", "agents"],
+    tags: ["ai","web"],
     externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
   },
    {
@@ -147,7 +160,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/AiLocalSeo.png",
     aspectRatio: "16:9",
-    tags: ["ai apps", "agents"],
+    tags: ["ai"],
     externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
   },
 //  {
@@ -260,7 +273,7 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     imageUrl: "/images/AiWebsiteBuilder.png",
     description:     "Landing Page builder powered by Google Gemini AI",
-    tags: ["ai", "agents"],
+    tags: ["ai", "web"],
      externalUrl: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
   },
   {
@@ -409,29 +422,48 @@ export default function PortfolioPage() {
 
   // Helper function to render the appropriate media based on type
   const renderMedia = (item: PortfolioItem) => {
-    switch (item.type) {
-      case "video":
-        switch (item.videoType) {
-          case "youtube":
-            return (
+    const [showCover, setShowCover] = useState(true)
+    const timeoutRef = useRef<NodeJS.Timeout | null>(null)
+
+    if (item.type === "video") {
+      // Hide cover after video/iframe loads
+      const handleLoaded = () => {
+        setShowCover(false)
+      }
+
+      return (
+        <div className="relative w-full h-full">
+          {showCover && item.imageCoverUrl && (
+            <img
+              src={item.imageCoverUrl}
+              alt={item.title}
+              className="absolute inset-0 w-full h-full object-cover z-10 rounded-lg"
+              style={{ transition: "opacity 0.3s", opacity: showCover ? 1 : 0 }}
+            />
+          )}
+          <div className="absolute inset-0 w-full h-full">
+            {/* Video below the cover image */}
+            {item.videoType === "youtube" && (
               <iframe
                 className="w-full h-full absolute top-0 left-0"
                 src={`https://www.youtube.com/embed/${item.videoId}?autoplay=1&mute=1&loop=1&playlist=${item.videoId}&controls=0`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                style={{ opacity: showCover ? 0 : 1, transition: "opacity 0.3s" }}
+                onLoad={handleLoaded}
               ></iframe>
-            )
-          case "vimeo":
-            return (
+            )}
+            {item.videoType === "vimeo" && (
               <iframe
                 className="w-full h-full absolute top-0 left-0"
                 src={`https://player.vimeo.com/video/${item.videoId}?background=1&autoplay=1&loop=1&byline=0&title=0`}
                 allow="autoplay; fullscreen"
                 allowFullScreen
+                style={{ opacity: showCover ? 0 : 1, transition: "opacity 0.3s" }}
+                onLoad={handleLoaded}
               ></iframe>
-            )
-          default: // mp4
-            return (
+            )}
+            {(!item.videoType || item.videoType === "mp4") && (
               <video
                 className="w-full h-full object-cover"
                 src={item.videoId}
@@ -439,22 +471,28 @@ export default function PortfolioPage() {
                 muted
                 playsInline
                 autoPlay
+                style={{ opacity: showCover ? 0 : 1, transition: "opacity 0.3s" }}
+                onLoadedData={handleLoaded}
               />
-            )
-        }
-      case "image":
-        return (
-          <div className="w-4/5 aspect-video overflow-hidden rounded-lg mx-auto">
-          <img
-            src={item.imageUrl}
-            alt={item.title}
-            className="object-cover w-full h-full"
-          />
+            )}
+          </div>
         </div>
-        )
-      default:
-        return null
-    }
+    )
+  }
+
+  if (item.type === "image") {
+    return (
+      <div className="w-4/5 aspect-video overflow-hidden rounded-lg mx-auto">
+        <img
+          src={item.imageUrl}
+          alt={item.title}
+          className="object-cover w-full h-full"
+        />
+      </div>
+    )
+  }
+
+  return null
   }
 
   return (
