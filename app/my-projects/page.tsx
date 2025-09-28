@@ -33,16 +33,16 @@ export default function MyProjects() {
 
           {/* Ainsider.tools */}
           <div className="flex flex-col gap-2">
-            <h2 className="text-2xl font-semibold text-white/80">Ainsider.tools</h2>
+            <h2 className="text-2xl font-semibold text-white/80">Ainsider.store</h2>
             <p className="text-white/50 text-sm">
               A catalog of AI tools, language models, agents and plugins with analysis and use case examples.
             </p>
             <Link
-              href="https://ainsider.tools"
+              href="https://ainsider.store"
               target="_blank"
               className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
             >
-              Visit ainsider.tools <ArrowUpRight size={16} />
+              Visit ainsider.store <ArrowUpRight size={16} />
             </Link>
           </div>
 
@@ -66,10 +66,10 @@ export default function MyProjects() {
             <h2 className="text-2xl font-semibold text-white/80">AI Newsletter</h2>
             <p className="text-white/50 text-sm">
               AI newsletter with news, case studies, experiments with agents and automation.
-              Sent bi-weekly. Free. No spam. <a href="https://ainsider.beehiiv.com" target="_blank" className="text-white/60 hover:text-white/90">Subscribe</a>
+              Sent bi-weekly. Free. No spam. <a href="https://ainsiderai.substack.com/" target="_blank" className="text-white/60 hover:text-white/90">Subscribe</a>
             </p>
             <Link
-              href="https://ainsider.beehiiv.com"
+              href="https://ainsiderai.substack.com/"
               target="_blank"
               className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
             >

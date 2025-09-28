@@ -163,7 +163,7 @@ export default function AIServices() {
                   <p className={`${inter.className} text-white/60 mb-6`}>A comprehensive library of agents, models, and AI tools with over 500 high-quality resources.</p>
                 </div>
                 <Link 
-                  href="https://ainsider.tools"
+                  href="https://ainsider.store"
                   target="_blank"
                   rel="noopener noreferrer" 
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white group-hover:underline"

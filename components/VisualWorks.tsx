@@ -80,7 +80,7 @@ const portfolioItems: PortfolioItem[] = [
         videoId: "1088475265", //https://vimeo.com/1088475265
         aspectRatio: "16:9",
         tags: ["all", "ux/ui"],
-        externalUrl: "https://ainsider.tools",
+        externalUrl: "https://ainsider.store",
       },
       {
         id: 16,
