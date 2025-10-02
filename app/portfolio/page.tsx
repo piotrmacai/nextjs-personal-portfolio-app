@@ -31,6 +31,19 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://ainsider.store",
   },
+    {
+    id: 1.1,
+    title: "Rekrut Spark Website",
+    description: "Business website for HR agency with CRM for job applications",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1100387757", //https://vimeo.com/1100387757
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://rekrutspark.com",
+  },
    {
     id: 1,
     title: "Ainsider AI Website",
@@ -66,19 +79,6 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["ai"],
     externalUrl: "https://ainsider.store",
-  },
-  {
-    id: 1.1,
-    title: "Rekrut Spark Website",
-    description: "Business website for HR agency with CRM for job applications",
-    type: "video",
-    videoType: "vimeo",
-     // YouTube ID
-    // videoId: "VilbxnCTwbI",
-    videoId: "1100387757", //https://vimeo.com/1100387757
-    aspectRatio: "16:9",
-    tags: ["web"],
-    externalUrl: "https://rekrutspark.com",
   },
    {
     id: 6,
@@ -117,16 +117,7 @@ const portfolioItems: PortfolioItem[] = [
   //   tags: ["web"],
   //   externalUrl: "https://ai.studio/apps/drive/1hEwI6x-HwZK2Jq_dOHqda2ciOhr7f3Xt",
   // },
-       {
-    id: 2,
-    title: "AI powered Business Dashboard",
-    description: "Created in React.js with Google Gemini AI",
-    type: "image",
-    imageUrl: "/images/AiLocalSeo.png",
-    aspectRatio: "16:9",
-    tags: ["ai","web"],
-    externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
-  },
+  
    {
     id: 9,
     title: "SlovlyStudio.com",
@@ -141,6 +132,29 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://slovlystudio.com",
   },
     {
+    id: 5,
+    title: "SkinProjectClinic.pl",
+    description: "Website for beauty clinic & brand",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1088475265", //https://vimeo.com/1088475265
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://www.skinprojectclinic.pl/",
+  },
+       {
+    id: 2,
+    title: "AI powered Business Dashboard",
+    description: "Created in React.js with Google Gemini AI",
+    type: "image",
+    imageUrl: "/images/AiLocalSeo.png",
+    aspectRatio: "16:9",
+    tags: ["ai","web"],
+    externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
+  },
+    {
     id: 1,
     title: "Landing Page for Business CRM",
     description: "Ultra fast landing page created in React.js",
@@ -152,6 +166,19 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
+  },
+    {
+    id: 12,
+    title: "Pgr-elektroteam.pl",
+    description: "Multilingual Ecommerce with Supplements created at Shopify",
+    type: "video",
+    videoType: "vimeo",
+     // YouTube ID
+    // videoId: "VilbxnCTwbI",
+    videoId: "1085338795", //https://vimeo.com/1085338795?share=copy#t=0
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://pgr-elektroteam.pl/",
   },
      {
     id: 2,
@@ -240,19 +267,6 @@ const portfolioItems: PortfolioItem[] = [
   //   tags: ["ai"],
   //   externalUrl: "https://github.com/piotrmacai/n8n/tree/main/agent-seomaster-v1",
   // },
-  {
-    id: 5,
-    title: "SkinProjectClinic.pl",
-    description: "Website for beauty clinic & brand",
-    type: "video",
-    videoType: "vimeo",
-     // YouTube ID
-    // videoId: "VilbxnCTwbI",
-    videoId: "1088475265", //https://vimeo.com/1088475265
-    aspectRatio: "16:9",
-    tags: ["web"],
-    externalUrl: "https://www.skinprojectclinic.pl/",
-  },
     {
     id: 15,
     title: "Services Campaign",
@@ -342,19 +356,6 @@ const portfolioItems: PortfolioItem[] = [
   //   tags: ["ai"],
   //   externalUrl: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
   // },
-  {
-    id: 12,
-    title: "Pgr-elektroteam.pl",
-    description: "Multilingual Ecommerce with Supplements created at Shopify",
-    type: "video",
-    videoType: "vimeo",
-     // YouTube ID
-    // videoId: "VilbxnCTwbI",
-    videoId: "1085338795", //https://vimeo.com/1085338795?share=copy#t=0
-    aspectRatio: "16:9",
-    tags: ["web"],
-    externalUrl: "https://pgr-elektroteam.pl/",
-  },
     {
     id: 17,
     title: "AI Agents Showcase",

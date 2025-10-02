@@ -46,7 +46,7 @@ interface Frame {
 const initialFrames: Frame[] = [
   {
     id: 1,
-    video: "/videos/Web.mp4",
+    video: "/videos/LandingPages_Showcase.mp4",
     defaultPos: { x: 0, y: 0, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/bcf576df9c38b05f/1_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/bcf576df9c38b05f/1_vert_update.png",
@@ -87,7 +87,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 4,
-    video: "/videos/uxuimacai.mp4",
+    video: "/videos/Web_Showcase.mp4",
     defaultPos: { x: 0, y: 4, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_hori_update.png",
@@ -101,7 +101,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 5,
-    video: "/videos/Macaidesign.mp4",
+    video: "/videos/MainShowcase.mp4",
     defaultPos: { x: 4, y: 4, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/9e67e05f37e52522/5_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/9e67e05f37e52522/5_hori_update.png",
@@ -115,7 +115,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 6,
-    video: "/videos/ainsiderco.mp4",
+    video: "/videos/Visuals_Showcase.mp4",
     defaultPos: { x: 8, y: 4, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/1199340587e8da1d/6_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/1199340587e8da1d/6_corner-1.png",
@@ -129,7 +129,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 7,
-    video: "/videos/AiAgentsMacai.mp4",
+    video: "/videos/AgentsChatbots_Showcase.mp4",
     defaultPos: { x: 0, y: 8, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/b80b5aa00ccc33bd/7_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/b80b5aa00ccc33bd/7_hori.png",
