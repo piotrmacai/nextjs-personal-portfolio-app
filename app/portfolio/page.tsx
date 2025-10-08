@@ -68,19 +68,7 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["design"],
     externalUrl: "https://vimeo.com/1085351448",
-  },
-    {
-    id: 2.1,
-    title: "Agents and Automations Templates",
-    description: "Ready to use powerful set of automation templates.",
-    type: "video",
-    videoType: "vimeo",
-    videoId: "1109736494",
-    aspectRatio: "16:9",
-    tags: ["ai"],
-    externalUrl: "https://ainsider.store",
-  },
-   {
+  },  {
     id: 6,
     title: "After-rave.eu",
     description: "Multilingual Ecommerce with Supplements created at Shopify",
@@ -93,6 +81,18 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"], 
     externalUrl: "https://after-rave.eu",
   },
+    {
+    id: 2.1,
+    title: "Agents and Automations Templates",
+    description: "Ready to use powerful set of automation templates.",
+    type: "video",
+    videoType: "vimeo",
+    videoId: "1109736494",
+    aspectRatio: "16:9",
+    tags: ["ai"],
+    externalUrl: "https://ainsider.store",
+  },
+ 
    {
     id: 1,
     title: "Oskmachowski.pl",
@@ -153,6 +153,16 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["ai","web"],
     externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
+  },
+    {
+    id: 10,
+    title: "Machtrans.pl",
+    description: "Top SEO and ultra-fast Website in React.js for Transport Company",
+    type: "image",
+    imageUrl: "/images/machtrans.png",
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://machtrans.pl",
   },
     {
     id: 1,
