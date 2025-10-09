@@ -21,8 +21,19 @@ interface PortfolioItem {
 }
 
 const portfolioItems: PortfolioItem[] = [
+  
   {
     id: 0.1,
+    title: "AI Voice Agent",
+    description: "AI Voice Agent trained on business built-in into website",
+    type: "image",
+    imageUrl: "/images/voicebotmacai.png",
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://ainsider.store",
+  },
+  {
+    id: 0.15,
     title: "AI Agents Directory",
     description: "AI Directory with embeded AI Recommendation Agent",
     type: "image",
@@ -43,6 +54,16 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://rekrutspark.com",
+  },
+   {
+    id: 0.1,
+    title: "Designs & Visuals",
+    description: "See my Visuals and UX UI Designs at Behance",
+    type: "image",
+    imageUrl: "/images/design.jpg",
+    aspectRatio: "16:9",
+    tags: ["design"],
+    externalUrl: "https://behance.net/macaistudio",
   },
    {
     id: 1,

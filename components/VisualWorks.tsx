@@ -46,19 +46,6 @@ const portfolioItems: PortfolioItem[] = [
         externalUrl: "https://ainsider.co",
       },
       {
-        id: 3,
-        title: "Short Video Puma Ad",
-        description: "Created from scratch with AI",
-        type: "video",
-        videoType: "vimeo",
-         // YouTube ID
-        // videoId: "VilbxnCTwbI",
-        videoId: "1092898668", //https://vimeo.com/1092898668
-        aspectRatio: "16:9",
-        tags: ["all", "ux/ui"],
-        externalUrl: "https://vimeo.com/1092898668",
-      },
-      {
         id: 15,
         title: "Services Campaign",
         description: "A dynamic ad video showcasing our latest services campaign.",
