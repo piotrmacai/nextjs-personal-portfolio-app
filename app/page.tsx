@@ -22,11 +22,14 @@ export default function Home() {
             MacaiLabs
           </h1>
           <h2
-            className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/80 tracking-tighter leading-[1.2rem] mt-0 md:-mt-4`}
+            className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/80 tracking-tighter leading-none mt-0 md:-mt-4 mb-0`}
             // style={{ fontSize: `${4 * headerSize}rem` }}
           >
             Creative Studio
           </h2>
+          <p className="text-white/50 text-sm font-light -mt-6">
+            by Piotr Macai
+          </p>
 
           <div className="flex flex-wrap gap-4">
               <Link
@@ -87,7 +90,7 @@ export default function Home() {
             <div className="space-y-6">
               <div className="h-px bg-white/10 w-full" />
               <p>
-              At Macailabs Studio, I blend marketing, design, and social media into a cohesive whole. I create not just beautiful visuals, but solutions that build engagement and truly impact business results.
+              Hi! I love turning ideas into intelligent digital experiences where design, marketing, and technology work together to grow your business.
 </p>
 <p>
 My process combines creative intuition with advanced tools—I collaborate with my own AI agents to accelerate iterations, test ideas, and deliver campaigns and applications tailored to real audience needs.
