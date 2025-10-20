@@ -42,7 +42,7 @@ const portfolioItems: PortfolioItem[] = [
     videoType: "vimeo",
     videoId: "1085351950", //https://vimeo.com/1085351950?share=copy#t=0
     aspectRatio: "16:9",
-    tags: ["ai apps"],
+    tags: ["ai", "agents"],
     externalUrl: "https://github.com/piotrmacai/",
   },
   {
@@ -52,7 +52,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/openweb-n8n.png",
     aspectRatio: "16:9",
-    tags: ["ai apps", "agents"],
+    tags: ["ai", "agents", "ai apps"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
   },
   {
@@ -82,7 +82,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/openweb-n8n.png",
     aspectRatio: "16:9",
-    tags: ["ai apps", "agents"],
+    tags: ["ai", "agents"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
   },
   {
