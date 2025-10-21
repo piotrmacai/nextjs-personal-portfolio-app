@@ -84,7 +84,7 @@ export default function Contact() {
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-white/60" />
                 <a href="tel:+48123456789" className="hover:text-white/80 transition-colors">
-                  +48 576 287 032
+                  +48 730 776 541
                 </a>
               </div>
 
