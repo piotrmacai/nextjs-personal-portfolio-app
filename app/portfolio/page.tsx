@@ -168,7 +168,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/personalai.png",
     aspectRatio: "16:9",
     tags: ["ai"],
-    externalUrl: "https://github.com/piotrmacai/n8n/tree/main/agent-telegram-voice-text-assistant",
+    externalUrl: "https://github.com/piotrmacai/n8n/tree/main/telegram-personal-agent",
   },
     {
     id: 10,
@@ -244,7 +244,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/videoautomation.jpg",
     aspectRatio: "16:9",
     tags: ["ai"],
-    externalUrl: "https://github.com/piotrmacai/n8n",
+    externalUrl: "https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
   },
     {
     id: 14,
@@ -299,7 +299,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/n8n-wordpress.png",
     aspectRatio: "16:9",
     tags: ["ai"],
-    externalUrl: "https://github.com/piotrmacai/n8n",
+    externalUrl: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
   },
   {
     id: 17,
