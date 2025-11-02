@@ -9,6 +9,7 @@ import { motion } from "framer-motion"
 import PortfolioPage from "../portfolio/page"
 import Pricing from "@/components/Pricing"
 import WebWorks from "@/components/WebWorks"
+import SocialMedia from "@/components/Socialmedia"
 
 const serviceCards = [
   {
@@ -65,6 +66,7 @@ export default function Web() {
             >
               Web & E-commerce <br />Development
             </motion.h1>
+            <SocialMedia />
           </div>
 
           <div className="bg-gradient-to-r from-transparent via-white/20 to-transparent mb-4" />

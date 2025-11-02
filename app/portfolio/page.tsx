@@ -24,6 +24,16 @@ interface PortfolioItem {
 // The actual portfolioItems array is very long, but the structure is the same.
 const portfolioItems: PortfolioItem[] = [
   {
+    id: 0.1,
+    title: "Video Business website",
+    description: "Modern motion website built in Next.js with video portfolio app",
+    type: "image",
+    imageUrl: "/images/insdrstudio.png",
+    aspectRatio: "16:9",
+    tags: ["web", "ai"],
+    externalUrl: "https://insdrstudio.vercel.app/",
+  },
+  {
     id: 1,
     title: "AI Voice Agent",
     description: "AI Voice Agent trained on business built-in into website",
@@ -44,23 +54,24 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://rekrutspark.com",
   },
-  {
-    id: 3,
-    title: "AI Landing Page Builder",
-    type: "image",
-    aspectRatio: "16:9",
-    imageUrl: "/images/AiWebsiteBuilder.png",
-    description: 	 "Landing Page builder powered by Google Gemini AI",
-    tags: ["ai"],
-    externalUrl: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
-  },
+  // {
+  //   id: 3,
+  //   title: "AI Landing Page Builder",
+  //   type: "image",
+  //   aspectRatio: "16:9",
+  //   imageUrl: "/images/AiWebsiteBuilder.png",
+  //   description: 	 "Landing Page builder powered by Google Gemini AI",
+  //   tags: ["ai"],
+  //   externalUrl: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
+  // },
   // ... Include all your 24+ original portfolio items here
   // I'll keep the full original array in the code block for completeness, 
   // as it was in your prompt.
   
   // START OF ORIGINAL FULL ARRAY (omitted for brevity in this response, but assume it's here)
+  
   {
-    id: 3.5,
+    id: 3,
     title: "AI Agents Directory",
     description: "AI Directory with embeded AI Recommendation Agent",
     type: "image",
@@ -92,6 +103,16 @@ const portfolioItems: PortfolioItem[] = [
     imageCoverUrl: "/images/tools.png",
     tags: ["web", "personal"],
     externalUrl: "https://ainsider.co",
+  },
+  {
+    id: 5.5,
+    title: "AI Chatbot App with Vercel AI SDK",
+    description: "Perfect as starter for own AI Apps. Built in Next.js with Vercel AI Gateway.",
+    type: "image",
+    imageUrl: "/images/vercelchat.png",
+    aspectRatio: "16:9",
+    tags: ["web", "ai"],
+    externalUrl: "https://ainsiderchat.vercel.app/",
   },
     {
     id: 6,
@@ -159,6 +180,16 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web"],
     externalUrl: "https://oskmachowski.pl",
+  },
+  {
+    id: 9.4,
+    title: "Voice Agent App with Vercel AI SDK",
+    description: "Perfect as starter for own AI Apps. Built in Next.js with Vercel AI Gateway.",
+    type: "image",
+    imageUrl: "/images/verceleleven.png",
+    aspectRatio: "16:9",
+    tags: ["web", "ai"],
+    externalUrl: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
   },
  {
     id: 9.5,

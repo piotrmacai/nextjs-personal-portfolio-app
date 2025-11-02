@@ -8,6 +8,7 @@ import { motion } from "framer-motion"
 import VisualsPricing from "@/components/VisualsPricing"
 import VisualWorks from "@/components/VisualWorks"
 import MotionOrbit from "@/components/Motion"
+import SocialMedia from "@/components/Socialmedia"
 
 const designServices = [
   {
@@ -83,6 +84,7 @@ export default function DesignServices() {
                     >
                     Visual Narratives <br />That Captivate
                     </motion.h1>
+                    <SocialMedia />
                 </div>
 
         <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12" />

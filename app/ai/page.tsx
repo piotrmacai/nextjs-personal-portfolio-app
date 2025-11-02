@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import Agents from "@/components/Agents"
 import AiLogo from "@/components/ui/AiLogo"
 import AgentsPricing from "@/components/AgentsPricing"
+import SocialMedia from "@/components/Socialmedia"
 
 const aiServices = [
   {
@@ -84,6 +85,7 @@ export default function AIServices() {
             >
               Intelligent Automation <br /> with AI Agents
             </motion.h1>
+            <SocialMedia />
           </div>
           <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12" />
           <div

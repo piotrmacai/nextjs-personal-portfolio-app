@@ -3,8 +3,7 @@
 import { useState } from "react"
 import DynamicFrameLayout from "../components/DynamicFrameLayout"
 import { ppEditorialNewUltralightItalic, inter } from "./fonts"
-import Link from "next/link"
-import { Youtube, Instagram, Twitter, Linkedin, Github } from "lucide-react"
+import SocialMedia from "../components/Socialmedia"
 
 export default function Home() {
   const [headerSize] = useState(1.1) // 120% is the default size
@@ -31,54 +30,7 @@ export default function Home() {
             by Piotr Macai
           </p>
 
-          <div className="flex flex-wrap gap-4">
-              <Link
-                href="https://twitter.com/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link
-                href="https://linkedin.com/in/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                <Linkedin size={20} />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-                    <Link
-                href="https://github.com/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                {/* <span className="font-bold text-lg">Git</span> */}
-                <Github size={20} />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              <Link
-                    href="https://www.instagram.com/piotr.macai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/60 hover:text-white/90 transition-colors mt-1"
-                  >
-                    <Instagram size={20} />
-                    <span className="sr-only">Instagram</span>
-                  </Link>            
-              <Link
-                href="https://behance.net/macaistudio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors"
-              >
-                <span className="font-bold text-lg">Be</span>
-                <span className="sr-only">Behance</span>
-              </Link>
-        </div>
+          <SocialMedia />
 
 
 
