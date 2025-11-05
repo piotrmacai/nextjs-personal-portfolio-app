@@ -24,18 +24,7 @@ interface PortfolioItem {
 // The actual portfolioItems array is very long, but the structure is the same.
 const portfolioItems: PortfolioItem[] = [
   {
-    id: 0.1,
-    title: "See my Behance",
-    description: "All my Visuals, Designs and UX UI at Behance",
- type: "video",
- videoType: "vimeo",
-    videoId: "1133683410", //https://vimeo.com/1133683410?fl=ip&fe=ec
-    aspectRatio: "16:9",
-    tags: ["web", "design"],
-    externalUrl: "https://insdrstudio.vercel.app/",
-  },
-  {
-    id: 0.2,
+    id: 1,
     title: "AI Voice Agent",
     description: "AI Voice Agent trained on business built-in into website",
     type: "image",
@@ -45,7 +34,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://ainsider.store",
   },
   {
-    id: 0.4,
+    id: 2,
     title: "Video Business website",
     description: "Modern motion website built in Next.js with video portfolio app",
  type: "video",
@@ -55,34 +44,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web", "design"],
     externalUrl: "https://insdrstudio.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Rekrut Spark Website",
-    description: "Business website for HR agency with CRM for job applications",
-    type: "video",
-    videoType: "vimeo",
-    videoId: "1100387757", //https://vimeo.com/1100387757
-    aspectRatio: "16:9",
-    tags: ["web"],
-    externalUrl: "https://rekrutspark.com",
-  },
-  // {
-  //   id: 3,
-  //   title: "AI Landing Page Builder",
-  //   type: "image",
-  //   aspectRatio: "16:9",
-  //   imageUrl: "/images/AiWebsiteBuilder.png",
-  //   description: 	 "Landing Page builder powered by Google Gemini AI",
-  //   tags: ["ai"],
-  //   externalUrl: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
-  // },
-  // ... Include all your 24+ original portfolio items here
-  // I'll keep the full original array in the code block for completeness, 
-  // as it was in your prompt.
-  
-  // START OF ORIGINAL FULL ARRAY (omitted for brevity in this response, but assume it's here)
-  
-  {
+   {
     id: 3,
     title: "AI Agents Directory",
     description: "AI Directory with embeded AI Recommendation Agent",
@@ -102,8 +64,30 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["visuals"],
     externalUrl: "https://behance.net/macaistudio",
   },
+      {
+    id: 5,
+    title: "See my Behance",
+    description: "All my Visuals, Designs and UX UI at Behance",
+ type: "video",
+ videoType: "vimeo",
+    videoId: "1133683410", //https://vimeo.com/1133683410?fl=ip&fe=ec
+    aspectRatio: "16:9",
+    tags: ["web", "design"],
+    externalUrl: "https://insdrstudio.vercel.app/",
+  },
+  {
+    id: 5.1,
+    title: "Rekrut Spark Website",
+    description: "Business website for HR agency with CRM for job applications",
+    type: "video",
+    videoType: "vimeo",
+    videoId: "1100387757", //https://vimeo.com/1100387757
+    aspectRatio: "16:9",
+    tags: ["web"],
+    externalUrl: "https://rekrutspark.com",
+  },
     {
-    id:5,
+    id:5.2,
     title: "Ainsider AI Website",
     description: "A dynamic ad video showcasing our latest services campaign.",
     type: "video",
