@@ -87,7 +87,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 4,
-    video: "/videos/Web_Showcase.mp4",
+     video: "/videos/insdrstudio.mp4",
     defaultPos: { x: 0, y: 4, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_hori_update.png",
@@ -143,7 +143,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 8,
-    video: "/videos/BrandingMacai.mp4",
+     video: "/videos/Web_Showcase.mp4",
     defaultPos: { x: 4, y: 8, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/981e483f71aa764b/8_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/981e483f71aa764b/8_hori.png",
@@ -157,7 +157,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 9,
-    video: "/videos/EcomMacai.mp4",
+    video: "/videos/behancevideo.mp4",
     defaultPos: { x: 8, y: 8, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/981e483f71aa764b/9_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/981e483f71aa764b/9_hori.png",
