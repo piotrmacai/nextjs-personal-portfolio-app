@@ -3,7 +3,8 @@
 import { useState } from "react"
 import DynamicFrameLayout from "../components/DynamicFrameLayout"
 import { ppEditorialNewUltralightItalic, inter } from "./fonts"
-import SocialMedia from "../components/Socialmedia"
+import Link from "next/link"
+import { Youtube, Instagram, Twitter, Linkedin, Github } from "lucide-react"
 
 export default function Home() {
   const [headerSize] = useState(1.1) // 120% is the default size
@@ -18,19 +19,72 @@ export default function Home() {
             className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-6xl font-light italic text-white/80 tracking-tighter leading-[1.4rem] mt-2`}
             // style={{ fontSize: `${4 * headerSize}rem` }}
           >
-            MacaiLabs
+            Piotr Macai
           </h1>
           <h2
             className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/80 tracking-tighter leading-none mt-0 md:-mt-4 mb-0`}
             // style={{ fontSize: `${4 * headerSize}rem` }}
           >
-            Creative Studio
+            Creative Solutions
           </h2>
           <p className="text-white/50 text-sm font-light -mt-6">
-            by Piotr Macai
+            by Piotr Macai & AI Agents
           </p>
 
-          <SocialMedia />
+          <div className="flex flex-wrap gap-2">
+            <Link href="/web" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">web</Link>
+            <Link href="/ai" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">ai/automation</Link>
+            <Link href="/visuals" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">visuals</Link>
+          </div>
+
+          <div className="flex flex-wrap gap-4">
+              <Link
+                href="https://twitter.com/piotrmacai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-white/90 transition-colors mt-1"
+              >
+                <Twitter size={20} />
+                <span className="sr-only">Twitter</span>
+              </Link>
+              <Link
+                href="https://linkedin.com/in/piotrmacai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-white/90 transition-colors mt-1"
+              >
+                <Linkedin size={20} />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
+                    <Link
+                href="https://github.com/piotrmacai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-white/90 transition-colors mt-1"
+              >
+                {/* <span className="font-bold text-lg">Git</span> */}
+                <Github size={20} />
+                <span className="sr-only">GitHub</span>
+              </Link>
+              <Link
+                    href="https://www.instagram.com/piotr.macai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white/60 hover:text-white/90 transition-colors mt-1"
+                  >
+                    <Instagram size={20} />
+                    <span className="sr-only">Instagram</span>
+                  </Link>            
+              <Link
+                href="https://behance.net/macaistudio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-white/90 transition-colors"
+              >
+                <span className="font-bold text-lg">Be</span>
+                <span className="sr-only">Behance</span>
+              </Link>
+        </div>
 
 
 
@@ -42,10 +96,10 @@ export default function Home() {
             <div className="space-y-6">
               <div className="h-px bg-white/10 w-full" />
               <p>
-              Hi! I love turning ideas into intelligent digital experiences where design, marketing, and technology work together to grow your business.
+              Hi! I love turning ideas into intelligent solutions where stunning visuals, software and AI work together to grow your business.
 </p>
 <p>
-My process combines creative intuition with advanced tools—I collaborate with my own AI agents to accelerate iterations, test ideas, and deliver campaigns and applications tailored to real audience needs.
+My process combines technical skills with creative intuition and experience — I collaborate with my own AI agents to accelerate iterations, test ideas, and deliver campaigns and applications tailored to real audience needs.
 </p>
 <p>
 Let's talk and create something that truly makes you stand out from the crowd.
