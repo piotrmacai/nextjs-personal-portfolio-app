@@ -46,7 +46,7 @@ interface Frame {
 const initialFrames: Frame[] = [
   {
     id: 1,
-    video: "/videos/LandingPages_Showcase.mp4",
+    video: "/videos/Web_Showcase.mp4",
     defaultPos: { x: 0, y: 0, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/bcf576df9c38b05f/1_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/bcf576df9c38b05f/1_vert_update.png",
@@ -73,7 +73,8 @@ const initialFrames: Frame[] = [
   },
   {
     id: 3,
-    video: "https://static.cdn-luma.com/files/58ab7363888153e3/Jitter%20Exported%20Poster.mp4",
+    // video: "https://static.cdn-luma.com/files/58ab7363888153e3/Jitter%20Exported%20Poster.mp4",
+    video: "/videos/socialmedia.mp4",
     defaultPos: { x: 8, y: 0, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/3d36d1e0dba2476c/3_Corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/3d36d1e0dba2476c/3_hori_update.png",
@@ -143,7 +144,7 @@ const initialFrames: Frame[] = [
   },
   {
     id: 8,
-     video: "/videos/Web_Showcase.mp4",
+     video: "/videos/LandingPages_Showcase.mp4",
     defaultPos: { x: 4, y: 8, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/981e483f71aa764b/8_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/981e483f71aa764b/8_hori.png",
