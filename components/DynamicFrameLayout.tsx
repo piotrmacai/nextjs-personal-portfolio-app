@@ -87,9 +87,9 @@ const initialFrames: Frame[] = [
     link: "/visuals",
   },
   {
-    id: 4,
+    id: 4, 
      video: "/videos/insdrstudio.mp4",
-    defaultPos: { x: 0, y: 4, w: 4, h: 4 },
+    defaultPos: { x: 0, y: 4, w: 4, h: 4 }, 
     corner: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_hori_update.png",
     edgeVertical: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_vert_update.png",
@@ -100,6 +100,7 @@ const initialFrames: Frame[] = [
     isHovered: false,
     link: "/web",
   },
+  
   {
     id: 5,
     video: "/videos/MainShowcase.mp4",
