@@ -73,7 +73,7 @@ export default function AIServices() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
+    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6 mt-24 md:mt-20 sm:mt-12">
       <div className="flex flex-col gap-12">
         <div className="w-full min-h-[70vh] pt-12 pb-4">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">

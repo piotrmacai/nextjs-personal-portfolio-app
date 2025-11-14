@@ -52,7 +52,7 @@ export default function Contact() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   return (
-    <div className="w-full max-w-4xl mx-auto mt-12 md:mt-8">
+    <div className="w-full max-w-4xl mx-auto pt-8 sm:pt-2 mt-24 md:mt-20 sm:mt-12">
       <div className="flex flex-col gap-8">
         <h1
           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}

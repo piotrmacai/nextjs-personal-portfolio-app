@@ -70,7 +70,7 @@ export default function MarketingServices() {
   const [activeTab, setActiveTab] = useState("all")
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
+    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6 mt-24 md:mt-20 sm:mt-12">
       <div className="flex flex-col gap-12">
 
       <div className="w-full  min-h-[70vh] pt-12 pb-4">

@@ -11,7 +11,7 @@ export default function Home() {
   const [textSize] = useState(0.8) // 80% is the default size
 
   return (
-    <div className="w-full h-full flex flex-col md:flex-row items-start gap-8 md:gap-8 mt-8 md:mt-0">
+    <div className="w-full h-full flex flex-col md:flex-row items-start gap-8 md:gap-8 mt-20 md:mt-20 sm:mt-4">
       {/* Left Content */}
       <div className="w-full md:w-[260px] flex-shrink-0 flex flex-col justify-between h-full order-1 md:order-1">
         <div className="flex flex-col gap-8">

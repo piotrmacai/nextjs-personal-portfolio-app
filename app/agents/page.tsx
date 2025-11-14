@@ -207,7 +207,7 @@ export default function PortfolioPage() {
   }
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-2 md:px-4 py-8">
+    <div className="w-full max-w-7xl mx-auto px-2 md:px-4 py-8 mt-24 md:mt-20 sm:mt-12">
 
         <h1
           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}

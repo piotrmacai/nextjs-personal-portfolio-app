@@ -6,7 +6,7 @@ import { ppEditorialNewUltralightItalic, inter } from "../fonts"
 import Link from "next/link"
 import { Code, Globe, Smartphone, Zap, Database, Cpu, ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
-import PortfolioPage from "../portfolio/page"
+import PortfolioPage from "../my-projects/page"
 import Pricing from "@/components/Pricing"
 import WebWorks from "@/components/WebWorks"
 import SocialMedia from "@/components/Socialmedia"
@@ -53,7 +53,7 @@ export default function Web() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
+    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6 mt-20 md:mt-20 sm:mt-4">
       <div className="flex flex-col gap-12">
 
         <div className="w-full min-h-[70vh] pt-12 pb-4">

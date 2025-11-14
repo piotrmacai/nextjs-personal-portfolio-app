@@ -10,7 +10,7 @@ export default function OMnie() {
   const [textSize] = useState(0.8)
 
   return (
-    <div className="w-full max-w-3xl mx-auto">
+    <div className="w-full max-w-3xl mx-auto mt-24 md:mt-20 sm:mt-12">
       <div className="flex flex-col gap-8">
         <h1
           className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
