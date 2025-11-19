@@ -72,7 +72,6 @@ export default function Header() {
         { href: "/socialmedia", label: "Social Media" }
       ]
     },
-    { href: "/my-projects", label: "My Projects" },
     { href: "/about", label: "About Me" },
     { href: "/contact", label: "Contact" }
   ]
