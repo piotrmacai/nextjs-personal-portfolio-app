@@ -11,6 +11,7 @@ import WebWorks from "@/components/WebWorks"
 import MotionWeb from "@/components/MotionWeb"
 import SocialMedia from "@/components/Socialmedia"
 
+
 const serviceCards = [
   {
     icon: <Code className="w-5 h-5" />,
@@ -75,6 +76,8 @@ export default function VibeCoding() {
     <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
       <div className="flex flex-col gap-12">
 
+        <VibeCoding />
+
         <div className="w-full min-h-[70vh] pt-12 pb-4">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">
             <motion.h1
@@ -83,7 +86,7 @@ export default function VibeCoding() {
               transition={{ duration: 0.5 }}
               className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
             >
-              Vibe-Coding <br />Services
+              Vibe-Coding <br />Development & Design
             </motion.h1>
             <SocialMedia />
           </div>
@@ -103,7 +106,8 @@ export default function VibeCoding() {
           </div>
         </div>
 
-        <motion.section 
+
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -131,7 +135,7 @@ export default function VibeCoding() {
           </div>
         </motion.section>
 
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -145,8 +149,8 @@ export default function VibeCoding() {
               <p className={`${inter.className} text-white/60 mb-8`}>
                 Cutting-edge AI models and tools that power our ultra-fast, high-quality development process. From code generation to design assistance, we leverage the latest AI technology to deliver exceptional results.
               </p>
-              <Link 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
               >
                 <span>Discuss your AI-powered project</span>
@@ -191,7 +195,7 @@ export default function VibeCoding() {
 
         <MotionWeb />
 
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
@@ -212,15 +216,13 @@ export default function VibeCoding() {
                 whileHover={{ y: -8, scale: 1.02 }}
                 onMouseEnter={() => setHoveredFeature(index)}
                 onMouseLeave={() => setHoveredFeature(null)}
-                className={`relative rounded-xl p-8 border border-white/10 bg-gradient-to-br from-white/5 to-white/0 backdrop-blur-sm transition-all duration-300 ${
-                  hoveredFeature === index ? 'shadow-xl border-white/20' : ''
-                }`}
+                className={`relative rounded-xl p-8 border border-white/10 bg-gradient-to-br from-white/5 to-white/0 backdrop-blur-sm transition-all duration-300 ${hoveredFeature === index ? 'shadow-xl border-white/20' : ''
+                  }`}
               >
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-white/5 via-transparent to-transparent opacity-0 transition-opacity duration-300 hover:opacity-100"></div>
                 <div className="relative z-10">
-                  <div className={`w-14 h-14 rounded-xl bg-white/10 flex items-center justify-center mb-6 transition-all duration-300 ${
-                    hoveredFeature === index ? 'bg-white/20 scale-110' : ''
-                  }`}>
+                  <div className={`w-14 h-14 rounded-xl bg-white/10 flex items-center justify-center mb-6 transition-all duration-300 ${hoveredFeature === index ? 'bg-white/20 scale-110' : ''
+                    }`}>
                     <div className="text-white/90">
                       {feature.icon}
                     </div>
@@ -239,9 +241,9 @@ export default function VibeCoding() {
 
         <WebWorks />
 
-        <Pricing/>
+        <Pricing />
 
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
@@ -255,10 +257,11 @@ export default function VibeCoding() {
               Let's build your website or app with the speed and quality only possible through vibe-coding and the latest AI models.
             </p>
             <Link
-              href="/contact"
+              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
+              target="_blank" rel="noopener noreferrer"
             >
-              Start Your Vibe-Coding Project
+              Start Your Project
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

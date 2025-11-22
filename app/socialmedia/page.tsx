@@ -100,7 +100,7 @@ export default function SocialMediaServices() {
         <MotionOrbit />
 
         {/* Services Grid */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -137,10 +137,10 @@ export default function SocialMediaServices() {
           </div>
         </motion.section>
 
-        <VisualWorks/>
+        <VisualWorks />
 
         {/* Tools & Process */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
@@ -202,7 +202,7 @@ export default function SocialMediaServices() {
         </motion.section>
 
         {/* CTA Section */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
@@ -216,10 +216,11 @@ export default function SocialMediaServices() {
               Let’s build a social presence that gets noticed, gets shared, and gets results.
             </p>
             <Link
-              href="/contact"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white hover:from-cyan-600 hover:to-blue-600 transition-colors font-medium"
+              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
+              target="_blank" rel="noopener noreferrer"
             >
-              Book a Social Media Call
+              Start Your Project
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

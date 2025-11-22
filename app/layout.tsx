@@ -5,7 +5,8 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import Voiceflow from "@/components/Voiceflow"
 import ElevenLabsAgent
- from "@/components/ElevenlabsAgent"
+  from "@/components/ElevenlabsAgent"
+import CookieBanner from "@/components/Cookiebanner"
 export const metadata = {
   title: "Fullstack Creative Studio",
   description: "Full Stack Design & Development Studio /by @PiotrMacai",
@@ -36,6 +37,7 @@ export default function RootLayout({
         <main className="flex-grow flex items-center justify-center p-4 md:p-8">{children}</main>
         <Footer />
         <ElevenLabsAgent />
+        <CookieBanner />
         {/* <Voiceflow /> */}
       </body>
     </html>

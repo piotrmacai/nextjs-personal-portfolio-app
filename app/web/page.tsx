@@ -4,12 +4,15 @@
 import { useState } from "react"
 import { ppEditorialNewUltralightItalic, inter } from "../fonts"
 import Link from "next/link"
-import { Code, Globe, Smartphone, Zap, Database, Cpu, ArrowRight } from "lucide-react"
+import { Code, Globe, Smartphone, Zap, Database, Cpu, ArrowRight, Sparkles, Palette, Layout, MousePointer, Layers, Command, TrendingUp } from "lucide-react"
 import { motion } from "framer-motion"
 import PortfolioPage from "../portfolio/page"
 import Pricing from "@/components/Pricing"
 import WebWorks from "@/components/WebWorks"
 import SocialMedia from "@/components/Socialmedia"
+import VibeCoding from "@/components/VibeCoding"
+import PortfolioSection from "@/components/PortfolioSection"
+
 
 const serviceCards = [
   {
@@ -46,7 +49,7 @@ const serviceCards = [
 
 const techStack = {
   frontend: ["JavaScript", "TypeScript", "Next.js", "React", "Tailwind CSS", "Framer Motion", "Three.js", "CSS Frameworks", "No/Low-code tools"],
-  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API","CMS Platforms"]
+  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API", "CMS Platforms"]
 }
 
 export default function Web() {
@@ -84,7 +87,7 @@ export default function Web() {
           </div>
         </div>
 
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -112,9 +115,17 @@ export default function Web() {
           </div>
         </motion.section>
 
-        <WebWorks />
 
-        <motion.section 
+
+        <PortfolioSection
+          initialFilter="web"
+          showFilters={true}
+          title="Web & E-commerce Development"
+        />
+
+
+
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -128,8 +139,8 @@ export default function Web() {
               <p className={`${inter.className} text-white/60 mb-8`}>
                 Modern tools and frameworks I use to deliver high-quality digital products.
               </p>
-              <Link 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
               >
                 <span>Discuss your technical needs</span>
@@ -166,9 +177,9 @@ export default function Web() {
           </div>
         </motion.section>
 
-        <Pricing/>
+        <Pricing />
 
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
@@ -182,8 +193,9 @@ export default function Web() {
               Let's talk about how we can create a web solution that truly supports your business.
             </p>
             <Link
-              href="/contact"
+              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
+              target="_blank" rel="noopener noreferrer"
             >
               Start Your Project
               <ArrowRight className="w-5 h-5" />
@@ -195,255 +207,3 @@ export default function Web() {
   )
 }
 
-
-
-// "use client"
-
-// import { useState } from "react"
-// import { ppEditorialNewUltralightItalic, inter } from "../fonts"
-// import Link from "next/link"
-// import { Brush, Code, Globe, Layout, Twitter, Linkedin } from "lucide-react"
-// import { motion } from "framer-motion"
-
-// export default function Web() {
-//   const [headerSize] = useState(1.2)
-//   const [textSize] = useState(0.9)
-
-//   const cardVariants = {
-//     hover: { scale: 1.05, boxShadow: "0 10px 20px rgba(255,255,255,0.1)" },
-//     initial: { scale: 1, boxShadow: "0 4px 10px rgba(255,255,255,0.05)" }
-//   }
-
-//   return (
-//     <div className="w-full min-h-screen py-12">
-//       <div className="max-w-4xl mx-auto px-4 sm:px-6">
-//         <motion.h1
-//           initial={{ opacity: 0, y: -20 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.5 }}
-//           className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
-//           style={{ fontSize: `${4.5 * headerSize}rem` }}
-//         >
-//           Web Development
-//         </motion.h1>
-
-//         <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12" />
-
-//         <div
-//           className={`${inter.className} flex flex-col gap-12 text-white/70 text-base font-light`}
-//           style={{ fontSize: `${0.875 * textSize}rem` }}
-//         >
-//           <motion.div
-//             initial={{ opacity: 0 }}
-//             animate={{ opacity: 1 }}
-//             transition={{ delay: 0.2, duration: 0.5 }}
-//             className="text-center max-w-2xl mx-auto"
-//           >
-//             <p>
-//               I craft modern, high-performance websites that captivate and convert. From WordPress to Next.js and custom CMS solutions, I deliver tailored digital experiences that elevate your brand and drive results.
-//             </p>
-//           </motion.div>
-
-//           <h2
-//             className={`${ppEditorialNewUltralightItalic.className} text-3xl font-light italic text-white/80 tracking-tight mt-8`}
-//           >
-//             My Services
-//           </h2>
-
-//           <div className="grid md:grid-cols-2 gap-6">
-//             {[
-//               {
-//                 icon: <Brush size={24} className="text-blue-400" />,
-//                 title: "WordPress Development",
-//                 description: "Custom WordPress sites with tailored themes, plugins, and WooCommerce for seamless e-commerce and SEO.",
-//                 features: [
-//                   "Bespoke theme design",
-//                   "Plugin customization",
-//                   "WooCommerce integration",
-//                   "SEO & performance optimization"
-//                 ]
-//               },
-//               {
-//                 icon: <Code size={24} className="text-green-400" />,
-//                 title: "Next.js & React.js",
-//                 description: "Scalable, interactive web apps with server-side rendering and modern JavaScript frameworks.",
-//                 features: [
-//                   "Next.js SSR & static sites",
-//                   "React.js with TypeScript",
-//                   "API & state management",
-//                   "Progressive Web Apps (PWA)"
-//                 ]
-//               },
-//               {
-//                 icon: <Globe size={24} className="text-purple-400" />,
-//                 title: "CMS-Based Solutions",
-//                 description: "Flexible, content-driven websites using Sanity CMS or headless CMS setups for ultimate control.",
-//                 features: [
-//                   "Sanity CMS integration",
-//                   "Headless CMS with Next.js",
-//                   "Custom content workflows",
-//                   "Multi-language support"
-//                 ]
-//               },
-//               {
-//                 icon: <Layout size={24} className="text-orange-400" />,
-//                 title: "UI/UX Design",
-//                 description: "Intuitive, conversion-focused designs with a focus on user experience and interactivity.",
-//                 features: [
-//                   "Figma prototyping",
-//                   "Responsive layouts",
-//                   "Micro-interactions & animations",
-//                   "User testing & iteration"
-//                 ]
-//               }
-//             ].map((service, index) => (
-//               <motion.div
-//                 key={index}
-//                 variants={cardVariants}
-//                 initial="initial"
-//                 whileHover="hover"
-//                 className="bg-gray-800/50 p-6 rounded-xl border border-white/10 transition-all duration-300"
-//               >
-//                 <div className="flex items-center gap-3 mb-4">
-//                   {service.icon}
-//                   <h3 className="text-xl font-medium text-white/80">{service.title}</h3>
-//                 </div>
-//                 <p className="text-white/60 text-sm mb-4">{service.description}</p>
-//                 <ul className="list-disc pl-5 space-y-2 text-white/60 text-sm">
-//                   {service.features.map((feature, i) => (
-//                     <li key={i}>{feature}</li>
-//                   ))}
-//                 </ul>
-//               </motion.div>
-//             ))}
-//           </div>
-
-//           <h2
-//             className={`${ppEditorialNewUltralightItalic.className} text-3xl font-light italic text-white/80 tracking-tight mt-12`}
-//           >
-//             Why Choose Me?
-//           </h2>
-
-//           <div className="grid md:grid-cols-2 gap-6">
-//             {[
-//               {
-//                 title: "Tailored Solutions",
-//                 description: "Custom websites designed to align perfectly with your brand and business objectives."
-//               },
-//               {
-//                 title: "Performance & Scalability",
-//                 description: "Fast, secure, and scalable websites built with the latest technologies."
-//               },
-//               {
-//                 title: "End-to-End Development",
-//                 description: "From design to deployment, I manage every step for a seamless experience."
-//               },
-//               {
-//                 title: "Ongoing Support",
-//                 description: "Post-launch maintenance and analytics to keep your site at peak performance."
-//               }
-//             ].map((benefit, index) => (
-//               <motion.div
-//                 key={index}
-//                 variants={cardVariants}
-//                 initial="initial"
-//                 whileHover="hover"
-//                 className="bg-gray-800/50 p-6 rounded-xl border border-white/10 transition-all duration-300"
-//               >
-//                 <h3 className="text-white/80 font-medium">{benefit.title}</h3>
-//                 <p className="text-white/60 text-sm mt-2">{benefit.description}</p>
-//               </motion.div>
-//             ))}
-//           </div>
-
-//           <h2
-//             className={`${ppEditorialNewUltralightItalic.className} text-3xl font-light italic text-white/80 tracking-tight mt-12`}
-//           >
-//             Featured Projects
-//           </h2>
-
-//           <div className="grid md:grid-cols-2 gap-6">
-//             {[
-//               {
-//                 title: "AI-Powered Portfolio",
-//                 description: "A Next.js-based portfolio with Sanity CMS, showcasing dynamic, AI-generated content.",
-//                 link: "https://piotrmacai.com",
-//                 linkText: "piotrmacai.com"
-//               },
-//               {
-//                 title: "AI Studio Platform",
-//                 description: "A custom platform built with Next.js, integrating AI agents and sleek interfaces.",
-//                 link: "https://ainsider.co",
-//                 linkText: "ainsider.co"
-//               }
-//             ].map((project, index) => (
-//               <motion.div
-//                 key={index}
-//                 variants={cardVariants}
-//                 initial="initial"
-//                 whileHover="hover"
-//                 className="bg-gray-800/50 p-6 rounded-xl border border-white/10 transition-all duration-300"
-//               >
-//                 <h3 className="text-white/80 font-medium">{project.title}</h3>
-//                 <p className="text-white/60 text-sm mt-2">{project.description}</p>
-//                 <Link href={project.link} className="text-blue-400 hover:underline text-sm mt-3 inline-block">
-//                   {project.linkText}
-//                 </Link>
-//               </motion.div>
-//             ))}
-//           </div>
-
-//           <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mt-12" />
-
-//           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-//             <div className="flex flex-wrap gap-6">
-//               <Link
-//                 href="https://twitter.com/piotrmacai"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-blue-400 transition-colors"
-//               >
-//                 <Twitter size={24} />
-//                 <span className="sr-only">Twitter</span>
-//               </Link>
-//               <Link
-//                 href="https://github.com/piotrmacai"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-blue-400 transition-colors"
-//               >
-//                 <span className="font-bold text-lg">Git</span>
-//                 <span className="sr-only">GitHub</span>
-//               </Link>
-//               <Link
-//                 href="https://linkedin.com/in/piotrmacai"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-blue-400 transition-colors"
-//               >
-//                 <Linkedin size={24} />
-//                 <span className="sr-only">LinkedIn</span>
-//               </Link>
-//               <Link
-//                 href="https://behance.net/macaistudio"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="text-white/60 hover:text-blue-400 transition-colors"
-//               >
-//                 <span className="font-bold text-lg">Be</span>
-//                 <span className="sr-only">Behance</span>
-//               </Link>
-//             </div>
-
-//             <Link
-//               href="/contact"
-//               className="inline-block px-8 py-4 text-white bg-blue-500/20 border border-blue-500/50 rounded-full font-medium hover:bg-blue-500/30 transition-all duration-300"
-//             >
-//               Start Your Project
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }

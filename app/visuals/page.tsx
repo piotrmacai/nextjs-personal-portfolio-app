@@ -73,44 +73,44 @@ export default function DesignServices() {
     <div className="w-full max-w-6xl mx-auto px-2 sm:px-6 mt-20 md:mt-20 sm:mt-4">
       <div className="flex flex-col gap-12">
 
-      <div className="w-full  min-h-[70vh] pt-12 pb-4">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6">
-                    <motion.h1
-                    initial={{ opacity: 0, y: -20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
-                    // style={{ fontSize: `${4.5 * headerSize}rem` }}
-                    >
-                    Visual Narratives <br />That Captivate
-                    </motion.h1>
-                    <SocialMedia />
-                </div>
+        <div className="w-full  min-h-[70vh] pt-12 pb-4">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6">
+            <motion.h1
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
+            // style={{ fontSize: `${4.5 * headerSize}rem` }}
+            >
+              Visual Narratives <br />That Captivate
+            </motion.h1>
+            <SocialMedia />
+          </div>
 
-        <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12" />
-                <div
-                className={`${inter.className} flex flex-col gap-12 text-white/70 text-base font-light`}
-                //   style={{ fontSize: `${0.875 * textSize}rem` }`}
-                >
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}
-                    className="text-center max-w-2xl mx-auto"
-                >
-                   <p className={`${inter.className} text-lg text-white/70 max-w-2xl`}>
+          <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12" />
+          <div
+            className={`${inter.className} flex flex-col gap-12 text-white/70 text-base font-light`}
+          //   style={{ fontSize: `${0.875 * textSize}rem` }`}
+          >
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              className="text-center max-w-2xl mx-auto"
+            >
+              <p className={`${inter.className} text-lg text-white/70 max-w-2xl`}>
                 I create compelling visual experiences through design, motion, and video.
                 Every project combines aesthetic sensibility with strategic thinking to craft
                 works that resonate with audiences and achieve business goals.
               </p>
-                </motion.div>
-                </div>
+            </motion.div>
+          </div>
         </div>
 
         <MotionOrbit />
 
         {/* Services Grid */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -132,7 +132,7 @@ export default function DesignServices() {
                   </div>
                   <h3 className="text-xl font-medium text-white/90 mb-2">{service.title}</h3>
                   <p className={`${inter.className} text-white/60 text-sm mb-4`}>{service.description}</p>
-                  
+
                   <div className="mt-auto pt-4 border-t border-white/5">
                     <ul className="flex flex-wrap gap-2">
                       {service.examples.map((example, i) => (
@@ -148,10 +148,10 @@ export default function DesignServices() {
           </div>
         </motion.section>
 
-        <VisualWorks/>
+        <VisualWorks />
 
         {/* Tools & Process */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
@@ -165,7 +165,7 @@ export default function DesignServices() {
               <p className={`${inter.className} text-white/60 mb-8`}>
                 Professional tools I use to bring creative visions to life:
               </p>
-              
+
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {tools.map((tool, index) => (
                   <div key={index} className="p-4 rounded-2xl bg-white/5 border border-white/10">
@@ -175,7 +175,7 @@ export default function DesignServices() {
                 ))}
               </div>
             </div>
-            
+
             <div className="md:w-1/2">
               <div className="p-8 rounded-2xl bg-gradient-to-br border border-white/10 backdrop-blur-sm h-full">
                 <h3 className="text-xl font-medium text-white/90 mb-4">Creative Process</h3>
@@ -214,10 +214,10 @@ export default function DesignServices() {
           </div>
         </motion.section>
 
-          <VisualsPricing/>
+        <VisualsPricing />
 
         {/* CTA Section */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}

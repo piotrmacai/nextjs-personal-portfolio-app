@@ -67,9 +67,9 @@ export default function Header() {
       submenu: [
         { href: "/ai", label: "AI Solutions" },
         { href: "/web", label: "Web Development" },
-        { href: "/visuals", label: "Design & UX/UI" },
-        { href: "/growth", label: "Marketing" },
-        { href: "/socialmedia", label: "Social Media" }
+        { href: "/vibe-coding", label: "Vibe Coding" },
+        { href: "/creativeai", label: "Creative AI" },
+        { href: "https://gen.macai.cloud", label: "Video AI", target: "_blank" }
       ]
     },
     { href: "/about", label: "About Me" },
@@ -143,6 +143,8 @@ export default function Header() {
                       <Link
                         key={subLink.href}
                         href={subLink.href}
+                        target={(subLink as any).target}
+                        rel={(subLink as any).target === "_blank" ? "noopener noreferrer" : undefined}
                         className={`block px-4 py-3 text-sm ${
                           pathname === subLink.href
                             ? "bg-white/10 text-white font-medium"
@@ -181,7 +183,7 @@ export default function Header() {
             {/* Chat With Us Button */}
             <Link
               href="/contact"
-              className="hidden md:block px-6 py-2 bg-lime-500 hover:bg-lime-400 text-black font-semibold rounded-full transition-colors shadow-lg shadow-lime-500/30"
+              className="hidden md:block px-6 py-2 bg-white hover:bg-white/90 text-black font-semibold rounded-full transition-colors shadow-lg shadow-white-500/30"
             >
               Let's Talk
             </Link>
@@ -243,6 +245,8 @@ export default function Header() {
                         <Link
                           key={subLink.href}
                           href={subLink.href}
+                          target={(subLink as any).target}
+                          rel={(subLink as any).target === "_blank" ? "noopener noreferrer" : undefined}
                           className={`text-white/50 hover:text-white transition-colors`}
                           onClick={() => setIsMenuOpen(false)}
                         >
@@ -255,7 +259,7 @@ export default function Header() {
               ))}
               <Link
                 href="/contact"
-                className="mt-6 px-6 py-3 text-lg bg-lime-500 hover:bg-lime-400 text-black font-semibold rounded-full transition-colors"
+                className="mt-6 px-6 py-3 text-lg bg-white-500 hover:bg-white-400 text-black font-semibold rounded-full transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Chat With Us

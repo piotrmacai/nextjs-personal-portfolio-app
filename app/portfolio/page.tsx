@@ -16,12 +16,12 @@ interface PortfolioItem {
   imageCoverUrl?: string
   aspectRatio?: '1:1' | '16:9' | '4:3' | '21:9'
   tags: string[]
-  externalUrl?: string 
+  externalUrl?: string
 }
 
 // NOTE: I am using a simplified version of your data for brevity.
 // The actual portfolioItems array is very long, but the structure is the same.
-const portfolioItems: PortfolioItem[] = [ 
+const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
     title: "AI Voice Agent",
@@ -40,10 +40,10 @@ const portfolioItems: PortfolioItem[] = [
     videoType: "vimeo",
     videoId: "1133675483", //https://vimeo.com/1133675483?fl=ip&fe=ec
     aspectRatio: "16:9",
-    tags: ["web", "ai"],
+    tags: ["web", "ai", "vibe coding"],
     externalUrl: "https://ainsider.store",
   },
- 
+
   {
     id: 0.3,
     title: "AI Chatbot Starter (Vercel AI SDK)",
@@ -54,7 +54,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["visuals"],
     externalUrl: "https://behance.net/macaistudio",
   },
-   {
+  {
     id: 3,
     title: "AI Agents Directory",
     description: "AI Directory with embeded AI Recommendation Agent",
@@ -71,10 +71,10 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/AiProductDesigner.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "vibe coding"],
     externalUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
   },
-    {
+  {
     id: 4,
     title: "Designs & Visuals",
     description: "See my Visuals and UX UI Designs at Behance",
@@ -101,28 +101,28 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/creativeai.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "vibe coding"],
     externalUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
   },
-      {
+  {
     id: 5,
     title: "See my Behance",
     description: "All my Visuals, Designs and UX UI at Behance",
- type: "video",
- videoType: "vimeo",
+    type: "video",
+    videoType: "vimeo",
     videoId: "1133683410", //https://vimeo.com/1133683410?fl=ip&fe=ec
     aspectRatio: "16:9",
     tags: ["web", "design"],
     externalUrl: "https://insdrstudio.vercel.app/",
   },
-     {
+  {
     id: 5.1,
     title: "AI Chatbot App with multiple LLMs",
     description: "with Gemini models and n8n workflows",
     type: "image",
     imageUrl: "/images/geminin8n.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "vibe coding"],
     externalUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
   },
   {
@@ -143,7 +143,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/GeminiSocialGenerator.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "vibe coding"],
     externalUrl: "https://github.com/piotrmacai/Gemini-SocialMediaDesigner",
   },
   {
@@ -167,8 +167,8 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai"],
     externalUrl: "https://ainsider.link",
   },
-    {
-    id:5.4,
+  {
+    id: 5.4,
     title: "Ainsider AI Website",
     description: "A dynamic ad video showcasing our latest services campaign.",
     type: "video",
@@ -198,10 +198,10 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/blog-ainsider.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["ai", "web"],
     externalUrl: "https://blog.ainsider.cloud",
   },
-    {
+  {
     id: 6,
     title: "Visuals Showcase",
     description: "A dynamic ad video showcasing our latest services campaign.",
@@ -211,7 +211,7 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["visuals"],
     externalUrl: "https://vimeo.com/1085351448",
-  }, 	{
+  }, {
     id: 7,
     title: "After-rave.eu",
     description: "Multilingual Ecommerce with Supplements created at Shopify",
@@ -221,20 +221,20 @@ const portfolioItems: PortfolioItem[] = [
     // videoId: "VilbxnCTwbI",
     videoId: "1082919322", //https://vimeo.com/1082919322
     aspectRatio: "16:9",
-    tags: ["web"], 
+    tags: ["web"],
     externalUrl: "https://after-rave.eu",
   },
-    {
+  {
     id: 7.5,
     title: "Fullstack Chatbot App",
     description: "working with any n8n workflow",
     type: "image",
     imageUrl: "/images/customchatbot.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["ai", "web"],
     externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
   },
-    {
+  {
     id: 9,
     title: "Oskmachowski.pl",
     description: "Ultra-fast Business & well SEO-optimized Website with built-in AI Assistant",
@@ -254,10 +254,10 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/elevenvercel.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai"],
+    tags: ["web", "ai", "vibe coding"],
     externalUrl: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
   },
- {
+  {
     id: 9.5,
     title: "Customized Personal AI Assistant at Telegram",
     description: "connected with your own platforms and data",
@@ -267,7 +267,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/telegram-personal-agent",
   },
-    {
+  {
     id: 10,
     title: "SlovlyStudio.com",
     description: "Ecommerce with Home made fashion created at Shopify",
@@ -277,10 +277,10 @@ const portfolioItems: PortfolioItem[] = [
     // videoId: "VilbxnCTwbI",
     videoId: "1088472830", //https://vimeo.com/1088472830
     aspectRatio: "16:9",
-    tags: ["web"], 
+    tags: ["web"],
     externalUrl: "https://slovlystudio.com",
   },
-    {
+  {
     id: 11,
     title: "SkinProjectClinic.pl",
     description: "Website for beauty clinic & brand",
@@ -293,14 +293,14 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://www.skinprojectclinic.pl/",
   },
-   {
+  {
     id: 9.5,
     title: "AI Agent built-in into website",
     description: "with goal to be perfect customer support",
     type: "image",
     imageUrl: "/images/ainsiderbot.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["ai", "web"],
     externalUrl: "https://ainsider.co",
   },
   //       {
@@ -313,17 +313,17 @@ const portfolioItems: PortfolioItem[] = [
   //   tags: ["ai"],
   //   externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
   // },
-    {
+  {
     id: 12.5,
     title: "Complete CRM for Business",
     description: "Highly personalized CRM for business with AI Assitant and automation workflows",
     type: "image",
     imageUrl: "/images/crmnotion.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["web"],
     externalUrl: "https://ainsider.co/crm",
   },
-    {
+  {
     id: 13,
     title: "Machtrans.pl",
     description: "Top SEO and ultra-fast Website in React.js for Transport Company",
@@ -333,17 +333,17 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://machtrans.pl",
   },
-   {
+  {
     id: 13.5,
     title: "Video Generation & Publishing Automation",
     description: "Complete AI system for generating marketing or ad video and publish it to social media",
     type: "image",
     imageUrl: "/images/videoautomation.jpg",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["ai", "visuals"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
   },
-    {
+  {
     id: 14,
     title: "Landing Page for Business CRM",
     description: "Ultra fast landing page created in React.js",
@@ -353,10 +353,10 @@ const portfolioItems: PortfolioItem[] = [
     // videoId: "VilbxnCTwbI",
     videoId: "1121924337", //https://vimeo.com/1121924337
     aspectRatio: "16:9",
-    tags: ["web"],
+    tags: ["web", "vibe coding"],
     externalUrl: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
   },
-    {
+  {
     id: 15,
     title: "Pgr-elektroteam.pl",
     description: "Multilingual Ecommerce with Supplements created at Shopify",
@@ -369,7 +369,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://pgr-elektroteam.pl/",
   },
-   {
+  {
     id: 15.5,
     title: "Recommendation and customer support AI Agent",
     description: "with goal to find the best solutions for users",
@@ -379,23 +379,23 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai"],
     externalUrl: "https://ainsider.link",
   },
-      {
+  {
     id: 16,
     title: "AI powered Business Dashboard",
     description: "Created in React.js with Google Gemini AI",
     type: "image",
     imageUrl: "/images/AiLocalSeo.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["ai", "web", "vibe coding"],
     externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
-  },{
+  }, {
     id: 16.5,
     title: "Wordpress blog post complete automation",
     description: "n8n workflow created posts with images on autopilot",
     type: "image",
     imageUrl: "/images/n8n-wordpress.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["ai", "web"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
   },
   {
@@ -405,8 +405,8 @@ const portfolioItems: PortfolioItem[] = [
     type: "video",
     videoType: "vimeo",
     aspectRatio: "16:9",
-    videoId: "1085350766", 
-    tags: ["web"],
+    videoId: "1085350766",
+    tags: ["web", "visuals"],
     externalUrl: "https://www.behance.net/macaistudio",
   },
 
@@ -423,7 +423,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["web"],
     externalUrl: "https://ainsider.link",
   },
-    {
+  {
     id: 19,
     title: "Services Campaign",
     description: "A dynamic ad video showcasing our latest services campaign.",
@@ -446,20 +446,20 @@ const portfolioItems: PortfolioItem[] = [
     // videoId: "VilbxnCTwbI",
     videoId: "1082919322", //https://vimeo.com/1082919322
     aspectRatio: "16:9",
-    tags: ["web"], 
+    tags: ["web"],
     externalUrl: "https://after-rave.eu",
   },
-    {
+  {
     id: 22,
     title: "Business Website with Catalog",
     description: "For Car Mechanic",
     type: "image",
     imageUrl: "/images/cora.png",
     aspectRatio: "16:9",
-    tags: ["ai"],
+    tags: ["web"],
     externalUrl: "https://www.cora-goralczyk.pl/",
   },
-    {
+  {
     id: 23,
     title: "AI Agents Showcase",
     description: "A Video ad showcase with Ainsider AI Agents Services.",
@@ -467,10 +467,10 @@ const portfolioItems: PortfolioItem[] = [
     videoType: "vimeo",
     videoId: "1085351950", //https://vimeo.com/1085351950?share=copy#t=0
     aspectRatio: "16:9",
-    tags: ["visuals"],
+    tags: ["visuals", "ai"],
     externalUrl: "https://github.com/piotrmacai/",
   },
-    {
+  {
     id: 24,
     title: "Lanellya.de",
     description: "Multilingual Ecommerce created at Shopify",
@@ -480,10 +480,10 @@ const portfolioItems: PortfolioItem[] = [
     // videoId: "VilbxnCTwbI",
     videoId: "1088477211", //https://vimeo.com/1088477211?share=copy#t=0
     aspectRatio: "16:9",
-    tags: ["web"], 
+    tags: ["web"],
     externalUrl: "https://lanellya.de",
   },
-    // {
+  // {
 
   //   id: 6,
 
@@ -555,7 +555,7 @@ const portfolioItems: PortfolioItem[] = [
   // END OF ORIGINAL FULL ARRAY
 ]
 
-const availableFilters = ["all", "web", "ai", "visuals", "personal"]
+const availableFilters = ["all", "web", "ai", "visuals", "personal", "vibe coding"]
 
 /**
  * NEW COMPONENT: Separated from PortfolioPage to use Hooks legally (useState, useRef)
@@ -679,7 +679,7 @@ export default function PortfolioPage() {
             <Linkedin size={20} />
             <span className="sr-only">LinkedIn</span>
           </Link>
-            <Link
+          <Link
             href="https://github.com/piotrmacai"
             target="_blank"
             rel="noopener noreferrer"
@@ -696,7 +696,7 @@ export default function PortfolioPage() {
           >
             <Instagram size={20} />
             <span className="sr-only">Instagram</span>
-          </Link> 	      
+          </Link>
           <Link
             href="https://behance.net/macaistudio"
             target="_blank"
@@ -720,11 +720,10 @@ export default function PortfolioPage() {
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
-                className={`px-4 py-2 border rounded-full text-sm transition-colors ${
-                  activeFilter === filter
-                    ? "bg-white/10 text-white"
-                    : "bg-transparent text-white/50 hover:bg-white/5"
-                }`}
+                className={`px-4 py-2 border rounded-full text-sm transition-colors ${activeFilter === filter
+                  ? "bg-white/10 text-white"
+                  : "bg-transparent text-white/50 hover:bg-white/5"
+                  }`}
               >
                 {filter.charAt(0).toUpperCase() + filter.slice(1)}
               </button>
@@ -738,7 +737,7 @@ export default function PortfolioPage() {
             {filteredItems.map((item) => (
               <div
                 // This key is correct and crucial for the map loop
-                key={item.id} 
+                key={item.id}
                 className="flex flex-col md:flex-row bg-black/20 rounded-lg overflow-hidden"
               >
                 {/* Left Section: Title, Description, and Button */}
@@ -749,7 +748,7 @@ export default function PortfolioPage() {
                   <p className="text-sm text-white/50 mb-4">{item.description}</p>
                   <Link
                     href={`${item.externalUrl}`}
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
                   >

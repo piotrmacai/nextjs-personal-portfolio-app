@@ -105,7 +105,7 @@ export default function AIServices() {
         </div>
 
         {/* Grid of AI services */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -117,7 +117,7 @@ export default function AIServices() {
                 key={index}
                 whileHover={{ y: -5 }}
                 onMouseEnter={() => setHoveredCard(index)}
-                onMouseLeave={() => setHoveredCard(null)} 
+                onMouseLeave={() => setHoveredCard(null)}
                 className={`relative rounded-xl p-6 border border-white/10 backdrop-blur-sm transition-all duration-300 ${hoveredCard === index ? 'shadow-lg' : ''}`}
               >
                 <div className="absolute inset-0 rounded-xl border border-white/5"></div>
@@ -143,7 +143,7 @@ export default function AIServices() {
         </motion.section>
 
         {/* Use case examples */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
@@ -164,10 +164,10 @@ export default function AIServices() {
                   <h3 className="text-2xl font-medium text-white/90 mb-2">Catalog of AI Agents and Tools</h3>
                   <p className={`${inter.className} text-white/60 mb-6`}>A comprehensive library of agents, models, and AI tools with over 500 high-quality resources.</p>
                 </div>
-                <Link 
+                <Link
                   href="https://ainsider.store"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white group-hover:underline"
                 >
                   <span>Explore</span>
@@ -187,7 +187,7 @@ export default function AIServices() {
                   <h3 className="text-2xl font-medium text-white/90 mb-2">Ainsider.co</h3>
                   <p className={`${inter.className} text-white/60 mb-6`}>Digital solutions powered by AI for business. Let's build your own together.</p>
                 </div>
-                <Link 
+                <Link
                   href="https://github.com/piotrmacai"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -196,7 +196,7 @@ export default function AIServices() {
                   <span>Ainsider</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </Link>
-              </div> 
+              </div>
             </div>
 
             <div className="group relative rounded-2xl overflow-hidden border border-white/10 min-h-64">
@@ -210,7 +210,7 @@ export default function AIServices() {
                   <h3 className="text-2xl font-medium text-white/90 mb-2">Free AI Agent Templates</h3>
                   <p className={`${inter.className} text-white/60 mb-6`}>Discover a collection of innovative AI applications and agents designed to streamline various processes and boost productivity.</p>
                 </div>
-                <Link 
+                <Link
                   href="https://github.com/piotrmacai"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -224,10 +224,10 @@ export default function AIServices() {
           </div>
         </motion.section>
 
-        <Agents/>
+        <Agents />
 
         {/* Tech stack */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -288,10 +288,10 @@ export default function AIServices() {
           </div>
         </motion.section>
 
-        <AgentsPricing/>
+        <AgentsPricing />
 
         {/* CTA Section */}
-        <motion.section 
+        <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
@@ -305,10 +305,11 @@ export default function AIServices() {
               Let's talk about how AI agents can transform your business operations and customer interactions.
             </p>
             <Link
-              href="/contact"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:from-purple-600 hover:to-blue-600 transition-colors font-medium"
+              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
+              target="_blank" rel="noopener noreferrer"
             >
-              Schedule your AI consultation
+              Start Your Project
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
