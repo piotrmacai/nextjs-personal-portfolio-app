@@ -17,24 +17,24 @@ interface PortfolioItem {
   imageUrl?: string
   aspectRatio?: '1:1' | '16:9' | '4:3' | '21:9'
   tags: string[]
-  externalUrl?: string 
+  externalUrl?: string
 }
 
 const portfolioItems: PortfolioItem[] = [
-//   {
-//     id: 1,
-//     title: "Ainsider AI Website",
-//     description: "A dynamic ad video showcasing our latest services campaign.",
-//     type: "video",
-//     videoType: "vimeo",
-//      // YouTube ID
-//     // videoId: "VilbxnCTwbI",
-//     videoId: "1085338341", //https://vimeo.com/1085338341
-//     aspectRatio: "16:9",
-//     tags: ["agents"],
-//     externalUrl: "https://ainsider.co",
-//   },
-{
+  //   {
+  //     id: 1,
+  //     title: "Ainsider AI Website",
+  //     description: "A dynamic ad video showcasing our latest services campaign.",
+  //     type: "video",
+  //     videoType: "vimeo",
+  //      // YouTube ID
+  //     // videoId: "VilbxnCTwbI",
+  //     videoId: "1085338341", //https://vimeo.com/1085338341
+  //     aspectRatio: "16:9",
+  //     tags: ["agents"],
+  //     externalUrl: "https://ainsider.co",
+  //   },
+  {
     id: 1,
     title: "AI Agents Templates",
     description: "Collectoin of ready to use AI Agents at different frameworks.",
@@ -100,7 +100,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "AI Recommendation Agent",
     description: "Working directly with websites and ecommerce online stores",
     type: "image",
-    imageUrl: "/images/mecom.png",  
+    imageUrl: "/images/mecom.png",
     aspectRatio: "16:9",
     tags: ["ai"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
@@ -110,40 +110,40 @@ const portfolioItems: PortfolioItem[] = [
     title: "AI Agent Orchestration with Flowise",
     description: "MultiAgent in Flowise with any tools and integrations.",
     type: "image",
-    imageUrl: "/images/mmao.png",  
+    imageUrl: "/images/mmao.png",
     aspectRatio: "16:9",
     tags: ["ai", "agents"],
-    externalUrl: "https://github.com/piotrmacai/aiagent-flowise-agents-orchestration-rag",   
+    externalUrl: "https://github.com/piotrmacai/aiagent-flowise-agents-orchestration-rag",
   },
   {
     id: 7,
     title: "Fullstack AI App in Next.js",
     description: "Custom, individual implementation of ChatGPT with conversation memory and login system created in Next.js and with OpenAI API.",
     type: "image",
-    imageUrl: "/images/uichatbot.jpg",  
+    imageUrl: "/images/uichatbot.jpg",
     aspectRatio: "16:9",
     tags: ["ai apps"],
-    externalUrl: "https://github.com/piotrmacai/ai-chatbot-vercel-v1.0",   
+    externalUrl: "https://github.com/piotrmacai/ai-chatbot-vercel-v1.0",
   },
   {
     id: 8,
     title: "Local RAG Agent with Ollama",
     description: "A Video ad showcase with Ainsider AI Agents Services.",
     type: "image",
-    imageUrl: "/images/mollama.png", 
+    imageUrl: "/images/mollama.png",
     aspectRatio: "16:9",
     tags: ["ai", "agents"],
-    externalUrl: "https://github.com/piotrmacai/agent-ollama-deepseek-localrag",   
+    externalUrl: "https://github.com/piotrmacai/agent-ollama-deepseek-localrag",
   },
   {
     id: 9,
     title: "AI Agent Orchestration Template in Flowise",
     description: "MultiAgent in Flowise with any tools and integrations.",
     type: "image",
-    imageUrl: "/images/mmao.png", 
+    imageUrl: "/images/mmao.png",
     aspectRatio: "16:9",
     tags: ["ai", "agents"],
-    externalUrl: "https://github.com/piotrmacai/agent-flowise-sequentialAgents",   
+    externalUrl: "https://github.com/piotrmacai/agent-flowise-sequentialAgents",
   },
   // {
   //   id: 3,
@@ -214,12 +214,12 @@ export default function Agents() {
       case "image":
         return (
           <div className="w-4/5 aspect-video overflow-hidden rounded-lg mx-auto">
-          <img
-            src={item.imageUrl}
-            alt={item.title}
-            className="object-cover w-full h-full"
-          />
-        </div>
+            <img
+              src={item.imageUrl}
+              alt={item.title}
+              className="object-cover w-full h-full"
+            />
+          </div>
         )
       default:
         return null
@@ -229,45 +229,45 @@ export default function Agents() {
   return (
     <div className="w-full max-w-7xl mx-auto px-2 md:px-4 py-8">
 
-        <h1
-          className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
-          // style={{ fontSize: `${4 * headerSize}rem` }}
-        >
-          AI Agents Showcase
-        </h1>
+      <h1
+        className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
+      // style={{ fontSize: `${4 * headerSize}rem` }}
+      >
+        AI Agents Showcase
+      </h1>
 
 
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
         <div className="flex flex-wrap gap-4 mt-6">
-              <Link
-                href="https://twitter.com/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link
-                href="https://linkedin.com/in/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                <Linkedin size={20} />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-                    <Link
-                href="https://github.com/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                {/* <span className="font-bold text-lg">Git</span> */}
-                <Github size={20} />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              {/* <Link
+          <Link
+            href="https://twitter.com/piotrmacai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+          >
+            <Twitter size={20} />
+            <span className="sr-only">Twitter</span>
+          </Link>
+          <Link
+            href="https://linkedin.com/in/piotrmacai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+          >
+            <Linkedin size={20} />
+            <span className="sr-only">LinkedIn</span>
+          </Link>
+          <Link
+            href="https://github.com/piotrmacai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+          >
+            {/* <span className="font-bold text-lg">Git</span> */}
+            <Github size={20} />
+            <span className="sr-only">GitHub</span>
+          </Link>
+          {/* <Link
                     href="https://www.instagram.com/piotr.macai"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -286,14 +286,14 @@ export default function Agents() {
                 <span className="sr-only">Behance</span>
               </Link> */}
         </div>
-            {/* <Link
+        {/* <Link
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
             >
               Collaborate with Me
             </Link> */}
-          </div>
-        <div className="h-px bg-white/10 w-full mb-8" />
+      </div>
+      <div className="h-px bg-white/10 w-full mb-8" />
 
 
       <div className="flex flex-col md:flex-row">
@@ -309,11 +309,10 @@ export default function Agents() {
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
-                className={`px-4 py-2 border rounded-full text-sm transition-colors ${
-                  activeFilter === filter
-                    ? "bg-white/10 text-white"
-                    : "bg-transparent text-white/50 hover:bg-white/5"
-                }`}
+                className={`px-4 py-2 border rounded-full text-sm transition-colors ${activeFilter === filter
+                  ? "bg-white/10 text-white"
+                  : "bg-transparent text-white/50 hover:bg-white/5"
+                  }`}
               >
                 {filter.charAt(0).toUpperCase() + filter.slice(1)}
               </button>
@@ -337,7 +336,7 @@ export default function Agents() {
                   <p className="text-sm text-white/50 mb-4">{item.description}</p>
                   <Link
                     href={`${item.externalUrl}`}
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
                   >
