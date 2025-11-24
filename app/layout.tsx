@@ -7,6 +7,8 @@ import Voiceflow from "@/components/Voiceflow"
 import ElevenLabsAgent
   from "@/components/ElevenlabsAgent"
 import CookieBanner from "@/components/Cookiebanner"
+
+
 export const metadata = {
   title: "Fullstack Creative Studio",
   description: "Full Stack Design & Development Studio /by @PiotrMacai",
@@ -43,7 +45,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'

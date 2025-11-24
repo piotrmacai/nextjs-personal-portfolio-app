@@ -83,13 +83,13 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed p-6 md:p-2 top-0 left-0 right-0 z-30`}
+      className={`fixed p-4 md:p-2 top-0 left-0 right-0 z-30`}
     >
       <div
-        className={`md:mx-auto md:max-w-[95rem] mb-12 md:px-10 ${ 
-          "md:bg-black/50 md:border md:border-white/10 md:backdrop-blur-xl"
+        className={`md:mx-auto md:max-w-[95rem] mb-12 md:px-4 ${ 
+          "md:bg-transparent md:backdrop-blur-xl"
         } 
-        md:py-4 md:mt-6 md:mb-6`} 
+        md:py-4 md:mt-2 md:mb-6`} 
       >
         <div className="flex justify-between items-center">
           {/* Logo */}
