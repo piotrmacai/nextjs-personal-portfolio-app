@@ -464,7 +464,7 @@ export default function PortfolioGrid() {
                             {column.map((project) => (
                                 <Card
                                     key={project.id}
-                                    className="group liquid-glass overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl transition-all duration-300 hover:scale-[1.02] hover:border-lime-300/50"
+                                    className="group liquid-glass overflow-hidden rounded-xl border border-white/10 bg-white/5 backdrop-blur-xl transition-all duration-300 hover:scale-[1.02] hover:border-lime-300/50"
                                 >
                                     <div className={`relative ${project.aspect === "portrait" ? "aspect-[9/16]" : "aspect-video"} overflow-hidden`}>
                                         {project.mediaType === "vimeo" && project.mediaSrc ? (
