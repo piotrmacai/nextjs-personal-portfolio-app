@@ -1,4 +1,3 @@
-// web/page.tsx
 "use client"
 
 import { useState } from "react"
@@ -15,13 +14,6 @@ import Contact from "@/components/ContantComponent"
 import PortfolioGrid from "@/components/PortfolioGrid"
 
 
-
-// Removed: WebWorks, VibeCoding (replace with new components if needed)
-
-
-// --- NEW CONTENT DEFINITIONS ---
-
-// Updated service cards for Full Stack, AI & Creative
 const serviceCards = [
     {
         icon: <Code className="w-5 h-5" />,

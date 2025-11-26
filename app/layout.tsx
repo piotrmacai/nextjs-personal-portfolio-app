@@ -15,7 +15,6 @@ export const metadata = {
   keywords: "AI Creative Studio, AI Video Studio, AI Video Agency, AI Creative Agency, Full Stack Design, Full Stack Development, AI Design, AI Development, Web Design, Web Development, PiotrMacai",
   author: "@PiotrMacai",
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1.0",
   canonical: "https:/macai.cloud",
   ogTitle: "Fullstack Creative Studio | Full Stack Design & Development",
   ogDescription: "Discover Full Stack Design & Development creative solutions by @PiotrMacai & set of specialized AI Agents.",

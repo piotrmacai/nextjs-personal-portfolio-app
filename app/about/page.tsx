@@ -73,8 +73,8 @@ export default function OMnie() {
           style={{ fontSize: `${0.875 * textSize}rem` }}
         >
           <p>
-            I'm Piotr Machowski, a Fullstack Developer and Digital Creator specializing in AI-driven experiences, 
-            immersive interfaces, and motion design. My work sits at the intersection of technology and aesthetics, 
+            I'm Piotr Machowski, a Fullstack Developer and Digital Creator specializing in AI-driven experiences,
+            immersive interfaces, and motion design. My work sits at the intersection of technology and aesthetics,
             where clean code meets compelling visuals.
           </p>
           <p>
@@ -230,7 +230,7 @@ export default function OMnie() {
               </ul>
             </div>
           </div>
-          
+
           {/* <h2
             className={`${ppEditorialNewUltralightItalic.className} text-2xl font-light italic text-white/80 tracking-tighter mt-6`}
           >

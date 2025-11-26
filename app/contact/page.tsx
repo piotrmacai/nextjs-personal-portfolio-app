@@ -43,7 +43,7 @@ const serviceCards = [
 
 const techStack = {
   frontend: ["JavaScript", "TypeScript", "Next.js", "React", "Tailwind CSS", "Framer Motion", "Three.js", "CSS Frameworks", "No/Low-code tools"],
-  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API","CMS Platforms"]
+  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Python", "Rest API", "CMS Platforms"]
 }
 
 export default function Contact() {
@@ -70,14 +70,14 @@ export default function Contact() {
             style={{ fontSize: `${0.875 * textSize}rem` }}
           >
             <p>
-            I am happy to discuss new projects, creative ideas, or collaboration opportunities to bring your vision to life.
+              I am happy to discuss new projects, creative ideas, or collaboration opportunities to bring your vision to life.
             </p>
 
             <div className="space-y-4 mt-4">
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-white/60" />
                 <a href="mailto:piotr@macai.cloud" className="hover:text-white/80 transition-colors">
-                 piotr@macai.cloud
+                  piotr@macai.cloud
                 </a>
               </div>
 
@@ -95,12 +95,12 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-            <Link
-              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
-              className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
-            >
-              Project Estimate
-            </Link>
+              <Link
+                href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
+                className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
+              >
+                Project Estimate
+              </Link>
             </div>
 
             <div className="flex flex-wrap gap-4">
@@ -123,14 +123,14 @@ export default function Contact() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                    href="https://www.instagram.com/piotr.macai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/60 hover:text-white/90 transition-colors mt-1"
-                  >
-                    <Instagram size={20} />
-                    <span className="sr-only">Instagram</span>
-                  </Link>            
+                href="https://www.instagram.com/piotr.macai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-white/90 transition-colors mt-1"
+              >
+                <Instagram size={20} />
+                <span className="sr-only">Instagram</span>
+              </Link>
               <Link
                 href="https://github.com/piotrmacai"
                 target="_blank"
@@ -153,13 +153,13 @@ export default function Contact() {
           </div>
 
           <div>
-                 {/* Contact Form */}
-          <div className="space-y-4">
-          
-          <iframe src="https://ainsider.notion.site/ebd/1bcb65ddefcf805d9f28f545e3680986" width="100%" height="600" allowFullScreen className="border border-white/20 rounded-xl"/>
-          
-        </div>
-          {/* <Link
+            {/* Contact Form */}
+            <div className="space-y-4">
+
+              <iframe src="https://ainsider.notion.site/ebd/1bcb65ddefcf805d9f28f545e3680986" width="100%" height="600" allowFullScreen className="border border-white/20 rounded-xl" />
+
+            </div>
+            {/* <Link
               href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
             >
@@ -172,7 +172,7 @@ export default function Contact() {
              Konsultacja
             </Link> */}
 
-           
+
           </div>
         </div>
       </div>

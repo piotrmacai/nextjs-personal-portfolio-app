@@ -7,111 +7,111 @@ import Link from "next/link"
 import { Youtube, Instagram, Twitter, Linkedin, Github } from "lucide-react"
 
 export default function Home() {
-    const [headerSize] = useState(1.1) // 120% is the default size
-    const [textSize] = useState(0.8) // 80% is the default size
+  const [headerSize] = useState(1.1) // 120% is the default size
+  const [textSize] = useState(0.8) // 80% is the default size
 
-    return (
-        <div className="w-full h-full flex flex-col md:flex-row items-start gap-8 md:gap-8 mt-20 md:mt-20 sm:mt-4">
-            {/* Left Content */}
-            <div className="w-full md:w-[260px] flex-shrink-0 flex flex-col justify-between h-full order-1 md:order-1">
-                <div className="flex flex-col gap-8">
-                    <h1
-                        className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-6xl font-light italic text-white/80 tracking-tighter leading-[1.4rem] mt-2`}
-                    // style={{ fontSize: `${4 * headerSize}rem` }}
-                    >
-                        Piotr Macai
-                    </h1>
-                    <h2
-                        className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/80 tracking-tighter leading-none mt-0 md:-mt-4 mb-0`}
-                    // style={{ fontSize: `${4 * headerSize}rem` }}
-                    >
-                        Creative Solutions
-                    </h2>
-                    <p className="text-white/50 text-sm font-light -mt-6">
-                        by Piotr Macai & AI Agents
-                    </p>
+  return (
+    <div className="w-full h-full flex flex-col md:flex-row items-start gap-8 md:gap-8 mt-20 md:mt-20 sm:mt-4">
+      {/* Left Content */}
+      <div className="w-full md:w-[260px] flex-shrink-0 flex flex-col justify-between h-full order-1 md:order-1">
+        <div className="flex flex-col gap-8">
+          <h1
+            className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-6xl font-light italic text-white/80 tracking-tighter leading-[1.4rem] mt-2`}
+          // style={{ fontSize: `${4 * headerSize}rem` }}
+          >
+            Piotr Macai
+          </h1>
+          <h2
+            className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/80 tracking-tighter leading-none mt-0 md:-mt-4 mb-0`}
+          // style={{ fontSize: `${4 * headerSize}rem` }}
+          >
+            Creative Solutions
+          </h2>
+          <p className="text-white/50 text-sm font-light -mt-6">
+            by Piotr Macai & AI Agents
+          </p>
 
-                    <div className="flex flex-wrap gap-2">
-                        <Link href="/web" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">web</Link>
-                        <Link href="/ai" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">ai/automation</Link>
-                        <Link href="/visuals" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">visuals</Link>
-                    </div>
+          <div className="flex flex-wrap gap-2">
+            <Link href="/web" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">web</Link>
+            <Link href="/ai" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">ai/automation</Link>
+            <Link href="/visuals" className="text-white/50 text-sm font-light border border-white/20 rounded-full px-3 py-1">visuals</Link>
+          </div>
 
-                    <div className="flex flex-wrap gap-4">
-                        <Link
-                            href="https://twitter.com/piotrmacai"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-white/60 hover:text-white/90 transition-colors mt-1"
-                        >
-                            <Twitter size={20} />
-                            <span className="sr-only">Twitter</span>
-                        </Link>
-                        <Link
-                            href="https://linkedin.com/in/piotrmacai"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-white/60 hover:text-white/90 transition-colors mt-1"
-                        >
-                            <Linkedin size={20} />
-                            <span className="sr-only">LinkedIn</span>
-                        </Link>
-                        <Link
-                            href="https://github.com/piotrmacai"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-white/60 hover:text-white/90 transition-colors mt-1"
-                        >
-                            {/* <span className="font-bold text-lg">Git</span> */}
-                            <Github size={20} />
-                            <span className="sr-only">GitHub</span>
-                        </Link>
-                        <Link
-                            href="https://www.instagram.com/piotr.macai"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-white/60 hover:text-white/90 transition-colors mt-1"
-                        >
-                            <Instagram size={20} />
-                            <span className="sr-only">Instagram</span>
-                        </Link>
-                        <Link
-                            href="https://behance.net/macaistudio"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-white/60 hover:text-white/90 transition-colors"
-                        >
-                            <span className="font-bold text-lg">Be</span>
-                            <span className="sr-only">Behance</span>
-                        </Link>
-                    </div>
-
-
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="https://twitter.com/piotrmacai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white/90 transition-colors mt-1"
+            >
+              <Twitter size={20} />
+              <span className="sr-only">Twitter</span>
+            </Link>
+            <Link
+              href="https://linkedin.com/in/piotrmacai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white/90 transition-colors mt-1"
+            >
+              <Linkedin size={20} />
+              <span className="sr-only">LinkedIn</span>
+            </Link>
+            <Link
+              href="https://github.com/piotrmacai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white/90 transition-colors mt-1"
+            >
+              {/* <span className="font-bold text-lg">Git</span> */}
+              <Github size={20} />
+              <span className="sr-only">GitHub</span>
+            </Link>
+            <Link
+              href="https://www.instagram.com/piotr.macai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white/90 transition-colors mt-1"
+            >
+              <Instagram size={20} />
+              <span className="sr-only">Instagram</span>
+            </Link>
+            <Link
+              href="https://behance.net/macaistudio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white/90 transition-colors"
+            >
+              <span className="font-bold text-lg">Be</span>
+              <span className="sr-only">Behance</span>
+            </Link>
+          </div>
 
 
-                    <div
-                        className={`${inter.className} flex flex-col gap-12 text-white/50 text-sm font-light max-w-[300px]`}
-                        style={{ fontSize: `${0.875 * textSize}rem` }}
-                    >
-                        <div className="space-y-6">
-                            <div className="h-px bg-white/10 w-full" />
-                            <p>
-                                Hi! I love turning ideas into intelligent solutions where stunning visuals, software and AI work together to grow your business.
-                            </p>
-                            <p>
-                                My process combines technical skills with creative intuition and experience — I collaborate with my own AI agents to accelerate iterations, test ideas, and deliver campaigns and applications tailored to real audience needs.
-                            </p>
-                            <p>
-                                Let's talk and create something that truly makes you stand out from the crowd.
-                            </p>
-
-                            {/* <div className="h-px bg-white/10 w-full" /> */}
-                        </div>
-                    </div>
-                </div>
 
 
-                {/* <div className="flex flow-col justify-between">
+          <div
+            className={`${inter.className} flex flex-col gap-12 text-white/50 text-sm font-light max-w-[300px]`}
+            style={{ fontSize: `${0.875 * textSize}rem` }}
+          >
+            <div className="space-y-6">
+              <div className="h-px bg-white/10 w-full" />
+              <p>
+                Hi! I love turning ideas into intelligent solutions where stunning visuals, software and AI work together to grow your business.
+              </p>
+              <p>
+                My process combines technical skills with creative intuition and experience — I collaborate with my own AI agents to accelerate iterations, test ideas, and deliver campaigns and applications tailored to real audience needs.
+              </p>
+              <p>
+                Let's talk and create something that truly makes you stand out from the crowd.
+              </p>
+
+              {/* <div className="h-px bg-white/10 w-full" /> */}
+            </div>
+          </div>
+        </div>
+
+
+        {/* <div className="flex flow-col justify-between">
             <Link
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-14 ml-4 md:ml-0 mr-2 md:mr-0"
@@ -120,13 +120,13 @@ export default function Home() {
             </Link>
         </div> */}
 
-            </div>
+      </div>
 
-            {/* Right Content */}
-            <div className="w-full md:flex-grow h-[60vh] md:h-[80vh] order-2 md:order-2">
-                <DynamicFrameLayout />
+      {/* Right Content */}
+      <div className="w-full md:flex-grow h-[60vh] md:h-[80vh] order-2 md:order-2">
+        <DynamicFrameLayout />
 
-                {/* <div className="mt-2 mb-4 flex flow-row justify-between hidden sm:flex">
+        {/* <div className="mt-2 mb-4 flex flow-row justify-between hidden sm:flex">
             <Link
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-14"
@@ -190,9 +190,9 @@ export default function Home() {
             </Link>
         </div> */}
 
-            </div>
+      </div>
 
-        </div>
-    )
+    </div>
+  )
 }
 
