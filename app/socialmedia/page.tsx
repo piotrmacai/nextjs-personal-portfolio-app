@@ -5,7 +5,7 @@ import { ppEditorialNewUltralightItalic, inter } from "../fonts"
 import Link from "next/link"
 import { Palette, FileText, Layers, ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
-import VibeCoding from "@/components/VibeCoding"
+import VibeCodingSection from "@/components/VibeCodingSection"
 import VisualWorks from "@/components/VisualWorks"
 import MotionOrbit from "@/components/Motion"
 
@@ -66,7 +66,7 @@ export default function AISystemsPage() {
         <MotionOrbit />
 
         {/* Vibe Coding Component (The "Apps" part) */}
-        <VibeCoding />
+        <VibeCodingSection />
 
         {/* Creative Services Grid */}
         <motion.section

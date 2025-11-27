@@ -9,7 +9,7 @@ import PortfolioPage from "../portfolio/page" // Still imported, but main conten
 import Pricing from "@/components/Pricing" // Still imported
 import PortfolioSection from "@/components/PortfolioSection"
 import SocialMedia from "@/components/Socialmedia"
-import VibeCoding from "@/components/VibeCoding"
+import VibeCodingSection from "@/components/VibeCodingSection"
 import Contact from "@/components/ContantComponent"
 import PortfolioGrid from "@/components/PortfolioGrid"
 
@@ -134,7 +134,7 @@ export default function Home() {
 
                 {/* --- VIBE CODING SECTION --- */}
 
-                <VibeCoding />
+                <VibeCodingSection />
 
 
                 {/* --- PORTFOLIO SECTION (Web is a primary category) --- */}

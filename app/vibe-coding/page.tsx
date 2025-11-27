@@ -9,6 +9,7 @@ import Pricing from "@/components/Pricing"
 import WebWorks from "@/components/WebWorks"
 import MotionWeb from "@/components/MotionWeb"
 import SocialMedia from "@/components/Socialmedia"
+import VibeCodingSection from "@/components/VibeCodingSection"
 
 
 const serviceCards = [
@@ -75,7 +76,7 @@ export default function VibeCoding() {
     <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
       <div className="flex flex-col gap-12">
 
-        <VibeCoding />
+        <VibeCodingSection />
 
         <div className="w-full min-h-[70vh] pt-12 pb-4">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">

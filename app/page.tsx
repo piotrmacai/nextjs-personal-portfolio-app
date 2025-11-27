@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 import Pricing from "@/components/Pricing" // Still imported
 import PortfolioSection from "@/components/PortfolioSection"
 import SocialMedia from "@/components/Socialmedia"
-import VibeCoding from "@/components/VibeCoding"
+import VibeCoding from "@/components/VibeCodingSection"
 import Contact from "@/components/ContantComponent"
 import PortfolioGrid from "@/components/PortfolioGrid"
 

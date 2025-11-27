@@ -9,7 +9,7 @@ import PortfolioPage from "../portfolio/page"
 import Pricing from "@/components/Pricing"
 import WebWorks from "@/components/WebWorks"
 import SocialMedia from "@/components/Socialmedia"
-import VibeCoding from "@/components/VibeCoding"
+import VibeCodingSection from "@/components/VibeCodingSection"
 import PortfolioSection from "@/components/PortfolioSection"
 
 

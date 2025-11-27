@@ -4,7 +4,7 @@ import { ppEditorialNewUltralightItalic, inter } from "@/app/fonts"
 import { Sparkles, Zap, Database, Layout, TrendingUp } from "lucide-react"
 import { motion } from "framer-motion"
 
-export default function VibeCoding() {
+export default function VibeCodingSection() {
     return (
         <motion.section
             initial={{ opacity: 0, y: 20 }}
