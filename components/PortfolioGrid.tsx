@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { Play } from "lucide-react"
 import Link from "next/link"
+import { Youtube, Instagram, Twitter, Linkedin, Github } from "lucide-react"
 
 export type ProjectType = "all" | "web" | "video" | "designs" | "ai"
 
@@ -434,7 +435,70 @@ export default function PortfolioGrid() {
                             Portfolio
                         </span>
                     </h1>
-                    <p className="mx-auto max-w-2xl text-lg text-neutral-400">Explore my creative work and projects</p>
+
+                    <div className="flex flex-row space-x-4 justify-center mt-6">
+                        <Link
+                            href="https://x.com/piotrmacai"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white/60 hover:text-white/90 transition-colors"
+                        >
+                            <Twitter size={20} />
+                            <span className="sr-only">X (Twitter)</span>
+                        </Link>
+
+                        <Link
+                            href="https://www.linkedin.com/in/piotrmacai/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white/60 hover:text-white/90 transition-colors"
+                        >
+                            <Linkedin size={20} />
+                            <span className="sr-only">Linkedin</span>
+                        </Link>
+
+                        <Link
+                            href="https://github.com/piotrmacai"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+                        >
+                            <Github size={20} />
+                            <span className="sr-only">GitHub</span>
+                        </Link>
+
+                        <Link
+                            href="https://www.instagram.com/piotr.macai"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white/60 hover:text-white/90 transition-colors"
+                        >
+                            <Instagram size={20} />
+                            <span className="sr-only">Instagram</span>
+                        </Link>
+                        <Link
+                            href="https://www.behance.net/macaistudio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white/60 hover:text-white/90 transition-colors"
+                        >
+                            <span className="font-bold text-lg">Be</span>
+                            <span className="sr-only">Behance</span>
+                        </Link>
+                        {/* <Link
+                    href="https://www.youtube.com/@MacaiStudio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white/60 hover:text-white/90 transition-colors"
+                  > 
+                    <Youtube size={20} />
+                    <span className="sr-only">YouTube</span>
+                  </Link> */}
+                    </div>
+
+                    <p className="mx-auto max-w-2xl text-lg text-neutral-400 mt-3">Explore my creative work and projects</p>
+
+
                 </div>
 
                 {/* Filter Buttons */}
