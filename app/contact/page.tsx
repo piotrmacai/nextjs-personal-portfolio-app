@@ -96,7 +96,7 @@ export default function Contact() {
 
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" target="_blank" rel="noopener noreferrer"
+                href="https://www.notion.so/ainsider/2c1b65ddefcf8189addeef3e2631b3c0?pvs=106" target="_blank" rel="noopener noreferrer"
                 className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
               >
                 Project Estimate

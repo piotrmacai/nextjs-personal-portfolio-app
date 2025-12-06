@@ -7,7 +7,7 @@ import { Youtube, Instagram, Twitter, Linkedin, Film, Github } from "lucide-reac
 
 interface PortfolioItem {
   id: number
-  title: string
+  title: string 
   description: string
   type: 'video' | 'image'
   videoType?: 'mp4' | 'youtube' | 'vimeo'

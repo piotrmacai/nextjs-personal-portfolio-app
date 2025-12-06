@@ -10,7 +10,7 @@ import PortfolioSection from "@/components/PortfolioSection"
 import SocialMedia from "@/components/Socialmedia"
 import VibeCoding from "@/components/VibeCodingSection"
 import Contact from "@/components/ContantComponent"
-import PortfolioGrid from "@/components/PortfolioGrid"
+import PortfolioGrid from "@/components/PortfolioGrid" 
 
 
 const serviceCards = [
@@ -41,8 +41,8 @@ const serviceCards = [
   },
   {
     icon: <TrendingUp className="w-5 h-5" />,
-    title: "Performance & SEO Optimization",
-    description: "Ensuring top-tier speed, accessibility, and search engine rankings for maximum reach.",
+    title: "AI-DrivenMarketing & Social Media",
+    description: "End-to-end AI systems for content creation, multi-channel campaigns and lead generation.",
   }
 ]
 
@@ -72,6 +72,8 @@ export default function Home() {
             >
               Full Stack Development & <br />Intelligent AI Systems
             </motion.h1>
+            <p className="flex flex-col">by Macai</p>
+
             <SocialMedia />
           </div>
 
@@ -83,8 +85,10 @@ export default function Home() {
               transition={{ delay: 0.2, duration: 0.5 }}
               className="text-center max-w-3xl mx-auto"
             >
+              <p>Modern web applications • Custom AI agents • End-to-end automation</p>
               <p>
-                I am a Full Stack Developer specializing in crafting bespoke, high-performance web systems, **integrating custom AI agents** and automations to revolutionize business operations. Let's build the future, from sleek interfaces to scalable backend intelligence.
+                From beautiful, fast interfaces to autonomous workflows that run your business 24/7.   <br></br>
+                Let’s build the future — together.
               </p>
               <div className="mt-8">
                 <Link
@@ -259,7 +263,7 @@ export default function Home() {
                             Let's connect to discuss your vision for web development, custom AI integration, and business automation.
                         </p>
                         <Link
-                            href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105" // Assuming this is your project brief link
+                            href="https://www.notion.so/ainsider/2c1b65ddefcf8189addeef3e2631b3c0?pvs=106" // Assuming this is your project brief link
                             className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
                             target="_blank" rel="noopener noreferrer"
                         >
