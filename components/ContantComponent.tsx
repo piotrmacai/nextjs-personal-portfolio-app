@@ -96,7 +96,7 @@ export default function Contact() {
 
                         <div className="flex flex-wrap gap-4">
                             <Link
-                                href="https://www.notion.so/ainsider/2c1b65ddefcf8189addeef3e2631b3c0?pvs=106" target="_blank" rel="noopener noreferrer"
+                                href="https://ainsider.notion.site/1efb65ddefcf80718407d6820948debf?pvs=105" target="_blank" rel="noopener noreferrer"
                                 className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
                             >
                                 Project Estimate
@@ -120,7 +120,7 @@ export default function Contact() {
                                 className="text-white/60 hover:text-white/90 transition-colors mt-1"
                             >
                                 <Linkedin size={20} />
-                                <span className="sr-only">LinkedIn</span>
+                                <span className="sr-only">Linkedin</span>
                             </Link>
                             <Link
                                 href="https://www.instagram.com/piotr.macai"
@@ -156,21 +156,10 @@ export default function Contact() {
                         {/* Contact Form */}
                         <div className="space-y-4">
 
-                            <iframe src="https://www.notion.so/ainsider/2c1b65ddefcf8189addeef3e2631b3c0?pvs=106" width="100%" height="600" allowFullScreen className="border border-white/20 rounded-xl" />
+                            <iframe src="https://ainsider.notion.site/ebd//1efb65ddefcf80718407d6820948debf" frameBorder="0" allowFullScreen />
 
                         </div>
-                        {/* <Link
-              href="https://www.notion.so/ainsider/2c1b65ddefcf8189addeef3e2631b3c0?pvs=106" target="_blank" rel="noopener noreferrer"
-              className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
-            >
-              Wycena projektu
-            </Link> */}
-                        {/* <Link
-              href="https://calendar.notion.so/meet/piotrmacai/rv484loq" target="_blank" rel="noopener noreferrer"
-              className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
-            >
-             Konsultacja
-            </Link> */}
+
 
 
                     </div>

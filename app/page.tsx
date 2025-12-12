@@ -10,8 +10,8 @@ import PortfolioSection from "@/components/PortfolioSection"
 import SocialMedia from "@/components/Socialmedia"
 import VibeCoding from "@/components/VibeCodingSection"
 import Contact from "@/components/ContantComponent"
-import PortfolioGrid from "@/components/PortfolioGrid" 
-
+import PortfolioGrid from "@/components/PortfolioGrid"
+import DynamicFrameLayout from "@/components/DynamicFrameLayout"
 
 const serviceCards = [
   {
@@ -58,26 +58,25 @@ export default function Home() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6 mt-20 md:mt-20 sm:mt-4">
+    <div className="w-full max-w-6xl mx-auto px-2 sm:px-6 mt-16 md:mt-16 sm:mt-4">
       <div className="flex flex-col gap-12">
 
         {/* --- HERO SECTION --- */}
-        <div className="w-full min-h-[70vh] pt-12 pb-4">
+        <div className="w-full min-h-[50vh] pt-10 pb-2">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className={`${ppEditorialNewUltralightItalic.className} text-5xl md:text-7xl font-light italic text-white/90 tracking-tight text-center mb-12`}
+              className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/90 tracking-tight text-center mb-6`}
             >
-              Full Stack Development & <br />Intelligent AI Systems
+              Designer & Developer <br />of Digital Solutions
             </motion.h1>
-            <p className="flex flex-col">by Macai</p>
-
+            <p className="flex flex-col items-center justify-center font-light text-white/80">Piotr Macai</p>
             <SocialMedia />
           </div>
 
-          <div className="bg-gradient-to-r from-transparent via-white/20 to-transparent my-10" />
+          <div className="bg-gradient-to-r from-transparent via-white/20 to-transparent my-4" />
           <div className={`${inter.className} flex flex-col gap-12 text-white/70 text-base font-light`}>
             <motion.div
               initial={{ opacity: 0 }}
@@ -85,21 +84,29 @@ export default function Home() {
               transition={{ delay: 0.2, duration: 0.5 }}
               className="text-center max-w-3xl mx-auto"
             >
-              <p>Modern web applications • Custom AI agents • End-to-end automation</p>
+              {/* <p>Modern web applications • Custom AI agents • End-to-end automation</p>
               <p>
                 From beautiful, fast interfaces to autonomous workflows that run your business 24/7.   <br></br>
-                Let’s build the future — together.
+              </p> */}
+              <p>
+                Let’s build the future together.
               </p>
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <Link
                   href="/services"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
                 >
                   Explore Services <ArrowRight className="w-4 h-4" />
                 </Link>
-              </div>
+              </div> */}
             </motion.div>
           </div>
+        </div>
+
+
+        {/* Right Content */}
+        <div className="w-full md:flex-grow h-[60vh] md:h-[80vh]">
+          <DynamicFrameLayout />
         </div>
 
         {/* --- CORE SERVICES SECTION --- */}
@@ -134,10 +141,9 @@ export default function Home() {
           </div>
         </motion.section>
 
-
         {/* --- VIBE CODING SECTION --- */}
 
-        <VibeCoding />
+        {/* <VibeCoding /> */}
 
 
         {/* --- PORTFOLIO SECTION (Web is a primary category) --- */}

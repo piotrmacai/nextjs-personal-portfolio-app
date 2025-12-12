@@ -7,7 +7,7 @@ import { Youtube, Instagram, Twitter, Linkedin, Film, Github } from "lucide-reac
 
 interface PortfolioItem {
   id: number
-  title: string 
+  title: string
   description: string
   type: 'video' | 'image'
   videoType?: 'mp4' | 'youtube' | 'vimeo'
@@ -303,16 +303,16 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai", "web"],
     externalUrl: "https://ainsider.co",
   },
-  //       {
-  //   id: 12,
-  //   title: "AI powered Business Dashboard",
-  //   description: "Created in React.js with Google Gemini AI",
-  //   type: "image",
-  //   imageUrl: "/images/AiLocalSeo.png",
-  //   aspectRatio: "16:9",
-  //   tags: ["ai"],
-  //   externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
-  // },
+  {
+    id: 12,
+    title: "AI powered Business Dashboard",
+    description: "Created in React.js with Google Gemini AI",
+    type: "image",
+    imageUrl: "/images/AiLocalSeo.png",
+    aspectRatio: "16:9",
+    tags: ["ai"],
+    externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
+  },
   {
     id: 12.5,
     title: "Complete CRM for Business",

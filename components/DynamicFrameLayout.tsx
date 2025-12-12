@@ -25,7 +25,7 @@ const cursorStyles = `
 `;
 
 const GRID_SIZE = 12
-const CELL_SIZE = 60 
+const CELL_SIZE = 60
 
 interface Frame {
   id: number
@@ -71,11 +71,12 @@ const initialFrames: Frame[] = [
     borderSize: 80,
     autoplayMode: "all",
     isHovered: false,
-     link: "https://ainsider.link",
+    link: "https://ainsider.link",
   },
-   {
+  {
     id: 3,
-    video: "/videos/Visuals_Showcase.mp4",
+    // video: "/videos/Visuals_Showcase.mp4",
+    video: "https://static.cdn-luma.com/files/58ab7363888153e3/Jitter%20Exported%20Poster.mp4",
     defaultPos: { x: 8, y: 4, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/1199340587e8da1d/6_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/1199340587e8da1d/6_corner-1.png",
@@ -87,9 +88,9 @@ const initialFrames: Frame[] = [
     isHovered: false,
     link: "/visuals",
   },
-   {
+  {
     id: 4,
-     video: "/videos/Web_Showcase.mp4",
+    video: "/videos/Web_Showcase.mp4",
     //  video: "/videos/LandingPages_Showcase.mp4",
     defaultPos: { x: 4, y: 8, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/981e483f71aa764b/8_corner.png",
@@ -116,11 +117,11 @@ const initialFrames: Frame[] = [
     isHovered: false,
     link: "/web",
   },
-   {
+  {
     id: 6,
     // video: "https://static.cdn-luma.com/files/58ab7363888153e3/Jitter%20Exported%20Poster.mp4",
     // video: "/videos/socialmedia.mp4",
-     video: "/videos/LandingPages_Showcase.mp4",
+    video: "/videos/LandingPages_Showcase.mp4",
     defaultPos: { x: 8, y: 0, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/3d36d1e0dba2476c/3_Corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/3d36d1e0dba2476c/3_hori_update.png",
@@ -132,10 +133,10 @@ const initialFrames: Frame[] = [
     isHovered: false,
     link: "/web",
   },
-   {
-    id: 7, 
-     video: "/videos/insdrstudio.mp4",
-    defaultPos: { x: 0, y: 4, w: 4, h: 4 }, 
+  {
+    id: 7,
+    video: "/videos/insdrstudio.mp4",
+    defaultPos: { x: 0, y: 4, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_corner_update.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_hori_update.png",
     edgeVertical: "https://static.cdn-luma.com/files/9e67e05f37e52522/4_vert_update.png",
@@ -146,9 +147,9 @@ const initialFrames: Frame[] = [
     isHovered: false,
     link: "/web",
   },
-   {
+  {
     id: 8,
-    video: "/videos/AiAgentsMacai.mp4",
+    video: "/videos/Ainsiderco.mp4",
     defaultPos: { x: 0, y: 8, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/b80b5aa00ccc33bd/7_corner.png",
     edgeHorizontal: "https://static.cdn-luma.com/files/b80b5aa00ccc33bd/7_hori.png",
@@ -159,7 +160,7 @@ const initialFrames: Frame[] = [
     autoplayMode: "all",
     isHovered: false,
     link: "/ai",
-  },  
+  },
   {
     id: 9,
     video: "/videos/behancevideo.mp4",
@@ -172,7 +173,7 @@ const initialFrames: Frame[] = [
     borderSize: 80,
     autoplayMode: "all",
     isHovered: false,
-    link: "https://www.behance.net/macaistudio", 
+    link: "https://www.behance.net/macaistudio",
   },
 ]
 
@@ -221,7 +222,7 @@ export default function DynamicFrameLayout() {
     <div className="w-full h-full">
       {/* Inject custom cursor styles */}
       <style jsx>{cursorStyles}</style>
-      
+
       <div
         className="relative w-full h-full"
         style={{

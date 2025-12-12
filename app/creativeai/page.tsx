@@ -227,7 +227,7 @@ export default function AIContentServices() {
               Let's leverage the power of AI to build a content engine that drives growth and engagement.
             </p>
             <Link
-              href="https://ainsider.notion.site/1bcb65ddefcf805d9f28f545e3680986?pvs=105"
+              href="https://ainsider.notion.site/1efb65ddefcf80718407d6820948debf?pvs=105"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black hover:bg-white/90 transition-colors font-medium"
               target="_blank" rel="noopener noreferrer"
             >
