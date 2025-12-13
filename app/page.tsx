@@ -12,6 +12,7 @@ import VibeCoding from "@/components/VibeCodingSection"
 import Contact from "@/components/ContantComponent"
 import PortfolioGrid from "@/components/PortfolioGrid"
 import DynamicFrameLayout from "@/components/DynamicFrameLayout"
+import AinsiderSection from "@/components/Ainsider"
 
 const serviceCards = [
   {
@@ -49,7 +50,7 @@ const serviceCards = [
 // Updated tech stack to reflect Full Stack & AI focus
 const techStack = {
   frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js"],
-  backendAi: ["Node.js / Express", "Python & AI/ML Libraries", "LangChain / LLMs", "PostgreSQL / MongoDB", "Headless CMS (Sanity, Strapi)"],
+  backendAi: ["Node.js / Express", "Python", "PostgreSQL / MongoDB", "Headless CMS (Sanity, Strapi)"],
   aiagents: ["Langchain", "n8n", "Voiceflow", "Botpress", "Huggingface", "OpenAI", "Google Gemini", "VibeCoding", "Lovable"]
 }
 
@@ -142,7 +143,7 @@ export default function Home() {
         </motion.section>
 
         {/* --- VIBE CODING SECTION --- */}
-
+        <AinsiderSection />
         {/* <VibeCoding /> */}
 
 
@@ -163,28 +164,39 @@ export default function Home() {
           className="mt-8 mb-8"
         >
           <div className="flex flex-col md:flex-row gap-12">
-            <div className="md:w-1/4">
+            <div className="md:w-2/5">
               <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl font-light italic text-white/90 mb-6`}>
-                Technology Stack & AI Expertise
+                About Me
               </h2>
               <p className={`${inter.className} text-white/60 mb-8`}>
-                Leveraging the latest in modern web development and cutting-edge AI frameworks to deliver scalable, intelligent solutions.
+                I'm creating complete modern digital solutions for businesses being full-stack developer and designer integrating advanced AI and automation technologies with robust web development practices to create scalable, efficient applications. <br></br>
+                I leverage AI-powered solutions with technical experience and expertise.
               </p>
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
-              >
-                <span>Discuss your system requirements</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
+              {/* <Link
+        href="/contact"
+        className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
+      >
+        <span>Discuss your system requirements</span>
+        <ArrowRight className="w-4 h-4" />
+      </Link> */}
+
+              <div className="mt-12">
+                <h3 className="text-sm font-medium text-white/50 uppercase tracking-wider mb-4">Key Competencies</h3>
+                <div className="flex flex-wrap gap-2">
+                  {["Strategic AI Integration", "Full Stack Architecture", "UX/UI Design Systems", "Automation Workflows", "Prompt Engineering"].map((skill, i) => (
+                    <span key={i} className={`px-3 py-1 rounded-md bg-white/5 border border-white/5 text-xs text-white/60 ${inter.className} hover:bg-white/10 hover:text-white/80 transition-colors`}>
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
 
-            <div className="md:w-3/4">
-
+            <div className="md:w-3/5">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="p-6 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
                   <h3 className="text-lg font-medium text-white/90 mb-4 flex items-center gap-2"><Layout className="w-5 h-5" /> Frontend & UI/UX</h3>
-                  <ul className="space-y-3">
+                  <ul className="space-y-2">
                     {techStack.frontend.map((tech, index) => (
                       <li key={index} className="flex items-center gap-3">
                         <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
@@ -196,7 +208,7 @@ export default function Home() {
 
                 <div className="p-6 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
                   <h3 className="text-lg font-medium text-white/90 mb-4 flex items-center gap-2"><Cpu className="w-5 h-5" /> Backend, Data & AI</h3>
-                  <ul className="space-y-3">
+                  <ul className="space-y-2">
                     {techStack.backendAi.map((tech, index) => (
                       <li key={index} className="flex items-center gap-3">
                         <div className="w-2 h-2 rounded-full bg-purple-400"></div>
@@ -206,8 +218,8 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="p-6 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                  <h3 className="text-lg font-medium text-white/90 mb-4 flex items-center gap-2"><Cpu className="w-5 h-5" /> Backend, Data & AI</h3>
-                  <ul className="space-y-3">
+                  <h3 className="text-lg font-medium text-white/90 mb-4 flex items-center gap-2"><Bot className="w-5 h-5" /> AI Agents & Automation</h3>
+                  <ul className="space-y-2">
                     {techStack.aiagents.map((tech, index) => (
                       <li key={index} className="flex items-center gap-3">
                         <div className="w-2 h-2 rounded-full bg-purple-400"></div>
@@ -231,19 +243,19 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* <Gem className="w-12 h-12 text-purple-400 flex-shrink-0" /> */}
             <div>
-              <h3 className={`${ppEditorialNewUltralightItalic.className} text-3xl font-light italic text-white/90 mb-3`}>
+              <h3 className={`${ppEditorialNewUltralightItalic.className} text-3xl font-light italic text-white/90 mb-3 mr-4`}>
                 Creative AI Studio
               </h3>
               <p className={`${inter.className} text-white/70`}>
-                Go beyond code. Access the <span className="font-bold">gen.macai.cloud</span> studio for on-demand generation of stunning visual content—high-quality videos, images, and creative assets powered by advanced generative AI models.
+                Go beyond code. Access the <span className="font-bold">gen.ainsider.co</span> studio for on-demand generation of stunning visual content. Create with me high-quality videos, images, and creative assets fully tailored to your brand.
               </p>
             </div>
             <Link
-              href="https://gen.macai.cloud"
+              href="https://gen.ainsider.co"
               target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gray-500 text-white hover:bg-gray-600 transition-colors flex-shrink-0"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-800 text-white hover:bg-gray-600 transition-colors flex-shrink-0"
             >
-              Visit AI Studio <MonitorPlay className="w-4 h-4" />
+              Gen Studio <MonitorPlay className="w-4 h-4" />
             </Link>
           </div>
         </motion.section>
@@ -279,7 +291,7 @@ export default function Home() {
                     </div>
                 </motion.section> */}
 
-      </div>
-    </div>
+      </div >
+    </div >
   )
 }

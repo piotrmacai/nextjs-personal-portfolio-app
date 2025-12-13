@@ -96,10 +96,10 @@ export default function Contact() {
 
                         <div className="flex flex-wrap gap-4">
                             <Link
-                                href="https://ainsider.notion.site/1efb65ddefcf80718407d6820948debf?pvs=105" target="_blank" rel="noopener noreferrer"
+                                href="https://ainsider.link" target="_blank" rel="noopener noreferrer"
                                 className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium bg-white/10 hover:bg-white/5 transition-colors text-center w-full max-w-[260px] text-sm mt-4"
                             >
-                                Project Estimate
+                                see My AI Resources
                             </Link>
                         </div>
 
@@ -152,16 +152,15 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="h-full w-full">
                         {/* Contact Form */}
-                        <div className="space-y-4">
-
-                            <iframe src="https://ainsider.notion.site/ebd//1efb65ddefcf80718407d6820948debf" frameBorder="0" allowFullScreen />
-
+                        <div className="w-full h-full">
+                            <iframe
+                                src="https://ainsider.notion.site/ebd//1efb65ddefcf80718407d6820948debf"
+                                className="w-full h-full min-h-[600px] border-0"
+                                allowFullScreen
+                            />
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
