@@ -142,7 +142,7 @@ export default function AinsiderSection() {
                                     className="mb-8 mt-8"
                                 >
                                     <div className="text-center mb-16">
-                                        <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-5xl font-light italic text-white/90 mb-4`}>
+                                        <h2 className={`${ppEditorialNewUltralightItalic.className} text-2xl md:text-3xl font-light italic text-white/90 mb-4`}>
                                             The Workflow
                                         </h2>
                                         <p className={`${inter.className} text-white/50 max-w-lg mx-auto`}>

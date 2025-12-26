@@ -207,13 +207,13 @@ export default function OMnie() {
             <div>
               <h3 className="text-xl font-medium text-white/70">Design and UX</h3>
               <ul className="list-disc pl-5 space-y-1 mt-2">
-                <li>Prototyping in Figma and design systems</li>
+                <li>Figma and design systems</li>
                 <li>Adobe Creative Suite (Photoshop, Illustrator)</li>
                 <li>3D with Three.js, animations with GSAP/Framer</li>
                 <li>Research and user testing methodologies</li>
               </ul>
               <p className="mt-2">
-                Check out my design work on <Link href="https://behance.net/macaistudio" className="text-white/70 hover:underline">Behance</Link>
+                Behance: <Link href="https://behance.net/macaistudio" className="text-white/70 hover:underline">Behance</Link>
               </p>
             </div>
             <div>

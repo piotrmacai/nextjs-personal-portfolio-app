@@ -73,7 +73,7 @@ export default function Home() {
             >
               Designer & Developer <br />of Digital Solutions
             </motion.h1>
-            <p className="flex flex-col items-center justify-center font-light text-white/80">Piotr Macai</p>
+            <p className="flex flex-col items-center justify-center font-light text-white/90">Piotr Macai</p>
             <SocialMedia />
           </div>
 
