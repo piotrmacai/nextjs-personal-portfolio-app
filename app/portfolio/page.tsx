@@ -152,6 +152,26 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
   },
   {
+    id: 12.5,
+    title: "n8n frontend fullstack chatbot app",
+    description: "A versatile frontend chat interface dedicated for multiple various n8n workflows.",
+    type: "image",
+    imageUrl: "/images/n8nfrontendapp.png",
+    aspectRatio: "16:9",
+    tags: ["web", "ai", "vibe coding"],
+    githubUrl: "https://github.com/piotrmacai/",
+  },
+  {
+    id: 12.6,
+    title: "AI Leads Genarator",
+    description: "Powerful and easy to use lead generator powered by AI and Gemini Maps search",
+    type: "image",
+    imageUrl: "/images/leadgenapp.png",
+    aspectRatio: "16:9",
+    tags: ["web", "ai", "vibe coding"],
+    githubUrl: "https://github.com/piotrmacai/",
+  },
+  {
     id: 13,
     title: "Voice Agent Starter Kit",
     description: "Developed using Vercel AI SDK and ElevenLabs for building interactive voice-based AI applications.",
@@ -164,7 +184,7 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 14,
-    title: "Enterprise AI Voice Agent",
+    title: "AI Voice Agent with Elevenlabs",
     description: "I built an AI Voice Agent trained on proprietary business data, designed for seamless website integration.",
     type: "image",
     imageUrl: "/images/voicebotmacai.png",
@@ -174,7 +194,7 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 15,
-    title: "Multi-LLM Chatbot App",
+    title: "Multi-LLM Chatbot App with n8n workflows",
     description: "A versatile chat interface supporting multiple Gemini models and complex n8n backend workflows.",
     type: "image",
     imageUrl: "/images/geminin8n.png",
@@ -190,7 +210,7 @@ const portfolioItems: PortfolioItem[] = [
     videoType: "vimeo",
     videoId: "1121933690",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "featured"],
+    tags: ["web", "ai"],
     externalUrl: "https://oskmachowski.pl",
   },
   {
