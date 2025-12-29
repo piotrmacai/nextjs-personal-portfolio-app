@@ -51,7 +51,7 @@ const serviceCards = [
 const techStack = {
   frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js"],
   backendAi: ["Node.js / Express", "Python", "PostgreSQL / MongoDB", "Headless CMS (Sanity, Strapi)"],
-  aiagents: ["Langchain", "n8n", "Voiceflow", "Botpress", "Huggingface", "OpenAI", "Google Gemini", "VibeCoding", "Lovable"]
+  aiagents: ["Langchain", "n8n", "Voiceflow", "Botpress", "Huggingface", "OpenAI", "Google Gemini", "Apps", "Lovable"]
 }
 
 // Renamed the default export function to reflect the main page

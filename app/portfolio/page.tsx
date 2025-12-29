@@ -30,7 +30,7 @@ const portfolioItems: PortfolioItem[] = [
     videoType: "vimeo",
     videoId: "1133675483",
     aspectRatio: "16:9",
-    tags: ["web", "visuals", "vibe coding", "featured"],
+    tags: ["web", "visuals", "apps", "featured"],
     techStack: ["Next.js", "Framer Motion", "Vimeo SDK"],
     externalUrl: "https://ainsider.store",
   },
@@ -41,7 +41,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/ainsiderstore.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "personal", "agents"],
     externalUrl: "https://ainsider.store",
   },
   {
@@ -51,7 +51,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/ainsiderstore.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "personal", "n8n"],
     externalUrl: "https://ainsider.store",
   },
   {
@@ -65,13 +65,23 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://ainsider.co",
   },
   {
+    id: 4.5,
+    title: "Fullstack Chatbot App with OpenWebUI",
+    description: "working with any n8n workflow",
+    type: "image",
+    imageUrl: "/images/customchatbot.png",
+    aspectRatio: "16:9",
+    tags: ["ai", "web", "agents", "n8n"],
+    externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
+  },
+  {
     id: 5,
-    title: "Fullstack Chatbot System",
+    title: "n8n Chatbot Frontend App",
     description: "I architected a custom chatbot interface that integrates with any n8n workflow for complex business automations.",
     type: "image",
     imageUrl: "/images/n8n-workflows.webp",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "featured"],
+    tags: ["web", "ai", "featured", "agents", "n8n"],
     techStack: ["n8n", "PostgreSQL", "React", "Docker"],
     githubUrl: "https://github.com/piotrmacai/n8n/",
   },
@@ -82,14 +92,14 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/AiProductDesigner.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "visuals", "vibe coding", "featured"],
+    tags: ["web", "ai", "visuals", "apps", "featured"],
     techStack: ["Next.js", "Gemini AI", "Tailwind", "Vercel"],
     externalUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
     githubUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
   },
   {
     id: 7,
-    title: "My Github",
+    title: "See My Github",
     description: "My Github profile with my projects - apps, websites, agents and automations",
     type: "image",
     imageUrl: "/images/git.jpg",
@@ -147,7 +157,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/creativeai.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "visuals", "vibe coding", "featured"],
+    tags: ["web", "ai", "visuals", "apps", "featured"],
     techStack: ["React", "Nano Banana API", "Cloudflare"],
     githubUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
   },
@@ -158,8 +168,8 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/n8nfrontendapp.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "vibe coding"],
-    githubUrl: "https://github.com/piotrmacai/",
+    tags: ["web", "ai", "apps", "agents", "n8n"],
+    githubUrl: "https://github.com/piotrmacai/Gemini-OmniChatbotApp",
   },
   {
     id: 12.6,
@@ -168,8 +178,8 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/leadgenapp.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "vibe coding"],
-    githubUrl: "https://github.com/piotrmacai/",
+    tags: ["web", "ai", "apps"],
+    githubUrl: "https://github.com/piotrmacai/LeadGenerationApp_v1.0",
   },
   {
     id: 13,
@@ -178,7 +188,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/elevenvercel.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "vibe coding", "featured"],
+    tags: ["web", "ai", "apps", "featured", "agents"],
     techStack: ["Vercel AI SDK", "ElevenLabs", "TypeScript"],
     externalUrl: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
   },
@@ -189,7 +199,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/voicebotmacai.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai"],
+    tags: ["web", "ai", "agents"],
     externalUrl: "https://ainsider.store",
   },
   {
@@ -199,30 +209,40 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/geminin8n.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "vibe coding"],
-    githubUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
+    tags: ["web", "ai", "apps", "agents", "n8n"],
+    githubUrl: "https://github.com/piotrmacai/Gemini-chatapp-n8n-app",
   },
   {
     id: 16,
-    title: "Oskmachowski.pl Website",
-    description: "High-performance business platform with perfect SEO optimization and a custom AI assistant built in.",
-    type: "video",
-    videoType: "vimeo",
-    videoId: "1121933690",
-    aspectRatio: "16:9",
-    tags: ["web", "ai"],
-    externalUrl: "https://oskmachowski.pl",
-  },
-  {
-    id: 17,
     title: "Custom Linktree Website with AI Agent",
     description: "Custom website being the custom Linktree alternative with AI Chatbot. Created in Next.js.",
     type: "video",
     videoType: "vimeo",
     videoId: "1091506278",
     aspectRatio: "16:9",
-    tags: ["web", "ai"],
+    tags: ["web", "ai", "agents"],
     externalUrl: "https://ainsider.link",
+  },
+  {
+    id: 17,
+    title: "Oskmachowski.pl Website",
+    description: "High-performance business platform with perfect SEO optimization and a custom AI assistant built in.",
+    type: "video",
+    videoType: "vimeo",
+    videoId: "1121933690",
+    aspectRatio: "16:9",
+    tags: ["web", "ai", "agents"],
+    externalUrl: "https://oskmachowski.pl",
+  },
+  {
+    id: 17.5,
+    title: "360 Marketing Reports AI System",
+    description: "complete solution do generate marketing reports with conversational AI Agent",
+    type: "image",
+    imageUrl: "/images/marketingreport.png",
+    aspectRatio: "16:9",
+    tags: ["ai", "web", "agents", "n8n"],
+    externalUrl: "https://github.com/piotrmacai/n8n/tree/main/marketing-reports-system",
   },
   {
     id: 18,
@@ -232,8 +252,18 @@ const portfolioItems: PortfolioItem[] = [
     videoType: "vimeo",
     videoId: "1121924337",
     aspectRatio: "16:9",
-    tags: ["web", "vibe coding"],
+    tags: ["web", "apps"],
     externalUrl: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
+  },
+  {
+    id: 18.5,
+    title: "Complete SEO & AEO Audit App",
+    description: "complete solution for creating SEO & AEO audit reports for websites",
+    type: "image",
+    imageUrl: "/images/websiteseoaudit.png",
+    aspectRatio: "16:9",
+    tags: ["ai", "web", "agents", "n8n"],
+    externalUrl: "https://github.com/piotrmacai/n8n/tree/main/seo-audit-v1",
   },
   {
     id: 19,
@@ -253,7 +283,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/n8n-wordpress.png",
     aspectRatio: "16:9",
-    tags: ["ai", "web"],
+    tags: ["ai", "web", "n8n"],
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
   },
   {
@@ -274,7 +304,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/crmnotion.png",
     aspectRatio: "16:9",
-    tags: ["web", "ai", "personal"],
+    tags: ["web", "ai", "personal", "agents"],
     externalUrl: "https://ainsider.co/crm",
   },
   {
@@ -301,7 +331,7 @@ const portfolioItems: PortfolioItem[] = [
   }
 ]
 
-const availableFilters = ["featured", "all", "web", "ai", "vibe coding", "visuals", "personal"]
+const availableFilters = ["featured", "all", "web", "ai", "agents", "apps", "n8n", "visuals"]
 
 const MediaDisplay = ({ item }: { item: PortfolioItem }) => {
   const [showCover, setShowCover] = useState(true)
@@ -432,8 +462,8 @@ export default function PortfolioPage() {
                       <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl text-white/90 italic`}>
                         {item.title}
                       </h2>
-                      {item.tags.includes('vibe coding') && (
-                        <span className="text-[10px] font-bold bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full border border-blue-500/20 uppercase tracking-widest">Vibe Coding</span>
+                      {item.tags.includes('apps') && (
+                        <span className="text-[10px] font-bold bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full border border-blue-500/20 uppercase tracking-widest">Apps</span>
                       )}
                     </div>
                     <p className="text-white/50 text-base leading-relaxed font-light">
@@ -534,7 +564,7 @@ export default function PortfolioPage() {
 //     videoType: "vimeo",
 //     videoId: "1133675483", //https://vimeo.com/1133675483?fl=ip&fe=ec
 //     aspectRatio: "16:9",
-//     tags: ["web", "ai", "vibe coding"],
+//     tags: ["web", "ai", "apps"],
 //     externalUrl: "https://ainsider.store",
 //   },
 
@@ -565,7 +595,7 @@ export default function PortfolioPage() {
 //     type: "image",
 //     imageUrl: "/images/AiProductDesigner.png",
 //     aspectRatio: "16:9",
-//     tags: ["web", "ai", "vibe coding"],
+//     tags: ["web", "ai", "apps"],
 //     externalUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
 //   },
 //   {
@@ -595,7 +625,7 @@ export default function PortfolioPage() {
 //     type: "image",
 //     imageUrl: "/images/creativeai.png",
 //     aspectRatio: "16:9",
-//     tags: ["web", "ai", "vibe coding"],
+//     tags: ["web", "ai", "apps"],
 //     externalUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
 //   },
 //   {
@@ -616,7 +646,7 @@ export default function PortfolioPage() {
 //     type: "image",
 //     imageUrl: "/images/geminin8n.png",
 //     aspectRatio: "16:9",
-//     tags: ["web", "ai", "vibe coding"],
+//     tags: ["web", "ai", "apps"],
 //     externalUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
 //   },
 //   {
@@ -637,7 +667,7 @@ export default function PortfolioPage() {
 //     type: "image",
 //     imageUrl: "/images/GeminiSocialGenerator.png",
 //     aspectRatio: "16:9",
-//     tags: ["web", "ai", "vibe coding"],
+//     tags: ["web", "ai", "apps"],
 //     externalUrl: "https://github.com/piotrmacai/Gemini-SocialMediaDesigner",
 //   },
 //   {
@@ -719,16 +749,6 @@ export default function PortfolioPage() {
 //     externalUrl: "https://after-rave.eu",
 //   },
 //   {
-//     id: 7.5,
-//     title: "Fullstack Chatbot App",
-//     description: "working with any n8n workflow",
-//     type: "image",
-//     imageUrl: "/images/customchatbot.png",
-//     aspectRatio: "16:9",
-//     tags: ["ai", "web"],
-//     externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
-//   },
-//   {
 //     id: 9,
 //     title: "Oskmachowski.pl",
 //     description: "Ultra-fast Business & well SEO-optimized Website with built-in AI Assistant",
@@ -748,7 +768,7 @@ export default function PortfolioPage() {
 //     type: "image",
 //     imageUrl: "/images/elevenvercel.png",
 //     aspectRatio: "16:9",
-//     tags: ["web", "ai", "vibe coding"],
+//     tags: ["web", "ai", "apps"],
 //     externalUrl: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
 //   },
 //   {
@@ -847,7 +867,7 @@ export default function PortfolioPage() {
 //     // videoId: "VilbxnCTwbI",
 //     videoId: "1121924337", //https://vimeo.com/1121924337
 //     aspectRatio: "16:9",
-//     tags: ["web", "vibe coding"],
+//     tags: ["web", "apps"],
 //     externalUrl: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
 //   },
 //   {
@@ -880,7 +900,7 @@ export default function PortfolioPage() {
 //     type: "image",
 //     imageUrl: "/images/AiLocalSeo.png",
 //     aspectRatio: "16:9",
-//     tags: ["ai", "web", "vibe coding"],
+//     tags: ["ai", "web", "apps"],
 //     externalUrl: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
 //   }, {
 //     id: 16.5,
@@ -1049,7 +1069,7 @@ export default function PortfolioPage() {
 //   // END OF ORIGINAL FULL ARRAY
 // ]
 
-// const availableFilters = ["all", "web", "ai", "visuals", "personal", "vibe coding"]
+// const availableFilters = ["all", "web", "ai", "visuals", "personal", "apps"]
 
 // /**
 //  * NEW COMPONENT: Separated from PortfolioPage to use Hooks legally (useState, useRef)

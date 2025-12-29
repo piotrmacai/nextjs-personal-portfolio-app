@@ -43,7 +43,7 @@ const portfolioItems: PortfolioItem[] = [
         videoType: "vimeo",
         videoId: "1133675483",
         aspectRatio: "16:9",
-        tags: ["web", "ai", "vibe coding"],
+        tags: ["web", "ai", "apps"],
         externalUrl: "https://ainsider.store",
     },
     {
@@ -73,7 +73,7 @@ const portfolioItems: PortfolioItem[] = [
         type: "image",
         imageUrl: "/images/AiProductDesigner.png",
         aspectRatio: "16:9",
-        tags: ["web", "ai", "vibe coding"],
+        tags: ["web", "ai", "apps"],
         externalUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
     },
     {
@@ -231,7 +231,7 @@ export default function PortfolioSection({
     // Use the initialFilter prop to set the starting state
     const [activeFilter, setActiveFilter] = useState(initialFilter.toLowerCase())
 
-    const availableFilters = ["all", "web", "ai", "visuals", "personal", "vibe coding"]
+    const availableFilters = ["all", "web", "ai", "visuals", "personal", "apps"]
 
     // Use useMemo to filter the items only when the activeFilter changes
     const filteredItems = useMemo(() => {
