@@ -24,6 +24,17 @@ interface PortfolioItem {
 const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
+    title: "AI Agents Directory",
+    description: "A specialized directory I developed featuring a custom embedded AI Recommendation Agent.",
+    type: "image",
+    imageUrl: "/images/ainsiderstorenew.png",
+    aspectRatio: "16:9",
+    tags: ["web", "ai", "personal", "agents"],
+    githubUrl: "https://github.com/piotrmacai/react-ainsiderstore-app",
+    externalUrl: "https://ainsider.store",
+  },
+  {
+    id: 2,
     title: "Modern Video Portfolio",
     description: "I developed this high-performance Next.js website to showcase high-fidelity video content with seamless transitions.",
     type: "video",
@@ -32,17 +43,7 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web", "visuals", "apps", "featured"],
     techStack: ["Next.js", "Framer Motion", "Vimeo SDK"],
-    externalUrl: "https://ainsider.store",
-  },
-  {
-    id: 2,
-    title: "AI Agents Directory",
-    description: "A specialized directory I developed featuring a custom embedded AI Recommendation Agent.",
-    type: "image",
-    imageUrl: "/images/ainsiderstore.png",
-    aspectRatio: "16:9",
-    tags: ["web", "ai", "personal", "agents"],
-    externalUrl: "https://ainsider.store",
+    externalUrl: "https://gen.ainsider.co",
   },
   {
     id: 3,
@@ -52,7 +53,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/ainsiderstore.png",
     aspectRatio: "16:9",
     tags: ["web", "ai", "personal", "n8n"],
-    externalUrl: "https://ainsider.store",
+    externalUrl: "https://github.com/piotrmacai/n8n",
   },
   {
     id: 4,
@@ -62,6 +63,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/ainsiderbot.png",
     aspectRatio: "16:9",
     tags: ["ai", "web", "featured"],
+    githubUrl: "https://github.com/piotrmacai/nextjs-personal-portfolio-app",
     externalUrl: "https://ainsider.co",
   },
   {
@@ -83,7 +85,7 @@ const portfolioItems: PortfolioItem[] = [
     aspectRatio: "16:9",
     tags: ["web", "ai", "featured", "agents", "n8n"],
     techStack: ["n8n", "PostgreSQL", "React", "Docker"],
-    githubUrl: "https://github.com/piotrmacai/n8n/",
+    githubUrl: "https://github.com/piotrmacai/gemini-chatbot-app-v2",
   },
   {
     id: 6,
@@ -200,7 +202,7 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/voicebotmacai.png",
     aspectRatio: "16:9",
     tags: ["web", "ai", "agents"],
-    externalUrl: "https://ainsider.store",
+    externalUrl: "https://macai.cloud/contact",
   },
   {
     id: 15,
