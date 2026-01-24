@@ -15,15 +15,15 @@ export default function AinsiderSection() {
             className="w-full my-24"
         >
             <div className="relative rounded-3xl overflow-hidden border border-white/10 bg-[#0a0a0a]">
-                {/* Background Gradients */}
-                <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-indigo-600/10 blur-[120px] rounded-full pointer-events-none" />
-                <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-600/10 blur-[100px] rounded-full pointer-events-none" />
+                {/* Background Gradients - Subtle Grayscale */}
+                <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-white/5 blur-[120px] rounded-full pointer-events-none" />
+                <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-white/5 blur-[100px] rounded-full pointer-events-none" />
 
                 <div className="relative z-10 grid lg:grid-cols-2 gap-12 p-8 md:p-12 items-start">
 
                     {/* Left Column: The Pitch */}
                     <div className="flex flex-col gap-6">
-                        <div className="inline-flex items-center gap-2 self-start px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-200 text-sm font-medium">
+                        <div className="inline-flex items-center gap-2 self-start px-4 py-1.5 rounded-full border border-white/20 bg-white/5 text-white/80 text-sm font-medium">
                             <Sparkles className="w-3 h-3" />
                             <span>AI Transformation × Automation</span>
                         </div>
@@ -40,34 +40,34 @@ export default function AinsiderSection() {
                         </p>
 
                         <p className={`${inter.className} text-white/60`}>
-                            Discover our ecosystem of resources. From the <a href="https://ainsider.store" target="_blank" className="text-indigo-400 hover:text-indigo-300 transition-colors inline-flex items-center gap-1">Directory of AI link<ArrowUpRight className="w-3 h-3" /></a> to our in-depth <a href="https://ainsiderai.substack.com" target="_blank" className="text-indigo-400 hover:text-indigo-300 transition-colors inline-flex items-center gap-1">Newsletter<ArrowUpRight className="w-3 h-3" /></a>, we provide the tools and knowledge to stay ahead.
+                            Discover our ecosystem of resources. From the <a href="https://ainsider.store" target="_blank" className="text-white hover:text-white/80 transition-colors inline-flex items-center gap-1 border-b border-white/20 hover:border-white/50">Directory of AI link<ArrowUpRight className="w-3 h-3" /></a> to our in-depth <a href="https://ainsiderai.substack.com" target="_blank" className="text-white hover:text-white/80 transition-colors inline-flex items-center gap-1 border-b border-white/20 hover:border-white/50">Newsletter<ArrowUpRight className="w-3 h-3" /></a>, we provide the tools and knowledge to stay ahead.
                         </p>
 
                         {/* Feature Grid */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                             <a href="https://ainsider.store" target="_blank" className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors group cursor-pointer">
-                                <Bot className="w-5 h-5 text-yellow-200 mt-0.5 group-hover:scale-110 transition-transform" />
+                                <Bot className="w-5 h-5 text-white/80 mt-0.5 group-hover:scale-110 transition-transform" />
                                 <div>
                                     <h4 className="text-white/90 font-medium text-sm flex items-center gap-1">Ainsider Store <ArrowUpRight className="w-3 h-3 opacity-50" /></h4>
                                     <p className="text-white/50 text-xs">Curated AI Tools & Agents Directory.</p>
                                 </div>
                             </a>
                             <a href="https://ainsiderai.substack.com" target="_blank" className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors group cursor-pointer">
-                                <BookOpen className="w-5 h-5 text-blue-200 mt-0.5 group-hover:scale-110 transition-transform" />
+                                <BookOpen className="w-5 h-5 text-white/80 mt-0.5 group-hover:scale-110 transition-transform" />
                                 <div>
                                     <h4 className="text-white/90 font-medium text-sm flex items-center gap-1">AI Newsletter <ArrowUpRight className="w-3 h-3 opacity-50" /></h4>
                                     <p className="text-white/50 text-xs">Strategic insights on Substack.</p>
                                 </div>
                             </a>
                             <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/5">
-                                <Workflow className="w-5 h-5 text-purple-200 mt-0.5" />
+                                <Workflow className="w-5 h-5 text-white/80 mt-0.5" />
                                 <div>
                                     <h4 className="text-white/90 font-medium text-sm">Custom Automation</h4>
                                     <p className="text-white/50 text-xs">Workflows tailored to your needs.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/5">
-                                <Zap className="w-5 h-5 text-green-200 mt-0.5" />
+                                <Zap className="w-5 h-5 text-white/80 mt-0.5" />
                                 <div>
                                     <h4 className="text-white/90 font-medium text-sm">Rapid Success</h4>
                                     <p className="text-white/50 text-xs">Implementation in days, not months.</p>
@@ -81,9 +81,9 @@ export default function AinsiderSection() {
                         {/* Code Editor Header */}
                         <div className="flex items-center justify-between px-4 py-3 border-b border-white/5 bg-white/5">
                             <div className="flex items-center gap-2">
-                                <div className="w-3 h-3 rounded-full bg-red-500/50" />
-                                <div className="w-3 h-3 rounded-full bg-yellow-500/50" />
-                                <div className="w-3 h-3 rounded-full bg-green-500/50" />
+                                <div className="w-3 h-3 rounded-full bg-white/20" />
+                                <div className="w-3 h-3 rounded-full bg-white/20" />
+                                <div className="w-3 h-3 rounded-full bg-white/20" />
                             </div>
                             <div className="text-xs text-white/30 font-mono">ainsider-automation.tsx</div>
                         </div>
@@ -109,15 +109,15 @@ export default function AinsiderSection() {
                                 {/* Macai Way */}
                                 <div>
                                     <div className="flex justify-between text-sm text-white/90 mb-2 font-medium font-mono">
-                                        <span className="text-indigo-300">Ainsider Automation</span>
-                                        <span className="text-indigo-300">Days to Deploy</span>
+                                        <span className="text-white/80">Ainsider Automation</span>
+                                        <span className="text-white/80">Days to Deploy</span>
                                     </div>
                                     <div className="h-3 w-full bg-white/10 rounded-full overflow-hidden relative">
                                         <motion.div
                                             initial={{ width: 0 }}
                                             whileInView={{ width: "95%" }}
                                             transition={{ duration: 1.5, ease: "circOut" }}
-                                            className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                                            className="h-full bg-white/90"
                                         />
                                         <div className="absolute inset-0 bg-white/20 animate-pulse"></div>
                                     </div>
@@ -128,10 +128,10 @@ export default function AinsiderSection() {
                             <div className="relative z-10 mt-4 pt-6 border-t border-white/10">
                                 <p className="text-xs text-white/40 mb-3 uppercase tracking-wider">Powered by</p>
                                 <div className="flex flex-wrap gap-2">
-                                    <span className="px-2 py-1 rounded bg-blue-500/10 border border-blue-500/20 text-blue-200 text-xs font-mono">LLMs</span>
+                                    <span className="px-2 py-1 rounded bg-white/5 border border-white/10 text-white/60 text-xs font-mono">LLMs</span>
                                     <span className="px-2 py-1 rounded bg-white/5 border border-white/10 text-white/60 text-xs font-mono">Agents</span>
                                     <span className="px-2 py-1 rounded bg-white/5 border border-white/10 text-white/60 text-xs font-mono">n8n</span>
-                                    <span className="px-2 py-1 rounded bg-purple-500/10 border border-purple-500/20 text-purple-200 text-xs font-mono">Automation</span>
+                                    <span className="px-2 py-1 rounded bg-white/5 border border-white/10 text-white/60 text-xs font-mono">Automation</span>
                                 </div>
                                 {/* PROCESS SECTION */}
                                 <motion.section
@@ -162,13 +162,12 @@ export default function AinsiderSection() {
                                             transition={{ delay: 0.1 }}
                                             className="relative z-10 flex flex-col items-center text-center group"
                                         >
-                                            <div className="w-24 h-24 rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-indigo-500/50 transition-colors duration-300 shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
+                                            <div className="w-24 h-24 rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-white/40 transition-colors duration-300 shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
                                                 <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-white/80">
                                                     <span className={`${ppEditorialNewUltralightItalic.className} text-2xl not-italic font-bold`}>1</span>
                                                 </div>
                                             </div>
                                             <h3 className="text-xl font-medium text-white/90 mb-3">Discovery</h3>
-                                            {/* <p className="text-white/60 text-xs">Strategy & Audit</p> */}
                                         </motion.div>
 
                                         {/* Step 02 */}
@@ -179,13 +178,12 @@ export default function AinsiderSection() {
                                             transition={{ delay: 0.2 }}
                                             className="relative z-10 flex flex-col items-center text-center group"
                                         >
-                                            <div className="w-24 h-24 rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-purple-500/50 transition-colors duration-300 shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
+                                            <div className="w-24 h-24 rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-white/40 transition-colors duration-300 shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
                                                 <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-white/80">
                                                     <span className={`${ppEditorialNewUltralightItalic.className} text-2xl not-italic font-bold`}>2</span>
                                                 </div>
                                             </div>
                                             <h3 className="text-xl font-medium text-white/90 mb-3">Build</h3>
-                                            {/* <p className="text-white/60 text-xs">Agents & Flows</p> */}
                                         </motion.div>
 
                                         {/* Step 03 */}
@@ -196,13 +194,12 @@ export default function AinsiderSection() {
                                             transition={{ delay: 0.3 }}
                                             className="relative z-10 flex flex-col items-center text-center group"
                                         >
-                                            <div className="w-24 h-24 rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-green-500/50 transition-colors duration-300 shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
+                                            <div className="w-24 h-24 rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-white/40 transition-colors duration-300 shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
                                                 <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-white/80">
                                                     <span className={`${ppEditorialNewUltralightItalic.className} text-2xl not-italic font-bold`}>3</span>
                                                 </div>
                                             </div>
                                             <h3 className="text-xl font-medium text-white/90 mb-3">Scale</h3>
-                                            {/* <p className="text-white/60 text-xs">Automate & Grow</p> */}
                                         </motion.div>
 
                                     </div>
