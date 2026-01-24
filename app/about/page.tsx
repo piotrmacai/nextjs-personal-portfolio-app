@@ -97,17 +97,17 @@ export default function OMnie() {
             <div className="columns-1 md:columns-2 gap-8">
               {/* Item 1 */}
               <div className="break-inside-avoid flex flex-col gap-3 mb-6 p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] transition-colors">
-                <h2 className="text-2xl font-semibold text-white/80">Ainsider.co</h2>
+                <h2 className="text-2xl font-semibold text-white/80">Ainsider.cloud</h2>
                 <p className="text-white/50 text-sm">
                   A studio creating AI agents and custom automations for businesses and individuals.
                   Dedicated AI tools and custom software implementations.
                 </p>
                 <Link
-                  href="https://ainsider.co"
+                  href="https://studio.macai.dev"
                   target="_blank"
                   className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
                 >
-                  Visit ainsider.co <ArrowUpRight size={16} />
+                  Visit Macai Studio <ArrowUpRight size={16} />
                 </Link>
               </div>
 

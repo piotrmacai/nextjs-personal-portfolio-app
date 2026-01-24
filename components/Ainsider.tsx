@@ -29,7 +29,7 @@ export default function AinsiderSection() {
                         </div>
 
                         <h2 className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl text-white/95 leading-tight`}>
-                            Ainsider.co <br />
+                            Ainsider.cloud <br />
                             <span className="text-2xl md:text-3xl font-light text-white/50 font-sans not-italic mt-2 block">
                                 Piotr Macai's AI Transformation Studio
                             </span>

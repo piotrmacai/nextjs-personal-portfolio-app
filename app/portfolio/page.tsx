@@ -57,17 +57,17 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 4,
-    title: "Ainsider.co - Web and Automation Studio",
+    title: "Ainsider - Web and Automation Studio",
     description: "Website with complete serivces for Web and Automation Studio",
     type: "image",
     imageUrl: "/images/ainsiderbot.png",
     aspectRatio: "16:9",
     tags: ["ai", "web", "featured"],
     githubUrl: "https://github.com/piotrmacai/nextjs-personal-portfolio-app",
-    externalUrl: "https://ainsider.co",
+    externalUrl: "https://ainsider.cloud",
   },
   {
-    id: 4.5,
+    id: 5,
     title: "Fullstack Chatbot App with OpenWebUI",
     description: "working with any n8n workflow",
     type: "image",
@@ -77,7 +77,17 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
   },
   {
-    id: 5,
+    id: 6,
+    title: "Promptr Gallery - AI Art Prompts Directory",
+    description: "An interactive gallery of AI art prompts with a unique feature to customize and refine them for your own creative projects.",
+    imageUrl: "/images/promptgallery.png",
+    type: "image",
+    aspectRatio: "16:9",
+    tags: ["ai", "web", "agents", "n8n"],
+    externalUrl: "https://gallery.ainsider.co",
+  },
+  {
+    id: 7,
     title: "n8n Chatbot Frontend App",
     description: "I architected a custom chatbot interface that integrates with any n8n workflow for complex business automations.",
     type: "image",
@@ -88,7 +98,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/gemini-chatbot-app-v2",
   },
   {
-    id: 6,
+    id: 8,
     title: "AI Product Designer",
     description: "I engineered a Gemini-powered application for generating and editing stunning product photos using advanced masking and AI infilling.",
     type: "image",
@@ -100,7 +110,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
   },
   {
-    id: 7,
+    id: 9,
     title: "See My Github",
     description: "My Github profile with my projects - apps, websites, agents and automations",
     type: "image",
@@ -111,7 +121,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai",
   },
   {
-    id: 8,
+    id: 10,
     title: "Machtrans.pl",
     description: "Top SEO and ultra-fast Website in React.js for Transport Company",
     type: "image",
@@ -121,7 +131,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://machtrans.pl",
   },
   {
-    id: 9,
+    id: 11,
     title: "My Designs and Visuals",
     description: "My Github profile with my projects - apps, websites, agents and automations",
     type: "image",
@@ -132,7 +142,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://www.behance.net/macaistudio",
   },
   {
-    id: 10,
+    id: 12,
     title: "Video Generation & Publishing Automation",
     description: "Complete AI system for generating marketing or ad video and publish it to social media",
     type: "image",
@@ -142,7 +152,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
   },
   {
-    id: 11,
+    id: 13,
     title: "Pgr-elektroteam.pl Website",
     description: "Multilingual Ecommerce with Supplements created at Shopify",
     type: "video",
@@ -153,7 +163,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://pgr-elektroteam.pl/",
   },
   {
-    id: 12,
+    id: 14,
     title: "AI Virtual try-on app",
     description: "Built with the Nano Banana model, this app enables real-time image generation and iterative editing.",
     type: "image",
@@ -164,7 +174,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
   },
   {
-    id: 12.5,
+    id: 15,
     title: "n8n frontend fullstack chatbot app",
     description: "A versatile frontend chat interface dedicated for multiple various n8n workflows.",
     type: "image",
@@ -174,7 +184,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/Gemini-OmniChatbotApp",
   },
   {
-    id: 12.6,
+    id: 16,
     title: "AI Leads Genarator",
     description: "Powerful and easy to use lead generator powered by AI and Gemini Maps search",
     type: "image",
@@ -184,7 +194,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/LeadGenerationApp_v1.0",
   },
   {
-    id: 13,
+    id: 17,
     title: "Voice Agent Starter Kit",
     description: "Developed using Vercel AI SDK and ElevenLabs for building interactive voice-based AI applications.",
     type: "image",
@@ -195,17 +205,17 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
   },
   {
-    id: 14,
+    id: 18,
     title: "AI Voice Agent with Elevenlabs",
     description: "I built an AI Voice Agent trained on proprietary business data, designed for seamless website integration.",
     type: "image",
     imageUrl: "/images/voicebotmacai.png",
     aspectRatio: "16:9",
     tags: ["web", "ai", "agents"],
-    externalUrl: "https://macai.cloud/contact",
+    externalUrl: "https://macai.dev/contact",
   },
   {
-    id: 15,
+    id: 19,
     title: "Multi-LLM Chatbot App with n8n workflows",
     description: "A versatile chat interface supporting multiple Gemini models and complex n8n backend workflows.",
     type: "image",
@@ -215,7 +225,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/Gemini-chatapp-n8n-app",
   },
   {
-    id: 16,
+    id: 20,
     title: "Custom Linktree Website with AI Agent",
     description: "Custom website being the custom Linktree alternative with AI Chatbot. Created in Next.js.",
     type: "video",
@@ -226,7 +236,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://ainsider.link",
   },
   {
-    id: 17,
+    id: 21,
     title: "Oskmachowski.pl Website",
     description: "High-performance business platform with perfect SEO optimization and a custom AI assistant built in.",
     type: "video",
@@ -237,7 +247,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://oskmachowski.pl",
   },
   {
-    id: 17.5,
+    id: 22,
     title: "360 Marketing Reports AI System",
     description: "complete solution do generate marketing reports with conversational AI Agent",
     type: "image",
@@ -247,7 +257,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/marketing-reports-system",
   },
   {
-    id: 18,
+    id: 23,
     title: "Landing Page for Business CRM",
     description: "Ultra fast landing page created in React.js for modern SaaS platforms.",
     type: "video",
@@ -258,7 +268,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
   },
   {
-    id: 18.5,
+    id: 24,
     title: "Complete SEO & AEO Audit App",
     description: "complete solution for creating SEO & AEO audit reports for websites",
     type: "image",
@@ -268,7 +278,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/seo-audit-v1",
   },
   {
-    id: 19,
+    id: 25,
     title: "Lanellya.de Ecommerce store",
     description: "Multilingual Ecommerce created at Shopify for high-end fashion.",
     type: "video",
@@ -279,7 +289,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://lanellya.de",
   },
   {
-    id: 20,
+    id: 26,
     title: "Wordpress Blog Posts Automation",
     description: "Complete n8n system to manage full WordPress blog automation, from generation to posting.",
     type: "image",
@@ -289,7 +299,7 @@ const portfolioItems: PortfolioItem[] = [
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
   },
   {
-    id: 21,
+    id: 27,
     title: "Rekrut Spark HR Website",
     description: "Business platform for an HR agency featuring a custom CRM for applicant management.",
     type: "video",
@@ -300,7 +310,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://rekrutspark.com",
   },
   {
-    id: 22,
+    id: 28,
     title: "Business CRM & Automation",
     description: "Highly personalized CRM system with integrated AI assistant and automated client workflows.",
     type: "image",
@@ -310,7 +320,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://ainsider.co/crm",
   },
   {
-    id: 23,
+    id: 29,
     title: "After-rave Ecommerce Store",
     description: "Multilingual Shopify-based ecommerce platform I developed for a specialized supplement brand.",
     type: "video",
@@ -321,7 +331,7 @@ const portfolioItems: PortfolioItem[] = [
     externalUrl: "https://after-rave.eu",
   },
   {
-    id: 24,
+    id: 30,
     title: "SkinProject Clinic Website",
     description: "Full web presence for a premium beauty clinic and skincare brand.",
     type: "video",

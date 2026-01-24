@@ -76,8 +76,8 @@ export default function Contact() {
                         <div className="space-y-4 mt-4">
                             <div className="flex items-center gap-3">
                                 <Mail size={18} className="text-white/60" />
-                                <a href="mailto:piotr@macai.cloud" className="hover:text-white/80 transition-colors">
-                                    piotr@macai.cloud
+                                <a href="mailto:piotr@macai.dev" className="hover:text-white/80 transition-colors">
+                                    piotr@macai.dev
                                 </a>
                             </div>
 

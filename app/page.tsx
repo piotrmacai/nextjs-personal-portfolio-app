@@ -28,7 +28,7 @@ const serviceCards = [
   {
     icon: <Sparkles className="w-5 h-5" />,
     title: "AI-Powered Visual Content (Video/Image)",
-    description: "Stunning visuals, promotional videos, and creative assets generated with the gen.macai.cloud studio.",
+    description: "Stunning visuals, promotional videos, and creative assets generated with the gen.macai.dev studio.",
   },
   {
     icon: <Database className="w-5 h-5" />,
@@ -247,11 +247,11 @@ export default function Home() {
                 Creative AI Studio
               </h3>
               <p className={`${inter.className} text-white/70`}>
-                Go beyond code. Access the <span className="font-bold">gen.ainsider.co</span> studio for on-demand generation of stunning visual content. Create with me high-quality videos, images, and creative assets fully tailored to your brand.
+                Go beyond code. Access the <span className="font-bold">gen.macai.dev</span> studio for on-demand generation of stunning visual content. Create with me high-quality videos, images, and creative assets fully tailored to your brand.
               </p>
             </div>
             <Link
-              href="https://gen.ainsider.co"
+              href="https://creative.macai.dev"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-800 text-white hover:bg-gray-600 transition-colors flex-shrink-0"
             >

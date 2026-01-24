@@ -40,10 +40,10 @@ const projects: Project[] = [
     mediaType: "vimeo",
     mediaSrc: "1133675483",
     tags: ["Web", "Design"],
-  }, 
+  },
   {
     id: 3,
-    title: "Ainsider.co Website",
+    title: "Ainsider.cloud Website",
     description: "Creative short AI generated ads for social media",
     type: "video",
     image: "/images/ainsider-mobile.png",
@@ -60,8 +60,8 @@ const projects: Project[] = [
     mediaType: "image",
     tags: ["Web", "AI"],
   },
- 
-    {
+
+  {
     id: 5,
     title: "AI Chatbot Starter (Vercel AI SDK)",
     description: "Ready-to-use starter for custom AI apps built with Vercel AI SDK",
@@ -197,7 +197,7 @@ const projects: Project[] = [
     mediaSrc: "1133649674",
     tags: ["Web", "UX UI"],
   },
-   {
+  {
     id: 15,
     title: "Langing Pages Showcase",
     description: "Modern and ultra fast designgs for landing pages",
@@ -207,7 +207,7 @@ const projects: Project[] = [
     mediaSrc: "1123336804",
     tags: ["Next.js", "Web", "UX/UI"],
   },
-   {
+  {
     id: 22,
     title: "Oskmachowski.pl",
     description: "Ultra-fast, SEO-optimized business website with built-in AI assistant",
@@ -295,7 +295,7 @@ const projects: Project[] = [
     image: "/images/personalai.png",
     mediaType: "image",
     tags: ["AI"],
-  },  
+  },
   {
     id: 36,
     title: "Machtrans.pl",
@@ -355,7 +355,7 @@ const projects: Project[] = [
   //   mediaType: "image",
   //   tags: ["Web", "AI"],
   // },
-    {
+  {
     id: 35.5,
     title: "Logo for Machtrans Company",
     description: "Handcrafted logo for Machtrans Logistic & Transport Company",
@@ -382,10 +382,10 @@ export default function ShowcasePage() {
     activeFilter === "all"
       ? projects
       : activeFilter === "ai"
-      ? projects.filter((project) =>
+        ? projects.filter((project) =>
           project.tags.some((t) => t.toLowerCase() === "ai" || t.toLowerCase().includes("ai"))
         )
-      : projects.filter((project) => project.type === activeFilter)
+        : projects.filter((project) => project.type === activeFilter)
   )
     .slice()
     .sort((a, b) => a.id - b.id)
@@ -401,7 +401,7 @@ export default function ShowcasePage() {
     { label: "Web", value: "web" },
     { label: "Video", value: "video" },
     { label: "Designs", value: "designs" },
-     { label: "Ai", value: "ai" },
+    { label: "Ai", value: "ai" },
   ]
 
   return (

@@ -16,7 +16,7 @@ interface PortfolioItem {
   imageUrl?: string
   aspectRatio?: '1:1' | '16:9' | '4:3' | '21:9'
   tags: string[]
-  externalUrl?: string 
+  externalUrl?: string
 }
 
 const portfolioItems: PortfolioItem[] = [
@@ -26,14 +26,14 @@ const portfolioItems: PortfolioItem[] = [
     description: "A dynamic ad video showcasing our latest services campaign.",
     type: "video",
     videoType: "vimeo",
-     // YouTube ID
+    // YouTube ID
     // videoId: "VilbxnCTwbI",
     videoId: "1085338341", //https://vimeo.com/1085338341
     aspectRatio: "16:9",
     tags: ["agents"],
-    externalUrl: "https://ainsider.co",
+    externalUrl: "https://studio.macai.dev",
   },
-      {
+  {
     id: 3.5,
     title: "AI Interior Designer",
     description: "Ai-powered App to create interior designs with drawings canvas and upload products feature",
@@ -53,7 +53,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai apps", "agents"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
   },
-   {
+  {
     id: 3.5,
     title: "AI Landing Page Builer",
     description: "Ai-powered Langing Page Builder based on business data",
@@ -63,7 +63,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai apps", "agents"],
     externalUrl: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
   },
-    {
+  {
     id: 3,
     title: "Voice AI Agent",
     description: "For customer support and sales",
@@ -71,9 +71,9 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/elevenbot.png",
     aspectRatio: "16:9",
     tags: ["ai", "agents"],
-    externalUrl: "https://ainsider.co",
+    externalUrl: "https://ainsider.cloud",
   },
-    {
+  {
     id: 3.5,
     title: "AI Photoshop",
     description: "Ai-powered App to edit images with text prompts and drawing canvsas",
@@ -83,7 +83,7 @@ const portfolioItems: PortfolioItem[] = [
     tags: ["ai apps", "agents"],
     externalUrl: "https://ai.studio/apps/drive/1OptMLu_Y9w_xcKe0wFMm-ATZXVZRtqeR",
   },
-   {
+  {
     id: 2,
     title: "AI powered Business Dashboard",
     description: "Created in React.js with Google Gemini AI",
@@ -99,12 +99,12 @@ const portfolioItems: PortfolioItem[] = [
     title: "AI Recommendation Agent",
     description: "Working directly with websites and ecommerce online stores",
     type: "image",
-    imageUrl: "/images/openweb-n8n.png",  
+    imageUrl: "/images/openweb-n8n.png",
     aspectRatio: "16:9",
     tags: ["ai"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
   },
-   {
+  {
     id: 3.5,
     title: "Interface for n8n with OpenWebUI",
     description: "Full stack multimodal ai app powered by n8n workflow",
@@ -194,12 +194,12 @@ export default function PortfolioPage() {
       case "image":
         return (
           <div className="w-4/5 aspect-video overflow-hidden rounded-lg mx-auto">
-          <img
-            src={item.imageUrl}
-            alt={item.title}
-            className="object-cover w-full h-full"
-          />
-        </div>
+            <img
+              src={item.imageUrl}
+              alt={item.title}
+              className="object-cover w-full h-full"
+            />
+          </div>
         )
       default:
         return null
@@ -209,45 +209,45 @@ export default function PortfolioPage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-2 md:px-4 py-8 mt-24 md:mt-20 sm:mt-12">
 
-        <h1
-          className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
-          // style={{ fontSize: `${4 * headerSize}rem` }}
-        >
-          AI Agents Showcase
-        </h1>
+      <h1
+        className={`${ppEditorialNewUltralightItalic.className} text-4xl md:text-6xl font-light italic text-white/80 tracking-tighter`}
+      // style={{ fontSize: `${4 * headerSize}rem` }}
+      >
+        AI Agents Showcase
+      </h1>
 
 
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
         <div className="flex flex-wrap gap-4 mt-6">
-              <Link
-                href="https://twitter.com/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link
-                href="https://linkedin.com/in/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                <Linkedin size={20} />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-                    <Link
-                href="https://github.com/piotrmacai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white/90 transition-colors mt-1"
-              >
-                {/* <span className="font-bold text-lg">Git</span> */}
-                <Github size={20} />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              {/* <Link
+          <Link
+            href="https://twitter.com/piotrmacai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+          >
+            <Twitter size={20} />
+            <span className="sr-only">Twitter</span>
+          </Link>
+          <Link
+            href="https://linkedin.com/in/piotrmacai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+          >
+            <Linkedin size={20} />
+            <span className="sr-only">LinkedIn</span>
+          </Link>
+          <Link
+            href="https://github.com/piotrmacai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 hover:text-white/90 transition-colors mt-1"
+          >
+            {/* <span className="font-bold text-lg">Git</span> */}
+            <Github size={20} />
+            <span className="sr-only">GitHub</span>
+          </Link>
+          {/* <Link
                     href="https://www.instagram.com/piotr.macai"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -266,14 +266,14 @@ export default function PortfolioPage() {
                 <span className="sr-only">Behance</span>
               </Link> */}
         </div>
-            {/* <Link
+        {/* <Link
               href="/contact"
               className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
             >
               Collaborate with Me
             </Link> */}
-          </div>
-        <div className="h-px bg-white/10 w-full mb-8" />
+      </div>
+      <div className="h-px bg-white/10 w-full mb-8" />
 
 
       <div className="flex flex-col md:flex-row">
@@ -289,11 +289,10 @@ export default function PortfolioPage() {
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
-                className={`px-4 py-2 border rounded-full text-sm transition-colors ${
-                  activeFilter === filter
-                    ? "bg-white/10 text-white"
-                    : "bg-transparent text-white/50 hover:bg-white/5"
-                }`}
+                className={`px-4 py-2 border rounded-full text-sm transition-colors ${activeFilter === filter
+                  ? "bg-white/10 text-white"
+                  : "bg-transparent text-white/50 hover:bg-white/5"
+                  }`}
               >
                 {filter.charAt(0).toUpperCase() + filter.slice(1)}
               </button>
@@ -317,7 +316,7 @@ export default function PortfolioPage() {
                   <p className="text-sm text-white/50 mb-4">{item.description}</p>
                   <Link
                     href={`${item.externalUrl}`}
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-6 py-3 text-white/70 border border-white/20 rounded-full font-medium hover:bg-white/5 transition-colors text-center"
                   >

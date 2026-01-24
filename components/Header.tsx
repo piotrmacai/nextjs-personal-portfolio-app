@@ -69,7 +69,7 @@ export default function Header() {
         { href: "/web", label: "Web Development" },
         { href: "/vibe-coding", label: "Vibe Coding" },
         { href: "/creativeai", label: "Creative AI" },
-        { href: "https://gen.macai.cloud", label: "Video AI", target: "_blank" }
+        { href: "https://creative.macai.dev", label: "Video AI", target: "_blank" }
       ]
     },
     { href: "/about", label: "About Me" },
@@ -95,7 +95,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/">
             <span className={`text-xl font-bold text-white ${ppEditorialNewUltralightItalic.className}`}>
-              <img src="/logoainsider.png" alt="Insdr Studio logo" className="h-8 w-auto" />
+              <img src="/MacaiStudioLogo.png" alt="Insdr Studio logo" className="h-6 w-auto" />
             </span>
           </Link>
 
@@ -210,7 +210,7 @@ export default function Header() {
           <div className="flex flex-col h-full">
             <div className="flex justify-between items-center p-4">
               <Link href="/" onClick={() => setIsMenuOpen(false)}>
-                <img src="/logoainsider.png" alt="Ainsdr Studio logo" className="h-8 w-auto" />
+                <img src="/MacaiStudioLogo.png" alt="Macai Studio logo" className="h-8 w-auto" />
               </Link>
               <button
                 className="text-white p-1 focus:outline-none"

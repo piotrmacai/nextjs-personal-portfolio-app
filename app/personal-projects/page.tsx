@@ -23,7 +23,7 @@ export default function PersonalProjects() {
               Dedicated AI tools and custom software implementations.
             </p>
             <Link
-              href="https://ainsider.co"
+              href="https://ainsider.cloud"
               target="_blank"
               className="text-white/60 hover:text-white/90 flex items-center gap-1 text-sm"
             >
@@ -61,8 +61,8 @@ export default function PersonalProjects() {
             </Link>
           </div>
 
-             {/* X.com */}
-             <div className="flex flex-col gap-2">
+          {/* X.com */}
+          <div className="flex flex-col gap-2">
             <h2 className="text-2xl font-semibold text-white/80">AI Newsletter</h2>
             <p className="text-white/50 text-sm">
               AI newsletter with news, case studies, experiments with agents and automation.
