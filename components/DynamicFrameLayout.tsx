@@ -120,7 +120,7 @@ const initialFrames: Frame[] = [
   {
     id: 6,
     // video: "https://static.cdn-luma.com/files/58ab7363888153e3/Jitter%20Exported%20Poster.mp4",
-    video: "/videos/uxuimacai.mp4",
+    video: "/videos/promptgallery.mp4",
     // video: "/videos/LandingPages_Showcase.mp4",
     defaultPos: { x: 8, y: 0, w: 4, h: 4 },
     corner: "https://static.cdn-luma.com/files/3d36d1e0dba2476c/3_Corner_update.png",
@@ -131,7 +131,7 @@ const initialFrames: Frame[] = [
     borderSize: 80,
     autoplayMode: "all",
     isHovered: false,
-    link: "/web",
+    link: "https://gallery.macai.dev",
   },
   {
     id: 7,
