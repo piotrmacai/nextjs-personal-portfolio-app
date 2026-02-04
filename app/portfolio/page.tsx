@@ -103,7 +103,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/telegramagent.png",
     aspectRatio: "16:9",
-    tags: ["all", "ai", "agents", "n8n"],
+    tags: ["all", "ai", "agents", "featured", "n8n"],
     externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
   },
   {
@@ -113,8 +113,8 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/omnibot.png",
     aspectRatio: "16:9",
-    tags: ["all", "ai", "web", "agents", "n8n"],
-    externalUrl: "https://omnichat-ai-two.vercel.app/",
+    tags: ["all", "ai", "web", "agents", "n8n", "featured"],
+    externalUrl: "https://omnichat.macai.dev/",
   },
   {
     id: 11,
@@ -123,7 +123,7 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     imageUrl: "/images/git.jpg",
     aspectRatio: "16:9",
-    tags: ["all", "web", "ai"],
+    tags: ["all", "web", "ai", "featured"],
     techStack: ["n8n", "PostgreSQL", "React", "Docker"],
     githubUrl: "https://github.com/piotrmacai",
   },
