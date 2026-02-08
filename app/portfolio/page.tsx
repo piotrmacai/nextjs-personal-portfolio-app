@@ -372,7 +372,7 @@ const portfolioItems: PortfolioItem[] = [
   }
 ]
 
-const availableFilters = ["featured", "all", "web", "ai", "agents", "apps", "n8n", "visuals"]
+const availableFilters = ["featured", "all", "web", "ai agents", "apps", "automation", "visuals"]
 
 const MediaDisplay = ({ item }: { item: PortfolioItem }) => {
   const [showCover, setShowCover] = useState(true)
