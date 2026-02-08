@@ -16,6 +16,8 @@ interface PortfolioItem {
   imageCoverUrl?: string
   aspectRatio?: '1:1' | '16:9' | '4:3' | '21:9'
   tags: string[]
+  typeTags: string[]
+  technologyTag: string[]
   externalUrl?: string
   githubUrl?: string
   techStack?: string[]
@@ -30,6 +32,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/link-macai-dev.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "agents"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["Next.js", "React"],
     externalUrl: "https://link.macai.dev",
   },
   {
@@ -40,6 +44,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/ainsiderstorenew.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "personal", "agents", "featured"],
+    typeTags: ["Open-source"],
+    technologyTag: ["React", "Next.js"],
     githubUrl: "https://github.com/piotrmacai/react-ainsiderstore-app",
     externalUrl: "https://ainsider.cloud",
   },
@@ -52,6 +58,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1133675483",
     aspectRatio: "16:9",
     tags: ["all", "web", "visuals", "apps", "featured"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["Next.js", "Framer Motion", "Vimeo"],
     techStack: ["Next.js", "Framer Motion", "Vimeo SDK"],
     externalUrl: "https://creative.macai.dev",
   },
@@ -63,6 +71,8 @@ const portfolioItems: PortfolioItem[] = [
     type: "image",
     aspectRatio: "16:9",
     tags: ["all", "ai", "web", "agents", "n8n", "featured"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["Next.js", "n8n"],
     externalUrl: "https://gallery.macai.dev",
   },
   {
@@ -73,6 +83,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/ainsiderstore.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "personal", "n8n", "featured"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n"],
     externalUrl: "https://github.com/piotrmacai/n8n",
   },
   {
@@ -83,6 +95,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/studiodev.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "web"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["Next.js", "React"],
     githubUrl: "https://github.com/piotrmacai/nextjs-personal-portfolio-app",
     externalUrl: "https://studio.macai.dev",
   },
@@ -94,6 +108,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/customchatbot.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "featured", "web", "agents", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["OpenWebUI", "n8n"],
     externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
   },
   {
@@ -104,6 +120,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/telegramagent.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "agents", "featured", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["Telegram", "n8n"],
     externalUrl: "https://github.com/piotrmacai/openwebui-n8n-app",
   },
   {
@@ -114,6 +132,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/omnibot.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "web", "agents", "n8n", "featured"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["n8n", "Supabase"],
     externalUrl: "https://omnichat.macai.dev/",
   },
   {
@@ -124,6 +144,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/git.jpg",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "featured"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["GitHub"],
     techStack: ["n8n", "PostgreSQL", "React", "Docker"],
     githubUrl: "https://github.com/piotrmacai",
   },
@@ -135,6 +157,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/machtrans.png",
     aspectRatio: "16:9",
     tags: ["all", "web"],
+    typeTags: ["Client work"],
+    technologyTag: ["React"],
     externalUrl: "https://machtrans.pl",
   },
   {
@@ -145,6 +169,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/design.jpg",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "featured"],
+    typeTags: ["Personal Projects"],
+    technologyTag: ["Behance"],
     techStack: ["n8n", "PostgreSQL", "React", "Docker"],
     githubUrl: "https://www.behance.net/macaistudio",
   },
@@ -156,6 +182,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/n8n-workflows.webp",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "agents", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n", "React", "PostgreSQL", "Docker"],
     techStack: ["n8n", "PostgreSQL", "React", "Docker"],
     githubUrl: "https://github.com/piotrmacai/gemini-chatbot-app-v2",
   },
@@ -167,6 +195,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/AiProductDesigner.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "visuals", "apps"],
+    typeTags: ["R&D"],
+    technologyTag: ["Next.js", "Gemini", "Tailwind"],
     techStack: ["Next.js", "Gemini AI", "Tailwind"],
     // externalUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
     githubUrl: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
@@ -179,6 +209,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/videoautomation.jpg",
     aspectRatio: "16:9",
     tags: ["all", "ai", "visuals"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n"],
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
   },
   {
@@ -190,6 +222,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1085338795",
     aspectRatio: "16:9",
     tags: ["all", "web", "ecommerce"],
+    typeTags: ["Client work"],
+    technologyTag: ["Shopify"],
     externalUrl: "https://pgr-elektroteam.pl/",
   },
   {
@@ -200,6 +234,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/creativeai.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "visuals", "apps"],
+    typeTags: ["R&D"],
+    technologyTag: ["React", "Nano Banana", "Cloudflare"],
     techStack: ["React", "Nano Banana API", "Cloudflare"],
     githubUrl: "https://github.com/piotrmacai/Gemini-Chatbot-App",
   },
@@ -211,6 +247,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/n8nfrontendapp.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "apps", "agents", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n", "React"],
     githubUrl: "https://github.com/piotrmacai/Gemini-OmniChatbotApp",
   },
   {
@@ -221,6 +259,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/leadgenapp.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "apps"],
+    typeTags: ["Open-source"],
+    technologyTag: ["Gemini", "React"],
     githubUrl: "https://github.com/piotrmacai/LeadGenerationApp_v1.0",
   },
   // {
@@ -242,6 +282,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/voicebotmacai.png",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "agents"],
+    typeTags: ["Client work"],
+    technologyTag: ["ElevenLabs"],
     externalUrl: "https://macai.dev/contact",
   },
   // {
@@ -263,6 +305,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1121933690",
     aspectRatio: "16:9",
     tags: ["all", "web", "ai", "agents"],
+    typeTags: ["Client work"],
+    technologyTag: ["React"],
     externalUrl: "https://oskmachowski.pl",
   },
   {
@@ -273,6 +317,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/marketingreport.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "web", "agents", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/marketing-reports-system",
   },
   // {
@@ -295,6 +341,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1088477211",
     aspectRatio: "16:9",
     tags: ["all", "web", "ecommerce"],
+    typeTags: ["Client work"],
+    technologyTag: ["Shopify"],
     externalUrl: "https://lanellya.de",
   },
   {
@@ -305,6 +353,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/n8n-wordpress.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "web", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n", "WordPress"],
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
   },
   {
@@ -316,6 +366,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1100387757",
     aspectRatio: "16:9",
     tags: ["all", "web"],
+    typeTags: ["Client work"],
+    technologyTag: ["React"],
     externalUrl: "https://rekrutspark.com",
   },
   {
@@ -326,6 +378,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/invoice-automation.png",
     aspectRatio: "16:9",
     tags: ["all", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n"],
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/invoice-reminder-v2",
   },
   {
@@ -336,6 +390,8 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/transport-automation.png",
     aspectRatio: "16:9",
     tags: ["all", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n"],
     githubUrl: "https://github.com/piotrmacai/n8n/tree/main/transport-docs-automation",
   },
   {
@@ -347,6 +403,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1082919322",
     aspectRatio: "16:9",
     tags: ["all", "web", "ecommerce"],
+    typeTags: ["Client work"],
+    technologyTag: ["Shopify"],
     externalUrl: "https://after-rave.eu",
   },
   {
@@ -358,6 +416,8 @@ const portfolioItems: PortfolioItem[] = [
     videoId: "1088475265",
     aspectRatio: "16:9",
     tags: ["all", "web"],
+    typeTags: ["Client work"],
+    technologyTag: ["React"],
     externalUrl: "https://www.skinprojectclinic.pl/",
   },
   {
@@ -368,11 +428,11 @@ const portfolioItems: PortfolioItem[] = [
     imageUrl: "/images/websiteseoaudit.png",
     aspectRatio: "16:9",
     tags: ["all", "ai", "web", "agents", "n8n"],
+    typeTags: ["Open-source"],
+    technologyTag: ["n8n"],
     externalUrl: "https://github.com/piotrmacai/n8n/tree/main/seo-audit-v1",
   }
 ]
-
-const availableFilters = ["featured", "all", "web", "ai agents", "apps", "automation", "visuals"]
 
 const MediaDisplay = ({ item }: { item: PortfolioItem }) => {
   const [showCover, setShowCover] = useState(true)
@@ -415,24 +475,38 @@ const MediaDisplay = ({ item }: { item: PortfolioItem }) => {
 }
 
 export default function PortfolioPage() {
-  const [activeFilter, setActiveFilter] = useState("featured")
+  const [activeMainTag, setActiveMainTag] = useState("all")
+  const [activeTypeTag, setActiveTypeTag] = useState("all")
+  const [activeTechTag, setActiveTechTag] = useState("all")
   const [visibleCount, setVisibleCount] = useState(8)
 
-  const filteredItems = activeFilter === "all"
+  const mainTags = Array.from(new Set(portfolioItems.flatMap((item) => item.tags)))
+  const typeTags = Array.from(new Set(portfolioItems.flatMap((item) => item.typeTags)))
+  const technologyTags = Array.from(new Set(portfolioItems.flatMap((item) => item.technologyTag)))
+
+  const filteredItems = activeMainTag === "all"
     ? portfolioItems
-    : portfolioItems.filter((item) => item.tags.includes(activeFilter))
+    : portfolioItems.filter((item) => item.tags.includes(activeMainTag))
+
+  const filteredByType = activeTypeTag === "all"
+    ? filteredItems
+    : filteredItems.filter((item) => item.typeTags.includes(activeTypeTag))
+
+  const fullyFilteredItems = activeTechTag === "all"
+    ? filteredByType
+    : filteredByType.filter((item) => item.technologyTag.includes(activeTechTag))
 
   // Reset count when filter changes
   useEffect(() => {
     setVisibleCount(8)
-  }, [activeFilter])
+  }, [activeMainTag, activeTypeTag, activeTechTag])
 
   const handleShowMore = () => {
     setVisibleCount(prev => prev + 4)
   }
 
-  const displayedItems = filteredItems.slice(0, visibleCount)
-  const hasMore = visibleCount < filteredItems.length
+  const displayedItems = fullyFilteredItems.slice(0, visibleCount)
+  const hasMore = visibleCount < fullyFilteredItems.length
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-12 mt-20">
@@ -445,6 +519,23 @@ export default function PortfolioPage() {
           I'm a Web AI Developer & Designer building high-end digital products.
           Specializing in AI-native apps, modern frontend, and automated workflows.
         </p>
+        <div className="pt-6">
+          <div className="h-px w-full bg-white/10 mb-4" />
+          <div className="flex flex-wrap gap-3">
+            {mainTags.map((tag) => (
+              <button
+                key={tag}
+                onClick={() => setActiveMainTag(tag)}
+                className={`px-5 py-3 rounded-full text-sm uppercase tracking-[0.18em] font-semibold transition-all border ${activeMainTag === tag
+                  ? "bg-white/15 text-white border-white/40 shadow-[0_0_0_1px_rgba(255,255,255,0.08)]"
+                  : "text-white/50 border-white/10 hover:text-white/90 hover:border-white/30 hover:bg-white/5"
+                  }`}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-col md:flex-row gap-12">
@@ -452,19 +543,37 @@ export default function PortfolioPage() {
         <div className="w-full md:w-1/4">
           <div className="md:sticky md:top-32 space-y-12">
             <section>
-              <h3 className="text-white/20 text-xs uppercase tracking-widest mb-6 font-semibold">Filter by expertise</h3>
+              <h3 className="text-white/20 text-xs uppercase tracking-widest mb-6 font-semibold">Filter by type</h3>
               <div className="flex flex-wrap md:flex-col gap-2">
-                {availableFilters.map((filter) => (
+                {["all", ...typeTags].map((filter) => (
                   <button
                     key={filter}
-                    onClick={() => setActiveFilter(filter)}
-                    className={`px-4 py-2 rounded-lg text-sm text-left transition-all border ${activeFilter === filter
+                    onClick={() => setActiveTypeTag(filter)}
+                    className={`px-4 py-2 rounded-full text-sm text-left transition-all border ${activeTypeTag === filter
                       ? "bg-white/10 text-white border-white/20"
-                      : "text-white/40 border-transparent hover:text-white/70"
+                      : "text-white/40 border-white/5 hover:text-white/70 hover:border-white/20"
                       }`}
                   >
-                    {filter === "featured" && <Sparkles size={14} className="inline mr-2 text-yellow-500" />}
-                    {filter.charAt(0).toUpperCase() + filter.slice(1)}
+                    {filter === "all" && <Sparkles size={14} className="inline mr-2 text-yellow-500" />}
+                    {filter}
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <section>
+              <h3 className="text-white/20 text-xs uppercase tracking-widest mb-6 font-semibold">Filter by tech</h3>
+              <div className="flex flex-wrap md:flex-col gap-2">
+                {["all", ...technologyTags].map((filter) => (
+                  <button
+                    key={filter}
+                    onClick={() => setActiveTechTag(filter)}
+                    className={`px-4 py-2 rounded-full text-sm text-left transition-all border ${activeTechTag === filter
+                      ? "bg-white/10 text-white border-white/20"
+                      : "text-white/40 border-white/5 hover:text-white/70 hover:border-white/20"
+                      }`}
+                  >
+                    {filter}
                   </button>
                 ))}
               </div>
@@ -492,13 +601,13 @@ export default function PortfolioPage() {
         <div className="w-full md:w-3/4">
           <div className="grid grid-cols-1 gap-24">
             {displayedItems.map((item) => (
-              <div key={item.id} className="group flex flex-col gap-6">
-                <div className="w-full aspect-video">
+              <div key={item.id} className="group flex flex-col md:flex-row gap-6 md:gap-10">
+                <div className="w-full md:w-3/5 aspect-video">
                   <MediaDisplay item={item} />
                 </div>
 
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 px-2">
-                  <div className="max-w-xl space-y-3">
+                <div className="w-full md:w-2/5 flex flex-col justify-between gap-6 px-2">
+                  <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <h2 className={`${ppEditorialNewUltralightItalic.className} text-3xl md:text-4xl text-white/90 italic`}>
                         {item.title}
@@ -510,6 +619,23 @@ export default function PortfolioPage() {
                     <p className="text-white/50 text-base leading-relaxed font-light">
                       {item.description}
                     </p>
+                    <div className="flex flex-wrap gap-2 pt-2">
+                      {item.tags.map((tag) => (
+                        <span key={`tag-${item.id}-${tag}`} className="text-[10px] bg-white/5 text-white/40 px-2 py-1 rounded border border-white/5 uppercase tracking-widest">
+                          {tag}
+                        </span>
+                      ))}
+                      {item.typeTags.map((tag) => (
+                        <span key={`type-${item.id}-${tag}`} className="text-[10px] bg-white/10 text-white/60 px-2 py-1 rounded border border-white/10 uppercase tracking-widest">
+                          {tag}
+                        </span>
+                      ))}
+                      {item.technologyTag.map((tag) => (
+                        <span key={`tech-${item.id}-${tag}`} className="text-[10px] bg-white/5 text-white/50 px-2 py-1 rounded border border-white/5">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                     {item.techStack && (
                       <div className="flex flex-wrap gap-2 pt-2">
                         {item.techStack.map(tech => (
@@ -554,7 +680,7 @@ export default function PortfolioPage() {
           )}
 
           {/* Empty State */}
-          {filteredItems.length === 0 && (
+          {fullyFilteredItems.length === 0 && (
             <div className="py-20 text-center border border-dashed border-white/10 rounded-3xl">
               <p className="text-white/20 italic">No projects found in this category.</p>
             </div>
